@@ -1,0 +1,87 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# data_type.v  transcript  vsim.wlf  wave.do  work      
+vsim data_type.v
+# OpenFile data_type.v
+add wavw *
+# ** Error: bad option "wavw": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+add wave *
+run -all
+# No Design Loaded!
+vlog data_type.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:51:48 on Sep 04,2025
+# vlog -reportprogress 300 data_type.v "+acc" 
+# -- Compiling module data_type
+# 
+# Top level modules:
+# 	data_type
+# End time: 11:51:49 on Sep 04,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim data_type.v
+# OpenFile data_type.v
+add wave *
+run -all
+# No Design Loaded!
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# data_type.v  qverilog.log  transcript  vsim.wlf  wave.do  work  
+vlog data_type.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 16:21:23 on Oct 12,2025
+# vlog -reportprogress 300 data_type.v "+acc" 
+# -- Compiling module data_type
+# 
+# Top level modules:
+# 	data_type
+# End time: 16:21:23 on Oct 12,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim data_type
+# vsim data_type 
+# Start time: 16:21:53 on Oct 12,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.data_type(fast)
+add wave *
+run -all
+# a=x b=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx c=z d=z e=z f=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx g=0 h=1 i=z j=0 k=1 l=00000000000000000000000000000000 $time=                   0
+# End time: 16:24:47 on Oct 12,2025, Elapsed time: 0:02:54
+# Errors: 0, Warnings: 0

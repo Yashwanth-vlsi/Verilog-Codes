@@ -1,0 +1,145 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/GATE_LEVELL/mux_demux
+T_opt
+!s110 1756117125
+V[DOS9T8Nm1^JGj[MYH3Al1
+04 12 4 work mux_demux_tb fast 0
+=1-387a0e1bb7cd-68ac3885-50-49e4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdemux_1to4
+Z2 !s110 1756117124
+!i10b 1
+!s100 CBdz7HN?1RDVVBfHVI>:X0
+Iolg3ISmF3gSzeK2Rd<_GI3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756116074
+Z5 8demux.v
+Z6 Fdemux.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756117124.000000
+Z9 !s107 demux.v|mux1.v|mux_demux.v|
+Z10 !s90 -reportprogress|300|mux_demux.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdemux_1to4_tb
+R2
+!i10b 1
+!s100 fk0I^OdRLGjePPIhBOKnW2
+IJ]Fb86llR;4LQW3=B:NSJ1
+R3
+R0
+R4
+R5
+R6
+L0 9
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vmux_4to1
+R2
+!i10b 1
+!s100 bNFEk@oGheXgG]SAPc21N3
+I:M00H24jBkOh1Q85d<2VX1
+R3
+R0
+Z12 w1756115831
+Z13 8mux1.v
+Z14 Fmux1.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vmux_4to1_tb
+R2
+!i10b 1
+!s100 7PekzDLZEkkeSO2FoYI451
+IgU^]06e_4_m@1I6=EeLIL3
+R3
+R0
+R12
+R13
+R14
+L0 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vmux_demux
+R2
+!i10b 1
+!s100 Zm0:<Tdd;86lD8Og?`>AH1
+I`PRBI^S_YA@k42FzAS=TF1
+R3
+R0
+Z15 w1756117112
+Z16 8mux_demux.v
+Z17 Fmux_demux.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vmux_demux_tb
+R2
+!i10b 1
+!s100 YEcU]cN@WbJjoZe`UXM=72
+Ia@fa_eXTD8B<O8^>`Q?hM0
+R3
+R0
+R15
+R16
+R17
+L0 22
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

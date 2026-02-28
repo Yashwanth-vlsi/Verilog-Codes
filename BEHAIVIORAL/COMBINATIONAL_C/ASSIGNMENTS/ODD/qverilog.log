@@ -1,0 +1,37 @@
+Start time: 22:08:28 on Sep 14,2025
+qverilog odd.v 
+-- Compiling module oe
+
+Top level modules:
+	oe
+# vsim -lib work work.oe -c -do "run -all; quit -f" -appendlog -l qverilog.log -vopt 
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.oe(fast)
+# run -all
+# number=          1
+# number=          3
+# number=          5
+# number=          7
+# number=          9
+# number=         11
+# number=         13
+# number=         15
+# number=         17
+# number=         19
+#  quit -f
+# End time: 22:08:31 on Sep 14,2025, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

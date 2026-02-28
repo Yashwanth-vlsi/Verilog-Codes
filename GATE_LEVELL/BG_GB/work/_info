@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/GATE_LEVELL/BG_GB
+T_opt
+!s110 1756368633
+V>K[]g0<F7DGY<5=KTE<R;2
+04 14 4 work binary_gray_tb fast 0
+04 14 4 work gray_binary_tb fast 0
+04 8 4 work bg_gb_tb fast 0
+=1-5c60ba6189cb-68b00ef9-166-1034
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vbg_gb
+Z2 !s110 1756368745
+!i10b 1
+!s100 c`L4zz9BngMSAfzjXfeEV3
+IzE6Ij7IVn4`_F;bfGAcFz3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756368669
+Z5 8bg_gb.v
+Z6 Fbg_gb.v
+L0 3
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756368745.000000
+!s107 gray_binary.v|binary_gray.v|bg_gb.v|
+Z9 !s90 bg_gb.v|
+!i113 0
+Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbg_gb_tb
+R2
+!i10b 1
+!s100 dMWJi53UCenCY]N4R5ghI1
+IT9>dfNSU_H3Z_ITU34fCD2
+R3
+R0
+R4
+R5
+R6
+L0 11
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 gray_binary.v|binary_gray.v|bg_gb.v|
+R9
+!i113 0
+R10
+R1
+vbinary_gray
+R2
+!i10b 1
+!s100 eJ57fCAnbYJ>9^fS92_9O2
+ILhJzGO^OKUYk[o9@Q@Z;M0
+R3
+R0
+Z12 w1756368610
+Z13 8binary_gray.v
+Z14 Fbinary_gray.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vbinary_gray_tb
+R2
+!i10b 1
+!s100 TKSkEbd8S_X=f:;27RVf>0
+I0@gcIm[H0LQl:f4k[Kk4j1
+R3
+R0
+R12
+R13
+R14
+L0 9
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vgray_binary
+R2
+!i10b 1
+!s100 Z1G@C3g:GbYV_?AYJ8`[=1
+I=KF;nRG6XJJKiZPiYAglP0
+R3
+R0
+Z15 w1756365603
+Z16 8gray_binary.v
+Z17 Fgray_binary.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vgray_binary_tb
+R2
+!i10b 1
+!s100 :]imVbKP_IIagH<oTncNz2
+I7[nB4U@>B>@:[l<T]WX][1
+R3
+R0
+R15
+R16
+R17
+L0 9
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1

@@ -1,0 +1,155 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1755531528
+V5^RAT8`>hQddQ<Q[FJ[CO2
+04 10 4 work or_gate_tb fast 0
+=1-387a0e1bb7cd-68a34908-10d-3128
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755536763
+V5GBalaofz<E?G]RIg9G0_1
+04 11 4 work nor_gate_tb fast 0
+=1-387a0e1bb7cd-68a35d7b-2f3-3fd8
+R1
+R2
+n@_opt1
+R3
+vand_gate_tb
+!s110 1755536346
+!i10b 1
+!s100 <NDkTBmCXBSZH3J?ChVSd3
+I1TjU1VXbhGLEh]Q4H6CF@2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 dE:/VLSI1ST/switch level
+w1755536340
+Z6 8E:/VLSI1ST/switch level/nor_gate_tb.v
+Z7 FE:/VLSI1ST/switch level/nor_gate_tb.v
+L0 1
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1755536346.000000
+Z9 !s107 E:/VLSI1ST/switch level/nor_gate_tb.v|
+Z10 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/VLSI1ST/switch level/nor_gate_tb.v|
+!i113 0
+Z11 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vnand_gate_tb
+!s110 1755530220
+!i10b 1
+!s100 4XS;D;lU;LH1jKI`BSUkV2
+I=WIm=EDEebRf1?Ob]DN]C1
+R4
+R5
+w1755530216
+8E:/VLSI1ST/switch level/or_gate_tb.v
+FE:/VLSI1ST/switch level/or_gate_tb.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1755530220.000000
+!s107 E:/VLSI1ST/switch level/or_gate_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/VLSI1ST/switch level/or_gate_tb.v|
+!i113 0
+R11
+R2
+vnor_gate
+Z12 !s110 1755536724
+!i10b 1
+!s100 L0S?@?4NLlm[NVfalTV^40
+Ic>;YA<F7`_35BFU_5MQd63
+R4
+R5
+w1755535536
+8E:/VLSI1ST/switch level/nor_gate.v
+FE:/VLSI1ST/switch level/nor_gate.v
+L0 1
+R8
+r1
+!s85 0
+31
+Z13 !s108 1755536724.000000
+!s107 E:/VLSI1ST/switch level/nor_gate.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/VLSI1ST/switch level/nor_gate.v|
+!i113 0
+R11
+R2
+vnor_gate_tb
+R12
+!i10b 1
+!s100 le=WV532CZbW0<@KdM4^82
+I`CQk>>ILIb8^GMge15^_M2
+R4
+R5
+w1755536719
+R6
+R7
+L0 1
+R8
+r1
+!s85 0
+31
+R13
+R9
+R10
+!i113 0
+R11
+R2
+vor_gate
+Z14 !s110 1755531495
+!i10b 1
+!s100 43CzZoC^=Km67dzNckY7z1
+IPB3UhZ]mQQUSUQ^hTD6QH1
+R4
+R5
+w1755531485
+8E:/VLSI1ST/switch level/or_gate.v
+FE:/VLSI1ST/switch level/or_gate.v
+L0 1
+R8
+r1
+!s85 0
+31
+Z15 !s108 1755531495.000000
+!s107 E:/VLSI1ST/switch level/or_gate.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:/VLSI1ST/switch level/or_gate.v|
+!i113 0
+R11
+R2
+vor_gate_tb
+R14
+!i10b 1
+!s100 k5KT@X7<>]:I]INGj1C>B2
+IKFo;2h`UeOO]cf^Pb[z1_1
+R4
+R5
+w1755531235
+8E:\VLSI1ST\switch level\or_gate_tb.v
+FE:\VLSI1ST\switch level\or_gate_tb.v
+L0 1
+R8
+r1
+!s85 0
+31
+R15
+!s107 E:\VLSI1ST\switch level\or_gate_tb.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|E:\VLSI1ST\switch level\or_gate_tb.v|
+!i113 0
+R11
+R2

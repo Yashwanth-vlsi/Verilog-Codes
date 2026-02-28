@@ -1,0 +1,415 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+ls
+# demux.v  mux1.v  mux_demux.v  run.do  transcript      
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:30:11 on Aug 25,2025
+# vlog -reportprogress 300 mux_demux_4to1.v "+acc" 
+# ** Error: (vlog-7) Failed to open design unit file "mux_demux_4to1.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 15:30:11 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_demux_4to1.v +acc"
+ls
+# demux.v  mux1.v  mux_demux.v  run.do  transcript  work    
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:33:28 on Aug 25,2025
+# vlog -reportprogress 300 mux_demux.v "+acc" 
+# ** Error: mux_demux.v(1): Cannot find `include file "mux_4to1.v" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# ** Error: mux_demux.v(2): Cannot find `include file "demux_1to4.v" in directories:
+#     C:/questasim64_10.7c/ovm-2.1.2/../verilog_src/ovm-2.1.2/src, C:/questasim64_10.7c/uvm-1.1d/../verilog_src/uvm-1.1d/src
+# -- Compiling module mux_demux
+# -- Compiling module mux_demux_tb
+# End time: 15:33:28 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog mux_demux.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:34:26 on Aug 25,2025
+# vlog -reportprogress 300 mux_demux.v "+acc" 
+# -- Compiling module mux_4to1
+# -- Compiling module mux_4to1_tb
+# -- Compiling module demux_1to4
+# -- Compiling module demux_1to4_tb
+# -- Compiling module mux_demux
+# -- Compiling module mux_demux_tb
+# 
+# Top level modules:
+# 	mux_4to1_tb
+# 	demux_1to4_tb
+# 	mux_demux_tb
+# End time: 15:34:26 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mux_demux_tb 
+# Start time: 15:34:26 on Aug 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): mux_demux.v(40): (vopt-7063) Failed to find 'tb_i' in hierarchical name 'tb_i'.
+#         Region: mux_demux_tb
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:35:15 on Aug 25,2025
+# vlog -reportprogress 300 mux_demux.v "+acc" 
+# -- Compiling module mux_4to1
+# -- Compiling module mux_4to1_tb
+# -- Compiling module demux_1to4
+# -- Compiling module demux_1to4_tb
+# -- Compiling module mux_demux
+# -- Compiling module mux_demux_tb
+# 
+# Top level modules:
+# 	mux_4to1_tb
+# 	demux_1to4_tb
+# 	mux_demux_tb
+# End time: 15:35:15 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mux_demux_tb 
+# Start time: 15:34:26 on Aug 25,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.mux_demux_tb(fast)
+# Loading work.mux_demux(fast)
+# Loading work.mux_4to1(fast)
+# Loading work.demux_1to4(fast)
+# tb_a=100    tb_s=1    tb_g=z     $time=0
+# tb_a=1001    tb_s=11    tb_g=z     $time=10
+# tb_a=1101    tb_s=1    tb_g=z     $time=20
+# tb_a=101    tb_s=10    tb_g=z     $time=30
+# tb_a=1    tb_s=1    tb_g=z     $time=40
+# tb_a=110    tb_s=1    tb_g=z     $time=50
+# tb_a=1101    tb_s=0    tb_g=z     $time=60
+# tb_a=1001    tb_s=10    tb_g=z     $time=70
+# tb_a=101    tb_s=10    tb_g=z     $time=80
+# tb_a=101    tb_s=11    tb_g=z     $time=90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:37:22 on Aug 25,2025
+# vlog -reportprogress 300 mux_demux.v "+acc" 
+# -- Compiling module mux_4to1
+# -- Compiling module mux_4to1_tb
+# -- Compiling module demux_1to4
+# -- Compiling module demux_1to4_tb
+# -- Compiling module mux_demux
+# -- Compiling module mux_demux_tb
+# 
+# Top level modules:
+# 	mux_4to1_tb
+# 	demux_1to4_tb
+# 	mux_demux_tb
+# End time: 15:37:22 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:37:23 on Aug 25,2025, Elapsed time: 0:02:57
+# Errors: 1, Warnings: 0
+# vsim mux_demux_tb 
+# Start time: 15:37:23 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux_demux_tb(fast)
+# Loading work.mux_demux(fast)
+# Loading work.mux_4to1(fast)
+# Loading work.demux_1to4(fast)
+# tb_a=100    tb_s=0    tb_g=z     $time=0
+# tb_a=100    tb_s=1    tb_g=z     $time=10
+# tb_a=100    tb_s=10    tb_g=z     $time=20
+# tb_a=100    tb_s=11    tb_g=z     $time=30
+# tb_a=1    tb_s=0    tb_g=z     $time=40
+# tb_a=1    tb_s=1    tb_g=z     $time=50
+# tb_a=1    tb_s=10    tb_g=z     $time=60
+# tb_a=1    tb_s=11    tb_g=z     $time=70
+# tb_a=1001    tb_s=0    tb_g=z     $time=80
+# tb_a=1001    tb_s=1    tb_g=z     $time=90
+# tb_a=1001    tb_s=10    tb_g=z     $time=100
+# tb_a=1001    tb_s=11    tb_g=z     $time=110
+# tb_a=11    tb_s=0    tb_g=z     $time=120
+# tb_a=11    tb_s=1    tb_g=z     $time=130
+# tb_a=11    tb_s=10    tb_g=z     $time=140
+# tb_a=11    tb_s=11    tb_g=z     $time=150
+# tb_a=1101    tb_s=0    tb_g=z     $time=160
+# tb_a=1101    tb_s=1    tb_g=z     $time=170
+# tb_a=1101    tb_s=10    tb_g=z     $time=180
+# tb_a=1101    tb_s=11    tb_g=z     $time=190
+# tb_a=1101    tb_s=0    tb_g=z     $time=200
+# tb_a=1101    tb_s=1    tb_g=z     $time=210
+# tb_a=1101    tb_s=10    tb_g=z     $time=220
+# tb_a=1101    tb_s=11    tb_g=z     $time=230
+# tb_a=101    tb_s=0    tb_g=z     $time=240
+# tb_a=101    tb_s=1    tb_g=z     $time=250
+# tb_a=101    tb_s=10    tb_g=z     $time=260
+# tb_a=101    tb_s=11    tb_g=z     $time=270
+# tb_a=10    tb_s=0    tb_g=z     $time=280
+# tb_a=10    tb_s=1    tb_g=z     $time=290
+# tb_a=10    tb_s=10    tb_g=z     $time=300
+# tb_a=10    tb_s=11    tb_g=z     $time=310
+# tb_a=1    tb_s=0    tb_g=z     $time=320
+# tb_a=1    tb_s=1    tb_g=z     $time=330
+# tb_a=1    tb_s=10    tb_g=z     $time=340
+# tb_a=1    tb_s=11    tb_g=z     $time=350
+# tb_a=1101    tb_s=0    tb_g=z     $time=360
+# tb_a=1101    tb_s=1    tb_g=z     $time=370
+# tb_a=1101    tb_s=10    tb_g=z     $time=380
+# tb_a=1101    tb_s=11    tb_g=z     $time=390
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:38:31 on Aug 25,2025
+# vlog -reportprogress 300 mux_demux.v "+acc" 
+# -- Compiling module mux_4to1
+# -- Compiling module mux_4to1_tb
+# -- Compiling module demux_1to4
+# -- Compiling module demux_1to4_tb
+# -- Compiling module mux_demux
+# -- Compiling module mux_demux_tb
+# 
+# Top level modules:
+# 	mux_4to1_tb
+# 	demux_1to4_tb
+# 	mux_demux_tb
+# End time: 15:38:31 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:38:31 on Aug 25,2025, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 0
+# vsim mux_demux_tb 
+# Start time: 15:38:31 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux_demux_tb(fast)
+# Loading work.mux_demux(fast)
+# Loading work.mux_4to1(fast)
+# Loading work.demux_1to4(fast)
+# tb_a=0100    tb_s=00    tb_g=zzzz     $time=0
+# tb_a=0100    tb_s=01    tb_g=zzzz     $time=10
+# tb_a=0100    tb_s=10    tb_g=zzzz     $time=20
+# tb_a=0100    tb_s=11    tb_g=zzzz     $time=30
+# tb_a=0001    tb_s=00    tb_g=zzzz     $time=40
+# tb_a=0001    tb_s=01    tb_g=zzzz     $time=50
+# tb_a=0001    tb_s=10    tb_g=zzzz     $time=60
+# tb_a=0001    tb_s=11    tb_g=zzzz     $time=70
+# tb_a=1001    tb_s=00    tb_g=zzzz     $time=80
+# tb_a=1001    tb_s=01    tb_g=zzzz     $time=90
+# tb_a=1001    tb_s=10    tb_g=zzzz     $time=100
+# tb_a=1001    tb_s=11    tb_g=zzzz     $time=110
+# tb_a=0011    tb_s=00    tb_g=zzzz     $time=120
+# tb_a=0011    tb_s=01    tb_g=zzzz     $time=130
+# tb_a=0011    tb_s=10    tb_g=zzzz     $time=140
+# tb_a=0011    tb_s=11    tb_g=zzzz     $time=150
+# tb_a=1101    tb_s=00    tb_g=zzzz     $time=160
+# tb_a=1101    tb_s=01    tb_g=zzzz     $time=170
+# tb_a=1101    tb_s=10    tb_g=zzzz     $time=180
+# tb_a=1101    tb_s=11    tb_g=zzzz     $time=190
+# tb_a=1101    tb_s=00    tb_g=zzzz     $time=200
+# tb_a=1101    tb_s=01    tb_g=zzzz     $time=210
+# tb_a=1101    tb_s=10    tb_g=zzzz     $time=220
+# tb_a=1101    tb_s=11    tb_g=zzzz     $time=230
+# tb_a=0101    tb_s=00    tb_g=zzzz     $time=240
+# tb_a=0101    tb_s=01    tb_g=zzzz     $time=250
+# tb_a=0101    tb_s=10    tb_g=zzzz     $time=260
+# tb_a=0101    tb_s=11    tb_g=zzzz     $time=270
+# tb_a=0010    tb_s=00    tb_g=zzzz     $time=280
+# tb_a=0010    tb_s=01    tb_g=zzzz     $time=290
+# tb_a=0010    tb_s=10    tb_g=zzzz     $time=300
+# tb_a=0010    tb_s=11    tb_g=zzzz     $time=310
+# tb_a=0001    tb_s=00    tb_g=zzzz     $time=320
+# tb_a=0001    tb_s=01    tb_g=zzzz     $time=330
+# tb_a=0001    tb_s=10    tb_g=zzzz     $time=340
+# tb_a=0001    tb_s=11    tb_g=zzzz     $time=350
+# tb_a=1101    tb_s=00    tb_g=zzzz     $time=360
+# tb_a=1101    tb_s=01    tb_g=zzzz     $time=370
+# tb_a=1101    tb_s=10    tb_g=zzzz     $time=380
+# tb_a=1101    tb_s=11    tb_g=zzzz     $time=390
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:39:56 on Aug 25,2025
+# vlog -reportprogress 300 mux_demux.v "+acc" 
+# -- Compiling module mux_4to1
+# -- Compiling module mux_4to1_tb
+# -- Compiling module demux_1to4
+# -- Compiling module demux_1to4_tb
+# -- Compiling module mux_demux
+# -- Compiling module mux_demux_tb
+# 
+# Top level modules:
+# 	mux_4to1_tb
+# 	demux_1to4_tb
+# 	mux_demux_tb
+# End time: 15:39:56 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:39:56 on Aug 25,2025, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 0
+# vsim mux_demux_tb 
+# Start time: 15:39:56 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux_demux_tb(fast)
+# Loading work.mux_demux(fast)
+# Loading work.mux_4to1(fast)
+# Loading work.demux_1to4(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'y'. The port definition is at: mux1.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mux_demux_tb/MD/MUX4to1 File: mux_demux.v Line: 8
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (4) for port 'y'. The port definition is at: demux.v(1).
+#    Time: 0 ns  Iteration: 0  Instance: /mux_demux_tb/MD/demux1to4 File: mux_demux.v Line: 12
+# tb_a=0100    tb_s=00    tb_g=zzzx     $time=0
+# tb_a=0100    tb_s=01    tb_g=zzzx     $time=10
+# tb_a=0100    tb_s=10    tb_g=zzzx     $time=20
+# tb_a=0100    tb_s=11    tb_g=zzzx     $time=30
+# tb_a=0001    tb_s=00    tb_g=zzzx     $time=40
+# tb_a=0001    tb_s=01    tb_g=zzzx     $time=50
+# tb_a=0001    tb_s=10    tb_g=zzz0     $time=60
+# tb_a=0001    tb_s=11    tb_g=zzz0     $time=70
+# tb_a=1001    tb_s=00    tb_g=zzzx     $time=80
+# tb_a=1001    tb_s=01    tb_g=zzzx     $time=90
+# tb_a=1001    tb_s=10    tb_g=zzz0     $time=100
+# tb_a=1001    tb_s=11    tb_g=zzzx     $time=110
+# tb_a=0011    tb_s=00    tb_g=zzzx     $time=120
+# tb_a=0011    tb_s=01    tb_g=zzzx     $time=130
+# tb_a=0011    tb_s=10    tb_g=zzz0     $time=140
+# tb_a=0011    tb_s=11    tb_g=zzz0     $time=150
+# tb_a=1101    tb_s=00    tb_g=zzzx     $time=160
+# tb_a=1101    tb_s=01    tb_g=zzzx     $time=170
+# tb_a=1101    tb_s=10    tb_g=zzzx     $time=180
+# tb_a=1101    tb_s=11    tb_g=zzzx     $time=190
+# tb_a=1101    tb_s=00    tb_g=zzzx     $time=200
+# tb_a=1101    tb_s=01    tb_g=zzzx     $time=210
+# tb_a=1101    tb_s=10    tb_g=zzzx     $time=220
+# tb_a=1101    tb_s=11    tb_g=zzzx     $time=230
+# tb_a=0101    tb_s=00    tb_g=zzzx     $time=240
+# tb_a=0101    tb_s=01    tb_g=zzzx     $time=250
+# tb_a=0101    tb_s=10    tb_g=zzzx     $time=260
+# tb_a=0101    tb_s=11    tb_g=zzzx     $time=270
+# tb_a=0010    tb_s=00    tb_g=zzz0     $time=280
+# tb_a=0010    tb_s=01    tb_g=zzzx     $time=290
+# tb_a=0010    tb_s=10    tb_g=zzz0     $time=300
+# tb_a=0010    tb_s=11    tb_g=zzz0     $time=310
+# tb_a=0001    tb_s=00    tb_g=zzzx     $time=320
+# tb_a=0001    tb_s=01    tb_g=zzzx     $time=330
+# tb_a=0001    tb_s=10    tb_g=zzz0     $time=340
+# tb_a=0001    tb_s=11    tb_g=zzz0     $time=350
+# tb_a=1101    tb_s=00    tb_g=zzzx     $time=360
+# tb_a=1101    tb_s=01    tb_g=zzzx     $time=370
+# tb_a=1101    tb_s=10    tb_g=zzzx     $time=380
+# tb_a=1101    tb_s=11    tb_g=zzzx     $time=390
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:42:48 on Aug 25,2025
+# vlog -reportprogress 300 mux_demux.v "+acc" 
+# -- Compiling module mux_4to1
+# -- Compiling module mux_4to1_tb
+# -- Compiling module demux_1to4
+# -- Compiling module demux_1to4_tb
+# -- Compiling module mux_demux
+# -- Compiling module mux_demux_tb
+# 
+# Top level modules:
+# 	mux_4to1_tb
+# 	demux_1to4_tb
+# 	mux_demux_tb
+# End time: 15:42:48 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:42:48 on Aug 25,2025, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 2
+# vsim mux_demux_tb 
+# Start time: 15:42:48 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux_demux_tb(fast)
+# Loading work.mux_demux(fast)
+# Loading work.mux_4to1(fast)
+# Loading work.demux_1to4(fast)
+# tb_a=0100    tb_s=00    tb_g=0000     $time=0
+# tb_a=0100    tb_s=01    tb_g=0000     $time=10
+# tb_a=0100    tb_s=10    tb_g=0100     $time=20
+# tb_a=0100    tb_s=11    tb_g=0000     $time=30
+# tb_a=0001    tb_s=00    tb_g=0001     $time=40
+# tb_a=0001    tb_s=01    tb_g=0000     $time=50
+# tb_a=0001    tb_s=10    tb_g=0000     $time=60
+# tb_a=0001    tb_s=11    tb_g=0000     $time=70
+# tb_a=1001    tb_s=00    tb_g=0001     $time=80
+# tb_a=1001    tb_s=01    tb_g=0000     $time=90
+# tb_a=1001    tb_s=10    tb_g=0000     $time=100
+# tb_a=1001    tb_s=11    tb_g=1000     $time=110
+# tb_a=0011    tb_s=00    tb_g=0001     $time=120
+# tb_a=0011    tb_s=01    tb_g=0010     $time=130
+# tb_a=0011    tb_s=10    tb_g=0000     $time=140
+# tb_a=0011    tb_s=11    tb_g=0000     $time=150
+# tb_a=1101    tb_s=00    tb_g=0001     $time=160
+# tb_a=1101    tb_s=01    tb_g=0000     $time=170
+# tb_a=1101    tb_s=10    tb_g=0100     $time=180
+# tb_a=1101    tb_s=11    tb_g=1000     $time=190
+# tb_a=1101    tb_s=00    tb_g=0001     $time=200
+# tb_a=1101    tb_s=01    tb_g=0000     $time=210
+# tb_a=1101    tb_s=10    tb_g=0100     $time=220
+# tb_a=1101    tb_s=11    tb_g=1000     $time=230
+# tb_a=0101    tb_s=00    tb_g=0001     $time=240
+# tb_a=0101    tb_s=01    tb_g=0000     $time=250
+# tb_a=0101    tb_s=10    tb_g=0100     $time=260
+# tb_a=0101    tb_s=11    tb_g=0000     $time=270
+# tb_a=0010    tb_s=00    tb_g=0000     $time=280
+# tb_a=0010    tb_s=01    tb_g=0010     $time=290
+# tb_a=0010    tb_s=10    tb_g=0000     $time=300
+# tb_a=0010    tb_s=11    tb_g=0000     $time=310
+# tb_a=0001    tb_s=00    tb_g=0001     $time=320
+# tb_a=0001    tb_s=01    tb_g=0000     $time=330
+# tb_a=0001    tb_s=10    tb_g=0000     $time=340
+# tb_a=0001    tb_s=11    tb_g=0000     $time=350
+# tb_a=1101    tb_s=00    tb_g=0001     $time=360
+# tb_a=1101    tb_s=01    tb_g=0000     $time=370
+# tb_a=1101    tb_s=10    tb_g=0100     $time=380
+# tb_a=1101    tb_s=11    tb_g=1000     $time=390
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:48:44 on Aug 25,2025
+# vlog -reportprogress 300 mux_demux.v "+acc" 
+# -- Compiling module mux_4to1
+# -- Compiling module mux_4to1_tb
+# -- Compiling module demux_1to4
+# -- Compiling module demux_1to4_tb
+# -- Compiling module mux_demux
+# -- Compiling module mux_demux_tb
+# 
+# Top level modules:
+# 	mux_4to1_tb
+# 	demux_1to4_tb
+# 	mux_demux_tb
+# End time: 15:48:44 on Aug 25,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:48:44 on Aug 25,2025, Elapsed time: 0:05:56
+# Errors: 0, Warnings: 0
+# vsim mux_demux_tb 
+# Start time: 15:48:44 on Aug 25,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux_demux_tb(fast)
+# Loading work.mux_demux(fast)
+# Loading work.mux_4to1(fast)
+# Loading work.demux_1to4(fast)
+# tb_a=0100    tb_s=01    tb_g=0000     $time=0
+# tb_a=1001    tb_s=11    tb_g=1000     $time=10
+# tb_a=1101    tb_s=01    tb_g=0000     $time=20
+# tb_a=0101    tb_s=10    tb_g=0100     $time=30
+# tb_a=0001    tb_s=01    tb_g=0000     $time=40
+# tb_a=0110    tb_s=01    tb_g=0010     $time=50
+# tb_a=1101    tb_s=00    tb_g=0001     $time=60
+# tb_a=1001    tb_s=10    tb_g=0000     $time=70
+# tb_a=0101    tb_s=10    tb_g=0100     $time=80
+# tb_a=0101    tb_s=11    tb_g=0000     $time=90
+# End time: 15:49:22 on Aug 25,2025, Elapsed time: 0:00:38
+# Errors: 0, Warnings: 0

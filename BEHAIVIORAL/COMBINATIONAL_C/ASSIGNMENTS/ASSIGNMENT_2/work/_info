@@ -1,0 +1,40 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/BEHAIVIORAL/COMBINATIONAL_C/ASSIGNMENT_2
+T_opt
+!s110 1757749254
+Vf>Ul4@4Ug9k15XeC1=S>82
+04 3 4 work rca fast 0
+=1-5c60ba6189cb-68c52006-10-52e0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vrca
+!s110 1757749253
+!i10b 1
+!s100 7dHE[o77CzM[C@@UB2IFT1
+I`ELhCE?D=cNDWQY84I=OZ0
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757749249
+8as_2.v
+Fas_2.v
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1757749252.000000
+!s107 as_2.v|
+!s90 -reportprogress|300|as_2.v|+acc|
+!i113 0
+o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

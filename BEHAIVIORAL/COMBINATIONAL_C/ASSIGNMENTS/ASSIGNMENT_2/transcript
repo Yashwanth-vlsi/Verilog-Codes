@@ -1,0 +1,296 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:46:39 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# ** Error: as_2.v(13): (vlog-2730) Undefined variable: 'fi'.
+# ** Error: as_2.v(13): (vlog-2730) Undefined variable: 'so'.
+# ** Error: as_2.v(19): (vlog-2730) Undefined variable: 'cin'.
+# ** Error: as_2.v(22): (vlog-2730) Undefined variable: 'result'.
+# ** Error: as_2.v(23): (vlog-2730) Undefined variable: 'c0'.
+# ** Error: as_2.v(26): (vlog-2730) Undefined variable: 'c1'.
+# ** Error: as_2.v(29): (vlog-2730) Undefined variable: 'c2'.
+# End time: 12:46:39 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 7, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog as_2.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:47:30 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# ** Error: as_2.v(13): (vlog-2730) Undefined variable: 'so'.
+# ** Error: as_2.v(19): (vlog-2730) Undefined variable: 'cin'.
+# ** Error: as_2.v(22): (vlog-2730) Undefined variable: 'result'.
+# ** Error: as_2.v(23): (vlog-2730) Undefined variable: 'c0'.
+# ** Error: as_2.v(26): (vlog-2730) Undefined variable: 'c1'.
+# ** Error: as_2.v(29): (vlog-2730) Undefined variable: 'c2'.
+# End time: 12:47:30 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog as_2.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:47:53 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# ** Error: as_2.v(19): (vlog-2730) Undefined variable: 'cin'.
+# ** Error: as_2.v(22): (vlog-2730) Undefined variable: 'result'.
+# ** Error: as_2.v(23): (vlog-2730) Undefined variable: 'c0'.
+# ** Error: as_2.v(26): (vlog-2730) Undefined variable: 'c1'.
+# ** Error: as_2.v(29): (vlog-2730) Undefined variable: 'c2'.
+# End time: 12:47:53 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog as_2.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:49:47 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# ** Error: (vlog-13069) as_2.v(4): near "reg": syntax error, unexpected reg, expecting ';' or ','.
+# ** Error: as_2.v(22): (vlog-2730) Undefined variable: 'RCA'.
+# ** Error: as_2.v(24): (vlog-2730) Undefined variable: 'c0'.
+# ** Error: as_2.v(27): (vlog-2730) Undefined variable: 'c1'.
+# ** Error: as_2.v(30): (vlog-2730) Undefined variable: 'c2'.
+# End time: 12:49:47 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog as_2.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:50:15 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# ** Error: as_2.v(24): (vlog-2730) Undefined variable: 'c0'.
+# ** Error: as_2.v(27): (vlog-2730) Undefined variable: 'c1'.
+# ** Error: as_2.v(30): (vlog-2730) Undefined variable: 'c2'.
+# End time: 12:50:15 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog as_2.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:51:19 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# ** Error: as_2.v(22): (vlog-2730) Undefined variable: 'cin'.
+# End time: 12:51:19 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog as_2.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:51:42 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 12:51:42 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim rca 
+# Start time: 12:51:43 on Sep 13,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.rca(fast)
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:54:21 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 12:54:21 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:54:22 on Sep 13,2025, Elapsed time: 0:02:39
+# Errors: 0, Warnings: 0
+# vsim rca 
+# Start time: 12:54:22 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca(fast)
+# a=0011 b=1100 CIN=1 sum=xxxx carry=x
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:57:12 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 12:57:12 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:57:13 on Sep 13,2025, Elapsed time: 0:02:51
+# Errors: 0, Warnings: 0
+# vsim rca 
+# Start time: 12:57:13 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca(fast)
+# a=0011 b=1100 CIN=1 sum=xxxx carry=x
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:58:37 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 12:58:37 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:58:38 on Sep 13,2025, Elapsed time: 0:01:25
+# Errors: 0, Warnings: 0
+# vsim rca 
+# Start time: 12:58:38 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca(fast)
+# a=0011 b=1100 CIN=1 sum=xxxx carry=x
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:01:10 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# ** Error: (vlog-13069) as_2.v(13): near "(": syntax error, unexpected '('.
+# ** Error: (vlog-13069) as_2.v(14): near ",": syntax error, unexpected ','.
+# End time: 13:01:10 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog as_2.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:02:32 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 13:02:32 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:02:33 on Sep 13,2025, Elapsed time: 0:03:55
+# Errors: 5, Warnings: 0
+# vsim rca 
+# Start time: 13:02:33 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca(fast)
+# a=0011 b=1100 CIN=1 sum=xxxx carry=x
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:02:56 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 13:02:56 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:02:56 on Sep 13,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0
+# vsim rca 
+# Start time: 13:02:56 on Sep 13,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.rca(fast)
+# a=0011 b=1100 CIN=1 sum=xxxx carry=x
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:04:33 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 13:04:34 on Sep 13,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:04:34 on Sep 13,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+# vsim rca 
+# Start time: 13:04:34 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca(fast)
+# a=0011 b=1100 CIN=1 sum=xxxx carry=x
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:04:55 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 13:04:55 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:04:56 on Sep 13,2025, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim rca 
+# Start time: 13:04:56 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca(fast)
+# a=0011 b=1100 CIN=1 sum=xxxx carry=x
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:06:50 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 13:06:50 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:06:50 on Sep 13,2025, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
+# vsim rca 
+# Start time: 13:06:50 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca(fast)
+# a=0011 b=1100 CIN=1 sum=xxxx carry=x
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:10:52 on Sep 13,2025
+# vlog -reportprogress 300 as_2.v "+acc" 
+# -- Compiling module rca
+# 
+# Top level modules:
+# 	rca
+# End time: 13:10:53 on Sep 13,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:10:53 on Sep 13,2025, Elapsed time: 0:04:03
+# Errors: 0, Warnings: 0
+# vsim rca 
+# Start time: 13:10:53 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rca(fast)
+# a=0011 b=1100 CIN=1 sum=0000 carry=1
+# End time: 13:11:30 on Sep 13,2025, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0

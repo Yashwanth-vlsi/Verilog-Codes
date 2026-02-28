@@ -1,0 +1,15 @@
+{E:/VLSI1ST/switch level/nor_gate_tb.v} {1 {vlog -work work -vopt -stats=none {E:/VLSI1ST/switch level/nor_gate_tb.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module nor_gate_tb
+
+Top level modules:
+	nor_gate_tb
+
+} {} {}} {E:/VLSI1ST/switch level/nor_gate.v} {1 {vlog -work work -vopt -stats=none {E:/VLSI1ST/switch level/nor_gate.v}
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module nor_gate
+
+Top level modules:
+	nor_gate
+
+} {} {}}

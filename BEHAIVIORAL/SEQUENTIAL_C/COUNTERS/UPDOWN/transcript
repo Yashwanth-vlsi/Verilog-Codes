@@ -1,0 +1,283 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+do run.do
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:55:29 on Sep 16,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module upd
+# ** Error: (vlog-13069) updown.v(10): near "else": syntax error, unexpected else.
+# ** Error (suppressible): updown.v(19): (vlog-2388) 'clk' already declared in this scope (upd).
+# ** Error (suppressible): updown.v(19): (vlog-2388) 'rst' already declared in this scope (upd).
+# ** Error (suppressible): updown.v(19): (vlog-2388) 'mod' already declared in this scope (upd).
+# ** Error: updown.v(19): Declarations not allowed in unnamed block.
+# ** Error: updown.v(20): Illegal declaration after the statement near line '18'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: updown.v(22): Checker 'upd' not found.  Instantiation 'UP' must be of a visible checker.
+# ** Error: (vlog-13069) updown.v(24): near "initial": syntax error, unexpected initial.
+# ** Error: updown.v(22): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: (vlog-13069) updown.v(34): near "initial": syntax error, unexpected initial.
+# End time: 14:55:29 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog updown.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 14:58:08 on Sep 16,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module upd
+# ** Error: (vlog-13069) updown.v(12): near "else": syntax error, unexpected else.
+# ** Error (suppressible): updown.v(22): (vlog-2388) 'clk' already declared in this scope (upd).
+# ** Error (suppressible): updown.v(22): (vlog-2388) 'rst' already declared in this scope (upd).
+# ** Error (suppressible): updown.v(22): (vlog-2388) 'mod' already declared in this scope (upd).
+# ** Error: updown.v(22): Declarations not allowed in unnamed block.
+# ** Error: updown.v(23): Illegal declaration after the statement near line '21'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: updown.v(25): Checker 'upd' not found.  Instantiation 'UP' must be of a visible checker.
+# ** Error: (vlog-13069) updown.v(27): near "initial": syntax error, unexpected initial.
+# ** Error: updown.v(25): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: (vlog-13069) updown.v(37): near "initial": syntax error, unexpected initial.
+# End time: 14:58:08 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog updown.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:00:33 on Sep 16,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module upd
+# ** Error: (vlog-13069) updown.v(13): near "end": syntax error, unexpected end, expecting ';'.
+# ** Error (suppressible): updown.v(20): (vlog-2388) 'clk' already declared in this scope (upd).
+# ** Error (suppressible): updown.v(20): (vlog-2388) 'rst' already declared in this scope (upd).
+# ** Error (suppressible): updown.v(20): (vlog-2388) 'mod' already declared in this scope (upd).
+# ** Error: updown.v(20): Declarations not allowed in unnamed block.
+# ** Error: updown.v(21): Illegal declaration after the statement near line '9'.  Declarations must precede statements.  Look for stray semicolons.
+# ** Error: updown.v(23): Checker 'upd' not found.  Instantiation 'UP' must be of a visible checker.
+# ** Error: (vlog-13069) updown.v(25): near "initial": syntax error, unexpected initial.
+# ** Error: updown.v(23): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: (vlog-13069) updown.v(35): near "initial": syntax error, unexpected initial.
+# End time: 15:00:33 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog updown.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:02:29 on Sep 16,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module upd
+# -- Compiling module upd_tb
+# ** Error: (vlog-13069) updown.v(21): near "reg": syntax error, unexpected reg, expecting IDENTIFIER or TYPE_IDENTIFIER or NETTYPE_IDENTIFIER.
+# ** Error: (vlog-13069) updown.v(38): near "#": syntax error, unexpected '#'.
+# End time: 15:02:29 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog updown.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:03:09 on Sep 16,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module upd
+# -- Compiling module upd_tb
+# ** Error: (vlog-13069) updown.v(38): near "#": syntax error, unexpected '#'.
+# End time: 15:03:09 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog updown.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:04:11 on Sep 16,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module upd
+# -- Compiling module upd_tb
+# ** Error: (vlog-13069) updown.v(38): near "#": syntax error, unexpected '#'.
+# End time: 15:04:11 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog updown.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:04:49 on Sep 16,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module upd
+# -- Compiling module upd_tb
+# ** Error: (vlog-13069) updown.v(39): near "end": syntax error, unexpected end.
+# End time: 15:04:49 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog updown.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:05:32 on Sep 16,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module upd
+# -- Compiling module upd_tb
+# 
+# Top level modules:
+# 	upd_tb
+# End time: 15:05:32 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim upd_tb 
+# Start time: 15:05:32 on Sep 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.upd_tb(fast)
+# Loading work.upd(fast)
+#  rst=0 mod=1 count=          0 $time=0
+#  rst=1 mod=1 count=          1 $time=10
+#  rst=1 mod=1 count=          2 $time=30
+#  rst=1 mod=1 count=          3 $time=50
+#  rst=1 mod=1 count=          4 $time=70
+#  rst=1 mod=1 count=          5 $time=90
+#  rst=1 mod=1 count=          6 $time=110
+#  rst=1 mod=1 count=          7 $time=130
+#  rst=1 mod=1 count=          8 $time=150
+#  rst=1 mod=1 count=          9 $time=170
+#  rst=1 mod=1 count=         10 $time=190
+#  rst=1 mod=1 count=         11 $time=210
+#  rst=1 mod=1 count=         12 $time=230
+#  rst=1 mod=1 count=         13 $time=250
+#  rst=1 mod=1 count=         14 $time=270
+#  rst=1 mod=1 count=         15 $time=290
+#  rst=1 mod=1 count=         16 $time=310
+#  rst=1 mod=1 count=         17 $time=330
+#  rst=1 mod=1 count=         18 $time=350
+#  rst=1 mod=1 count=         19 $time=370
+#  rst=1 mod=1 count=         20 $time=390
+#  rst=1 mod=1 count=         21 $time=410
+#  rst=1 mod=1 count=         22 $time=430
+#  rst=1 mod=1 count=         23 $time=450
+#  rst=1 mod=1 count=         24 $time=470
+#  rst=1 mod=1 count=         25 $time=490
+#  rst=1 mod=1 count=         26 $time=510
+#  rst=1 mod=1 count=         27 $time=530
+#  rst=1 mod=1 count=         28 $time=550
+#  rst=1 mod=1 count=         29 $time=570
+#  rst=1 mod=1 count=         30 $time=590
+#  rst=1 mod=1 count=         31 $time=610
+#  rst=1 mod=1 count=         32 $time=630
+#  rst=1 mod=1 count=         33 $time=650
+#  rst=1 mod=1 count=         34 $time=670
+#  rst=1 mod=1 count=         35 $time=690
+#  rst=1 mod=1 count=         36 $time=710
+#  rst=1 mod=1 count=         37 $time=730
+#  rst=1 mod=1 count=         38 $time=750
+#  rst=1 mod=1 count=         39 $time=770
+#  rst=1 mod=1 count=         40 $time=790
+#  rst=1 mod=1 count=         41 $time=810
+#  rst=1 mod=1 count=         42 $time=830
+#  rst=1 mod=1 count=         43 $time=850
+#  rst=1 mod=1 count=         44 $time=870
+#  rst=1 mod=1 count=         45 $time=890
+#  rst=1 mod=1 count=         46 $time=910
+#  rst=1 mod=1 count=         47 $time=930
+#  rst=1 mod=1 count=         48 $time=950
+#  rst=1 mod=1 count=         49 $time=970
+#  rst=1 mod=1 count=         50 $time=990
+# ** Note: $stop    : updown.v(43)
+#    Time: 1 us  Iteration: 0  Instance: /upd_tb
+# Break in Module upd_tb at updown.v line 43
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:06:56 on Sep 16,2025
+# vlog -reportprogress 300 updown.v "+acc" 
+# -- Compiling module upd
+# -- Compiling module upd_tb
+# 
+# Top level modules:
+# 	upd_tb
+# End time: 15:06:56 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 15:06:58 on Sep 16,2025, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
+# vsim upd_tb 
+# Start time: 15:06:58 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.upd_tb(fast)
+# Loading work.upd(fast)
+#  rst=0 mod=0 count=         50 $time=0
+#  rst=1 mod=0 count=         49 $time=10
+#  rst=1 mod=0 count=         48 $time=30
+#  rst=1 mod=0 count=         47 $time=50
+#  rst=1 mod=0 count=         46 $time=70
+#  rst=1 mod=0 count=         45 $time=90
+#  rst=1 mod=0 count=         44 $time=110
+#  rst=1 mod=0 count=         43 $time=130
+#  rst=1 mod=0 count=         42 $time=150
+#  rst=1 mod=0 count=         41 $time=170
+#  rst=1 mod=0 count=         40 $time=190
+#  rst=1 mod=0 count=         39 $time=210
+#  rst=1 mod=0 count=         38 $time=230
+#  rst=1 mod=0 count=         37 $time=250
+#  rst=1 mod=0 count=         36 $time=270
+#  rst=1 mod=0 count=         35 $time=290
+#  rst=1 mod=0 count=         34 $time=310
+#  rst=1 mod=0 count=         33 $time=330
+#  rst=1 mod=0 count=         32 $time=350
+#  rst=1 mod=0 count=         31 $time=370
+#  rst=1 mod=0 count=         30 $time=390
+#  rst=1 mod=0 count=         29 $time=410
+#  rst=1 mod=0 count=         28 $time=430
+#  rst=1 mod=0 count=         27 $time=450
+#  rst=1 mod=0 count=         26 $time=470
+#  rst=1 mod=0 count=         25 $time=490
+#  rst=1 mod=0 count=         24 $time=510
+#  rst=1 mod=0 count=         23 $time=530
+#  rst=1 mod=0 count=         22 $time=550
+#  rst=1 mod=0 count=         21 $time=570
+#  rst=1 mod=0 count=         20 $time=590
+#  rst=1 mod=0 count=         19 $time=610
+#  rst=1 mod=0 count=         18 $time=630
+#  rst=1 mod=0 count=         17 $time=650
+#  rst=1 mod=0 count=         16 $time=670
+#  rst=1 mod=0 count=         15 $time=690
+#  rst=1 mod=0 count=         14 $time=710
+#  rst=1 mod=0 count=         13 $time=730
+#  rst=1 mod=0 count=         12 $time=750
+#  rst=1 mod=0 count=         11 $time=770
+#  rst=1 mod=0 count=         10 $time=790
+#  rst=1 mod=0 count=          9 $time=810
+#  rst=1 mod=0 count=          8 $time=830
+#  rst=1 mod=0 count=          7 $time=850
+#  rst=1 mod=0 count=          6 $time=870
+#  rst=1 mod=0 count=          5 $time=890
+#  rst=1 mod=0 count=          4 $time=910
+#  rst=1 mod=0 count=          3 $time=930
+#  rst=1 mod=0 count=          2 $time=950
+#  rst=1 mod=0 count=          1 $time=970
+#  rst=1 mod=0 count=          0 $time=990
+# ** Note: $stop    : updown.v(43)
+#    Time: 1 us  Iteration: 0  Instance: /upd_tb
+# Break in Module upd_tb at updown.v line 43
+# End time: 15:07:29 on Sep 16,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0

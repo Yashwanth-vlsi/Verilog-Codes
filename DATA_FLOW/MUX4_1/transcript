@@ -1,0 +1,40 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:20:14 on Aug 30,2025
+# vlog -reportprogress 300 mux4_1.v "+acc" 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# 
+# Top level modules:
+# 	mux4_1_tb
+# End time: 15:20:14 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim mux4_1_tb 
+# Start time: 15:20:14 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.mux4_1_tb(fast)
+# Loading work.mux4_1(fast)
+# i=0100 s=01 y=0 $time=0
+# i=1001 s=11 y=1 $time=10
+# i=1101 s=01 y=0 $time=20
+# i=0101 s=10 y=1 $time=30
+# i=0001 s=01 y=0 $time=40
+# i=0110 s=01 y=1 $time=50
+# i=1101 s=00 y=1 $time=60
+# i=1001 s=10 y=0 $time=70
+# End time: 15:54:06 on Aug 30,2025, Elapsed time: 0:33:52
+# Errors: 0, Warnings: 0

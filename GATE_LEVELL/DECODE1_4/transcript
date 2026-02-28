@@ -1,0 +1,36 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 20:05:27 on Oct 11,2025
+# vlog -reportprogress 300 decode1_4.v "+acc" 
+# -- Compiling module decode1_4
+# -- Compiling module decode1_4_tb
+# 
+# Top level modules:
+# 	decode1_4_tb
+# End time: 20:05:27 on Oct 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim decode1_4_tb 
+# Start time: 20:05:27 on Oct 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.decode1_4_tb(fast)
+# Loading work.decode1_4(fast)
+# a=00000000000000010000000000000000 s1=1 s2=0 s3=0 s4=0 
+# a=00000000000000100000000000000000 s1=0 s2=1 s3=0 s4=0 
+# a=00000000000000110000000000000000 s1=0 s2=0 s3=1 s4=0 
+# a=00000000000001000000000000000000 s1=0 s2=0 s3=0 s4=1 
+# End time: 20:10:19 on Oct 11,2025, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 0

@@ -1,0 +1,6 @@
+Start time: 17:16:55 on Aug 20,2025
+qverilog tedt.v 
+** Error: (qverilog-7) Failed to open design unit file "tedt.v" in read mode.
+No such file or directory. (errno = ENOENT)
+End time: 17:16:56 on Aug 20,2025, Elapsed time: 0:00:01
+Errors: 1, Warnings: 0

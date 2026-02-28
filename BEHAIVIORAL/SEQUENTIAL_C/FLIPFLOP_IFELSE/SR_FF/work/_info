@@ -1,0 +1,145 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/BEHAIVIORAL/SEQUENTIAL_C/FLIP-FLOPS/SR_FF
+T_opt
+!s110 1757491946
+V9D>d^1AMJ8g9`nV>XQWkm3
+04 8 4 work sr_ff_tb fast 0
+=1-5c60ba6189cb-68c132ea-10d-432c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vsr
+!s110 1757429509
+!i10b 1
+!s100 coi]kWm=8Q;MU[b__do;R3
+I7NLUg88UTHS^3CCK^@:S41
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1757429502
+Z3 8srn_l.v
+Z4 Fsrn_l.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1757429509.000000
+Z6 !s107 srn_l.v|sr_l.v|sr_ff.v|
+Z7 !s90 -reportprogress|300|sr_ff.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vsr_ff
+Z9 !s110 1757491943
+!i10b 1
+!s100 2f15ZK85JJOn`BU^O]7cM0
+I3JX[mXSNSLIWB3hkS3]GE1
+R2
+R0
+Z10 w1757491923
+Z11 8sr_ff.v
+Z12 Fsr_ff.v
+L0 2
+R5
+r1
+!s85 0
+31
+Z13 !s108 1757491943.000000
+Z14 !s107 sr_l.v|sr_ff.v|
+R7
+!i113 0
+R8
+R1
+vsr_ff_tb
+R9
+!i10b 1
+!s100 SbP^U^bV_Vdb:TzFFD_h61
+Ih]^FF0?<gX:6<Pza6EQNU2
+R2
+R0
+R10
+R11
+R12
+L0 11
+R5
+r1
+!s85 0
+31
+R13
+R14
+R7
+!i113 0
+R8
+R1
+vsr_l
+R9
+!i10b 1
+!s100 AVa>V[^Y5:fI]?hMK`L8n1
+IeN46jTJO1z2kml>Wlaolm1
+R2
+R0
+Z15 w1757490804
+Z16 8sr_l.v
+Z17 Fsr_l.v
+L0 1
+R5
+r1
+!s85 0
+31
+R13
+R14
+R7
+!i113 0
+R8
+R1
+vsr_l_tb
+R9
+!i10b 1
+!s100 8hjMl2;Wjb@FYI4WXbeU:3
+IURab:Zd4iPNEF@B9cPfOg1
+R2
+R0
+R15
+R16
+R17
+L0 48
+R5
+r1
+!s85 0
+31
+R13
+R14
+R7
+!i113 0
+R8
+R1
+vsrn_l
+!s110 1757483850
+!i10b 1
+!s100 HYPa_7LZ3W^c7??_oVka<3
+ImM3zlZ[DP7UNI@kJUUjPj2
+R2
+R0
+w1757483717
+R3
+R4
+L0 1
+R5
+r1
+!s85 0
+31
+!s108 1757483850.000000
+R6
+R7
+!i113 0
+R8
+R1

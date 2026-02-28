@@ -1,0 +1,133 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:07:34 on Sep 18,2025
+# vlog -reportprogress 300 add_su_g.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rcas
+# -- Compiling module rcas_tb
+# ** Error: (vlog-13069) add_su_g.v(48): near "out": syntax error, unexpected IDENTIFIER, expecting ';'.
+# ** Error: (vlog-13069) add_su_g.v(55): near "sum": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13069) add_su_g.v(59): near "end": syntax error, unexpected end.
+# End time: 13:07:34 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog add_su_g.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:08:19 on Sep 18,2025
+# vlog -reportprogress 300 add_su_g.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rcas
+# -- Compiling module rcas_tb
+# ** Error: (vlog-13069) add_su_g.v(50): near "initial": syntax error, unexpected initial.
+# ** Error: (vlog-13069) add_su_g.v(55): near "sum": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# ** Error: (vlog-13069) add_su_g.v(59): near "end": syntax error, unexpected end.
+# End time: 13:08:19 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog add_su_g.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:08:59 on Sep 18,2025
+# vlog -reportprogress 300 add_su_g.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rcas
+# -- Compiling module rcas_tb
+# ** Error: (vlog-13069) add_su_g.v(54): near "sum": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# End time: 13:08:59 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog add_su_g.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:09:27 on Sep 18,2025
+# vlog -reportprogress 300 add_su_g.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rcas
+# -- Compiling module rcas_tb
+# 
+# Top level modules:
+# 	rcas_tb
+# End time: 13:09:27 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim rcas_tb 
+# Start time: 13:09:27 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rcas_tb(fast)
+# Loading work.rcas(fast)
+# Loading work.fa(fast)
+#           4sum=x carry=x
+#           4sum=90 carry=0
+#           4sum=112 carry=0
+#           4sum=45 carry=0
+#           4sum=74 carry=0
+#           4sum=95 carry=0
+#           4sum=49 carry=0
+#           4sum=124 carry=0
+#           4sum=96 carry=0
+#           4sum=95 carry=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:10:00 on Sep 18,2025
+# vlog -reportprogress 300 add_su_g.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rcas
+# -- Compiling module rcas_tb
+# 
+# Top level modules:
+# 	rcas_tb
+# End time: 13:10:00 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:10:01 on Sep 18,2025, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 0
+# vsim rcas_tb 
+# Start time: 13:10:01 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rcas_tb(fast)
+# Loading work.rcas(fast)
+# Loading work.fa(fast)
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:11:15 on Sep 18,2025
+# vlog -reportprogress 300 add_su_g.v "+acc" 
+# -- Compiling module fa
+# -- Compiling module rcas
+# -- Compiling module rcas_tb
+# 
+# Top level modules:
+# 	rcas_tb
+# End time: 13:11:15 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:11:16 on Sep 18,2025, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 0
+# vsim rcas_tb 
+# Start time: 13:11:16 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.rcas_tb(fast)
+# Loading work.rcas(fast)
+# Loading work.fa(fast)
+# End time: 13:16:12 on Sep 18,2025, Elapsed time: 0:04:56
+# Errors: 0, Warnings: 0

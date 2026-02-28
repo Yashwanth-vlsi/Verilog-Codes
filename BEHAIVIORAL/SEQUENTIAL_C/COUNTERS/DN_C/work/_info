@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/VERILOG/BEHAIVIORAL/SEQUENTIAL_C/COUNTERS/DN_C
+T_opt
+!s110 1758014080
+VJLOYEimA:MXS?Oi1;Fh?Y2
+04 6 4 work dnc_tb fast 0
+=1-5c60ba6189cb-68c92a80-a5-3904
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdnc
+Z2 !s110 1758014077
+!i10b 1
+!s100 zdIh^mKmP36FTjH]:3J:B2
+I4TZAZLAR]DQYVUizSK;4C1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758014073
+Z5 8dn_c.v
+Z6 Fdn_c.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758014077.000000
+Z9 !s107 dn_c.v|
+Z10 !s90 -reportprogress|300|dn_c.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdnc_tb
+R2
+!i10b 1
+!s100 32[z4Y1bVLd@4:ZUDDXhT1
+I_7>I>o?lN0?S[A<VmFAQc3
+R3
+R0
+R4
+R5
+R6
+L0 17
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

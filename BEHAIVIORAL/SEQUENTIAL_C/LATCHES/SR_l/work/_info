@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/BEHAIVIORAL/SEQUENTIAL_C/SR_F
+T_opt
+!s110 1757413146
+VlCAn4heieDK;IZ[PIQJ2V1
+04 7 4 work sr_f_tb fast 0
+=1-5c60ba6189cb-68bfff1a-315-1f98
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1757489080
+Vjb04DUi?4;M]7K3@KX[;E0
+04 7 4 work sr_l_tb fast 0
+=1-5c60ba6189cb-68c127b8-da-2690
+R1
+R2
+n@_opt1
+R3
+vsr
+Z4 !s110 1757489077
+!i10b 1
+!s100 bn<G9^N^:Rl@`J1W[=6Gn2
+I30RJZXDaNP5@^Mi47o[^Q1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dE:/VLSI1ST/BEHAIVIORAL/SEQUENTIAL_C/LATCHES/SR_l
+Z7 w1757489066
+Z8 8sr_l.v
+Z9 Fsr_l.v
+L0 1
+Z10 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z11 !s108 1757489077.000000
+Z12 !s107 sr_l.v|
+Z13 !s90 -reportprogress|300|sr_l.v|+acc|
+!i113 0
+Z14 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vsr_f_tb
+!s110 1757413143
+!i10b 1
+!s100 igmeeXRDbeCQKg]g=Q>G10
+I_XzZ36CoG5Z?4FCCbRi5P0
+R5
+R0
+w1757413137
+8sr_f.v
+Fsr_f.v
+Z15 L0 48
+R10
+r1
+!s85 0
+31
+!s108 1757413143.000000
+!s107 sr_f.v|
+!s90 -reportprogress|300|sr_f.v|+acc|
+!i113 0
+R14
+R2
+vsr_l_tb
+R4
+!i10b 1
+!s100 zQ>T=`ooiNAY@Q]=LKg6G1
+I_P>e^@znm=;5IbMN9PVH62
+R5
+R6
+R7
+R8
+R9
+R15
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R2

@@ -1,0 +1,103 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/BEHAIVIORAL/SEQUENTIAL_C/SISO
+T_opt
+!s110 1757743543
+V@_O5;<7mOYm9:WhcU`4PF0
+04 7 4 work siso_tb fast 0
+=1-5c60ba6189cb-68c509b7-2b5-3c54
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vda_ff
+Z2 !s110 1757743539
+!i10b 1
+!s100 lEMA?B3nQl3EjIGK8S=?E0
+I1N]G>T[FhPabWM82mXM>A3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1757673314
+Z5 8da_ff.v
+Z6 Fda_ff.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757743539.000000
+Z9 !s107 da_ff.v|siso.v|
+Z10 !s90 -reportprogress|300|siso.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vda_ff_tb
+R2
+!i10b 1
+!s100 5X;JC=@R`H82FKchNZo373
+IVLj>6Y<l2^KWN?WZnG;[E0
+R3
+R0
+R4
+R5
+R6
+L0 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vsiso
+R2
+!i10b 1
+!s100 0@CXG^`_3Y^S1^50?DbiR3
+IG8SnbnO4h;e]B;NZ>EEUc0
+R3
+R0
+Z12 w1757743530
+Z13 8siso.v
+Z14 Fsiso.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1
+vsiso_tb
+R2
+!i10b 1
+!s100 ^O0PNl8bQWoSe?COoeNez3
+IZM1GdV38TdmFNK22coIb03
+R3
+R0
+R12
+R13
+R14
+L0 17
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

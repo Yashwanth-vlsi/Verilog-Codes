@@ -1,0 +1,83 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:51:11 on Sep 10,2025
+# vlog -reportprogress 300 half_adder.v 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# ** Error: (vlog-13069) half_adder.v(35): near "end": syntax error, unexpected end.
+# End time: 11:51:11 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog half_adder.v"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:51:47 on Sep 10,2025
+# vlog -reportprogress 300 half_adder.v 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 11:51:47 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 11:51:48 on Sep 10,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.half_adder_tb(fast)
+# ** Error: (vish-4014) No objects found matching '*'.
+# Error in macro ./run.do line 3
+# (vish-4014) No objects found matching '*'.
+#     while executing
+# "add wave *"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:53:55 on Sep 10,2025
+# vlog -reportprogress 300 half_adder.v "+acc" 
+# -- Compiling module half_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	half_adder_tb
+# End time: 11:53:55 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:53:57 on Sep 10,2025, Elapsed time: 0:02:09
+# Errors: 3, Warnings: 0
+# vsim half_adder_tb 
+# Start time: 11:53:57 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.half_adder_tb(fast)
+# Loading work.half_adder(fast)
+# a=0 b=1 s=1 c=0 $time=0
+# a=1 b=1 s=1 c=1 $time=5
+# a=1 b=0 s=1 c=0 $time=15
+# a=1 b=1 s=1 c=1 $time=20
+# a=0 b=1 s=1 c=0 $time=25
+# a=1 b=0 s=1 c=0 $time=30
+# a=1 b=1 s=1 c=1 $time=45
+# a=0 b=1 s=1 c=0 $time=50
+# a=0 b=0 s=0 c=0 $time=55
+# a=0 b=1 s=1 c=0 $time=60
+# a=1 b=1 s=1 c=1 $time=70
+# a=1 b=0 s=1 c=0 $time=75
+# a=0 b=0 s=0 c=0 $time=80
+# a=0 b=1 s=1 c=0 $time=85
+# a=1 b=1 s=1 c=1 $time=95
+# End time: 11:54:36 on Sep 10,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0

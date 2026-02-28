@@ -1,0 +1,10 @@
+sum=90 carry=0
+sum=112 carry=0
+sum=45 carry=0
+sum=74 carry=0
+sum=95 carry=0
+sum=49 carry=0
+sum=124 carry=0
+sum=96 carry=0
+sum=95 carry=0
+sum=86 carry=0

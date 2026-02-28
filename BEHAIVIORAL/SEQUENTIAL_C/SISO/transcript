@@ -1,0 +1,149 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:26:55 on Sep 13,2025
+# vlog -reportprogress 300 siso.v "+acc" 
+# -- Compiling module da_ff
+# -- Compiling module da_ff_tb
+# -- Compiling module siso
+# -- Compiling module siso_tb
+# 
+# Top level modules:
+# 	da_ff_tb
+# 	siso_tb
+# End time: 11:26:56 on Sep 13,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim siso_tb 
+# Start time: 11:26:56 on Sep 13,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.siso_tb(fast)
+# Loading work.siso(fast)
+# Loading work.da_ff(fast)
+# clk=0 rst=0 d=x Q=x $time=0
+# clk=1 rst=1 d=1 Q=x $time=10
+# clk=0 rst=1 d=1 Q=x $time=20
+# clk=1 rst=1 d=0 Q=x $time=30
+# clk=0 rst=1 d=0 Q=x $time=40
+# clk=1 rst=1 d=1 Q=x $time=50
+# clk=0 rst=1 d=1 Q=x $time=60
+# clk=1 rst=1 d=0 Q=1 $time=70
+# clk=0 rst=1 d=0 Q=1 $time=80
+# clk=1 rst=1 d=0 Q=0 $time=90
+# clk=0 rst=1 d=0 Q=0 $time=100
+# clk=1 rst=1 d=0 Q=1 $time=110
+# clk=0 rst=1 d=0 Q=1 $time=120
+# clk=1 rst=1 d=0 Q=0 $time=130
+# clk=0 rst=1 d=0 Q=0 $time=140
+# clk=1 rst=1 d=0 Q=0 $time=150
+# clk=0 rst=1 d=0 Q=0 $time=160
+# clk=1 rst=1 d=0 Q=0 $time=170
+# clk=0 rst=1 d=0 Q=0 $time=180
+# clk=1 rst=1 d=0 Q=0 $time=190
+# ** Note: $stop    : siso.v(37)
+#    Time: 200 ns  Iteration: 0  Instance: /siso_tb
+# Break in Module siso_tb at siso.v line 37
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:29:10 on Sep 13,2025
+# vlog -reportprogress 300 siso.v "+acc" 
+# -- Compiling module da_ff
+# -- Compiling module da_ff_tb
+# -- Compiling module siso
+# -- Compiling module siso_tb
+# 
+# Top level modules:
+# 	da_ff_tb
+# 	siso_tb
+# End time: 11:29:10 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:29:14 on Sep 13,2025, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 0
+# vsim siso_tb 
+# Start time: 11:29:14 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.siso_tb(fast)
+# Loading work.siso(fast)
+# Loading work.da_ff(fast)
+# clk=1 rst=0 d=x Q=0 $time=0
+# clk=0 rst=1 d=1 Q=0 $time=10
+# clk=1 rst=1 d=1 Q=0 $time=20
+# clk=0 rst=1 d=0 Q=0 $time=30
+# clk=1 rst=1 d=0 Q=0 $time=40
+# clk=0 rst=1 d=1 Q=0 $time=50
+# clk=1 rst=1 d=1 Q=0 $time=60
+# clk=0 rst=1 d=0 Q=0 $time=70
+# clk=1 rst=1 d=0 Q=1 $time=80
+# clk=0 rst=1 d=0 Q=1 $time=90
+# clk=1 rst=1 d=0 Q=0 $time=100
+# clk=0 rst=1 d=0 Q=0 $time=110
+# clk=1 rst=1 d=0 Q=1 $time=120
+# clk=0 rst=1 d=0 Q=1 $time=130
+# clk=1 rst=1 d=0 Q=0 $time=140
+# clk=0 rst=1 d=0 Q=0 $time=150
+# clk=1 rst=1 d=0 Q=0 $time=160
+# clk=0 rst=1 d=0 Q=0 $time=170
+# clk=1 rst=1 d=0 Q=0 $time=180
+# clk=0 rst=1 d=0 Q=0 $time=190
+# ** Note: $stop    : siso.v(37)
+#    Time: 200 ns  Iteration: 0  Instance: /siso_tb
+# Break in Module siso_tb at siso.v line 37
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:35:39 on Sep 13,2025
+# vlog -reportprogress 300 siso.v "+acc" 
+# -- Compiling module da_ff
+# -- Compiling module da_ff_tb
+# -- Compiling module siso
+# -- Compiling module siso_tb
+# 
+# Top level modules:
+# 	da_ff_tb
+# 	siso_tb
+# End time: 11:35:39 on Sep 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:35:43 on Sep 13,2025, Elapsed time: 0:06:29
+# Errors: 0, Warnings: 0
+# vsim siso_tb 
+# Start time: 11:35:43 on Sep 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.siso_tb(fast)
+# Loading work.siso(fast)
+# Loading work.da_ff(fast)
+# clk=0 rst=0 d=x Q=x $time=0
+# clk=1 rst=1 d=1 Q=x $time=10
+# clk=0 rst=1 d=1 Q=x $time=20
+# clk=1 rst=1 d=0 Q=x $time=30
+# clk=0 rst=1 d=0 Q=x $time=40
+# clk=1 rst=1 d=1 Q=x $time=50
+# clk=0 rst=1 d=1 Q=x $time=60
+# clk=1 rst=1 d=0 Q=1 $time=70
+# clk=0 rst=1 d=0 Q=1 $time=80
+# clk=1 rst=1 d=0 Q=0 $time=90
+# clk=0 rst=1 d=0 Q=0 $time=100
+# clk=1 rst=1 d=0 Q=1 $time=110
+# clk=0 rst=1 d=0 Q=1 $time=120
+# clk=1 rst=1 d=0 Q=0 $time=130
+# clk=0 rst=1 d=0 Q=0 $time=140
+# clk=1 rst=1 d=0 Q=0 $time=150
+# clk=0 rst=1 d=0 Q=0 $time=160
+# clk=1 rst=1 d=0 Q=0 $time=170
+# clk=0 rst=1 d=0 Q=0 $time=180
+# clk=1 rst=1 d=0 Q=0 $time=190
+# ** Note: $stop    : siso.v(37)
+#    Time: 200 ns  Iteration: 0  Instance: /siso_tb
+# Break in Module siso_tb at siso.v line 37
+# End time: 11:37:36 on Sep 13,2025, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 0

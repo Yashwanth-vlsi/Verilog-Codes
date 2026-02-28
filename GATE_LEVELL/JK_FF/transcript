@@ -1,0 +1,59 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlog jk_ff.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 08:48:52 on Aug 30,2025
+# vlog -reportprogress 300 jk_ff.v "+acc" 
+# -- Compiling module jk_ff
+# ** Error: (vlog-13038) jk_ff.v(4): near ")": Missing port in ansi port list.
+# End time: 08:48:52 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog jk_ff.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 08:49:37 on Aug 30,2025
+# vlog -reportprogress 300 jk_ff.v "+acc" 
+# -- Compiling module jk_ff
+# -- Compiling module jk_ff_tb
+# 
+# Top level modules:
+# 	jk_ff_tb
+# End time: 08:49:37 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim jk_ff_tb
+# vsim jk_ff_tb 
+# Start time: 08:50:09 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.jk_ff_tb(fast)
+# Loading work.jk_ff(fast)
+add wave *
+run -all
+# j=0 k=1 q=x qbar=z
+# j=1 k=1 q=x qbar=z
+# j=1 k=0 q=1 qbar=z
+# ************** Autofindloop Analysis Immediate Fanout 2*******
+# ** Fatal: (vsim-3603) Zero-delay oscillation loop detected at time 40 ns.
+# The following instances form a zero-delay loop:
+#   /jk_ff_tb/JK/G4
+#   Source: jk_ff.v:10
+#   /jk_ff_tb/JK/G2
+#   Source: jk_ff.v:8
+#   /jk_ff_tb/JK/G3
+#   Source: jk_ff.v:9
+#   /jk_ff_tb/JK/G4
+#   Source: jk_ff.v:10
+# *************************************************
+# End time: 08:54:58 on Aug 30,2025, Elapsed time: 0:04:49
+# Errors: 1, Warnings: 0

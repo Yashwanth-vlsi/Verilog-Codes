@@ -1,0 +1,150 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:27:15 on Aug 30,2025
+# vlog -reportprogress 300 full_adder.v "+acc" 
+# -- Compiling module full_adder
+# ** Error: full_adder.v(4): (vlog-2730) Undefined variable: 'c'.
+# -- Compiling module half_adder_tb
+# ** Error: (vlog-13069) full_adder.v(18): near "#": syntax error, unexpected '#', expecting ';'.
+# End time: 12:27:16 on Aug 30,2025, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog full_adder.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:28:10 on Aug 30,2025
+# vlog -reportprogress 300 full_adder.v "+acc" 
+# -- Compiling module full_adder
+# ** Error: full_adder.v(4): (vlog-2730) Undefined variable: 'c'.
+# -- Compiling module half_adder_tb
+# ** Error: (vlog-13069) full_adder.v(18): near "#": syntax error, unexpected '#', expecting ';'.
+# End time: 12:28:10 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog full_adder.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:28:28 on Aug 30,2025
+# vlog -reportprogress 300 full_adder.v "+acc" 
+# -- Compiling module full_adder
+# -- Compiling module half_adder_tb
+# ** Error: (vlog-13069) full_adder.v(18): near "#": syntax error, unexpected '#', expecting ';'.
+# End time: 12:28:28 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog full_adder.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:28:46 on Aug 30,2025
+# vlog -reportprogress 300 full_adder.v "+acc" 
+# -- Compiling module full_adder
+# -- Compiling module half_adder_tb
+# 
+# Top level modules:
+# 	full_adder
+# 	half_adder_tb
+# End time: 12:28:46 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim full_adder_tb 
+# Start time: 12:28:46 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit full_adder_tb.
+#         Searched libraries:
+#             work
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:29:20 on Aug 30,2025
+# vlog -reportprogress 300 full_adder.v "+acc" 
+# -- Compiling module full_adder
+# -- Compiling module full_adder_tb
+# 
+# Top level modules:
+# 	full_adder
+# 	full_adder_tb
+# End time: 12:29:20 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim full_adder_tb 
+# Start time: 12:28:46 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: full_adder.v(14): Module 'half_adder' is not defined.
+# Optimization failed
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:29:52 on Aug 30,2025
+# vlog -reportprogress 300 full_adder.v "+acc" 
+# -- Compiling module full_adder
+# -- Compiling module full_adder_tb
+# 
+# Top level modules:
+# 	full_adder_tb
+# End time: 12:29:52 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim full_adder_tb 
+# Start time: 12:28:46 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.full_adder_tb(fast)
+# Loading work.full_adder(fast)
+# a=0 b=1 cin=1 sum=0 carry=1
+# a=1 b=1 cin=1 sum=1 carry=0
+# a=1 b=0 cin=1 sum=0 carry=1
+# a=0 b=1 cin=0 sum=1 carry=0
+# a=1 b=1 cin=0 sum=0 carry=0
+# a=1 b=0 cin=0 sum=1 carry=0
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:30:47 on Aug 30,2025
+# vlog -reportprogress 300 full_adder.v "+acc" 
+# -- Compiling module full_adder
+# -- Compiling module full_adder_tb
+# 
+# Top level modules:
+# 	full_adder_tb
+# End time: 12:30:47 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:30:48 on Aug 30,2025, Elapsed time: 0:02:02
+# Errors: 2, Warnings: 0
+# vsim full_adder_tb 
+# Start time: 12:30:48 on Aug 30,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.full_adder_tb(fast)
+# Loading work.full_adder(fast)
+# a=0 b=1 cin=1 sum=0 carry=1
+# a=1 b=1 cin=1 sum=1 carry=1
+# a=1 b=0 cin=1 sum=0 carry=1
+# a=0 b=1 cin=0 sum=1 carry=0
+# a=1 b=1 cin=0 sum=0 carry=1
+# a=1 b=0 cin=0 sum=1 carry=0
+# End time: 12:31:11 on Aug 30,2025, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0

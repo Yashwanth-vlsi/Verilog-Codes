@@ -1,0 +1,52 @@
+module t(input clk,rst, input t, output reg q, output qbar);
+
+    assign qbar=~q;
+
+    always @(clk or rst)
+             begin
+             if(rst==0)
+             q<=0;
+             else
+              if(clk == 1)
+                    begin
+                      if(!t)
+                          q<=q;
+                          else
+                              q<=~q;
+                       end
+                   end
+                
+endmodule
+
+
+// testbench_code
+
+
+module t_tb();
+    reg clk,rst;
+    reg t;
+    wire q;
+    wire qbar;
+
+t TL(clk,rst,t,q,qbar);
+
+    initial clk=0;
+    always #10 clk=~clk;
+
+    initial
+    begin
+    rst=0;
+    #10 rst=1;
+
+    repeat(20)
+    begin
+    t=$random; #10;
+    end
+    end
+    initial
+    #100 $stop;
+
+    initial
+    $monitor("clk=%b rst=%b t=%b q=%b qbar=%b $time=%0t",clk,rst,t,q,qbar,$time);
+    endmodule
+

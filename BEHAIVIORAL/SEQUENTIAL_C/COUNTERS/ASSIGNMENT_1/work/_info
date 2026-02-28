@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/VERILOG/BEHAIVIORAL/SEQUENTIAL_C/COUNTERS/ASSIGNMENT_1
+T_opt
+!s110 1758103398
+ViBh1FzGC80709fP0=7X=N0
+04 7 4 work test_tb fast 0
+=1-5c60ba6189cb-68ca8766-29f-fa8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vtest
+Z2 !s110 1758103394
+!i10b 1
+!s100 z8bdO`a=_KiG>LmV4lWbe0
+I8f2eg3:<8Y7TLoGfQ[ORC2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1758103385
+Z5 8test_1.v
+Z6 Ftest_1.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1758103394.000000
+Z9 !s107 test_1.v|
+Z10 !s90 -reportprogress|300|test_1.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vtest_tb
+R2
+!i10b 1
+!s100 ?8D?[Re`W?ImcEl`EC4RL3
+Inl>dceiJTzic0l?=QPH082
+R3
+R0
+R4
+R5
+R6
+L0 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

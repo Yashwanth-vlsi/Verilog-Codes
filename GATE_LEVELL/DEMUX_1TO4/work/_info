@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/GATE_LEVELL/DEMUX_1TO4
+T_opt
+!s110 1756108171
+Vmmc2h24<dK>V1T25]fH^M0
+04 13 4 work demux_1to4_tb fast 0
+=1-387a0e1bb7cd-68ac158b-d3-4a08
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdemux_1to4
+Z2 !s110 1756108169
+!i10b 1
+!s100 I19IJ@Q<I4Q@zFfDkMgYV1
+InFG:^9e31DfnbQQAfi@A_0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756108164
+Z5 8demux_1to4.v
+Z6 Fdemux_1to4.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756108169.000000
+Z9 !s107 demux_1to4.v|
+Z10 !s90 -reportprogress|300|demux_1to4.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdemux_1to4_tb
+R2
+!i10b 1
+!s100 0nkIa>CB6<Q8XPL=5PcB=0
+I`?4^BI_1VDT=KRZ4lD9C_2
+R3
+R0
+R4
+R5
+R6
+L0 10
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

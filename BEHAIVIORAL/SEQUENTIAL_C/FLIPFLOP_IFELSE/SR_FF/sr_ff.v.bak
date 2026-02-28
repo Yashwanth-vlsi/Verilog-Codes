@@ -1,0 +1,45 @@
+`include"sr_l.v"
+//`include"srn_l.v"
+//`include"sr_l.v"
+
+
+module sr_ff(input clk,rst,s,r, output Q,Qbar);
+
+   sr_l SR1(clk,rst,s,r,q,qbar);
+    sr_l SR2(~clk,rst,q,qbar,Q,Qbar);
+  //  sr_l SR1(clk,rst,s,r,q,qbar);
+
+
+endmodule
+
+//testbench code
+
+module sr_ff_tb();
+    reg clk,rst,s,r;
+    wire Q,Qbar;
+
+sr_ff SRFF(clk,rst,s,r,Q,Qbar);
+
+    initial clk=0;
+    always #5 clk=~clk;
+
+    initial
+  begin
+    rst=0;
+    #5 rst=1;
+
+    repeat(30)
+    begin
+    #3;
+    s=$random; r=$random; #5;
+    end 
+  end
+
+initial
+    #100 $stop;
+
+initial
+    $monitor("clk=%b rst=%b s=%b r=%b Q=%b Qbar=%b  $time=%0t",clk,rst,s,r,Q,Qbar,$time);
+endmodule
+
+

@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/VERILOG/BEHAIVIORAL/SEQUENTIAL_C/SHIFT_REGESTERS/PIPO
+T_opt
+!s110 1760325341
+VO@fckSSM<85SUo`;ZNQ_L1
+04 7 4 work pipo_tb fast 0
+=1-5c60ba6189cb-68ec6edc-3a6-2ab4
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vpipo
+Z2 !s110 1760325340
+!i10b 1
+!s100 Y9MKX7B;H1FVF_mRD4Ehj3
+INJ[O^6Ehbfg`fP9fF5eg31
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1760325284
+Z5 8pipo.v
+Z6 Fpipo.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1760325340.000000
+Z9 !s107 pipo.v|
+Z10 !s90 -reportprogress|300|pipo.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpipo_tb
+R2
+!i10b 1
+!s100 QQ4UnB_X54^B@k9a=kFD^2
+I9QLIaTRW?@IjoihXAf:=f0
+R3
+R0
+R4
+R5
+R6
+L0 23
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/DATA_FLOW/ENCODER4_2
+T_opt
+Z1 !s110 1756550270
+VYdWN;8dibS=8Yb5VYSYk_0
+04 13 4 work encoder4_2_tb fast 0
+=2-387a0e1bb7cd-68b2d47e-218-4be8
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vencoder4_1_tb
+!s110 1756550237
+!i10b 1
+!s100 zSO5jWaQY>HVTA?46mz8>1
+If<^8M59llikEXMmGa@5HH0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1756550106
+Z4 8encoder4_2.v
+Z5 Fencoder4_2.v
+Z6 L0 10
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1756550236.000000
+Z8 !s107 encoder4_2.v|
+Z9 !s90 -reportprogress|300|encoder4_2.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vencoder4_2
+R1
+!i10b 1
+!s100 F8L=KcRWd]]aAhEoE?TM]1
+IZ6ajFfBRODJOkg0Rz8j=j1
+R3
+R0
+Z11 w1756550258
+R4
+R5
+L0 1
+R7
+r1
+!s85 0
+31
+Z12 !s108 1756550270.000000
+R8
+R9
+!i113 0
+R10
+R2
+vencoder4_2_tb
+R1
+!i10b 1
+!s100 bj;h?27P:0d;LZe[LVe]V3
+IN4d:iTZzWjNZfc7X7z[bQ1
+R3
+R0
+R11
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+R12
+R8
+R9
+!i113 0
+R10
+R2

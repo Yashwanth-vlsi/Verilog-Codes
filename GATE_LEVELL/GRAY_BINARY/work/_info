@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/GATE_LEVELL/GRAY_BINARY
+T_opt
+!s110 1756365614
+VmOURQ[CKcYJK]NAjJ8LZo1
+04 14 4 work gray_binary_tb fast 0
+=1-5c60ba6189cb-68b0032e-90-85c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vgray_binary
+Z2 !s110 1756365612
+!i10b 1
+!s100 Z1G@C3g:GbYV_?AYJ8`[=1
+IEDeGgkh4JG>9B81@iFig41
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756365603
+Z5 8gray_binary.v
+Z6 Fgray_binary.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756365612.000000
+Z9 !s107 gray_binary.v|
+Z10 !s90 -reportprogress|300|gray_binary.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vgray_binary_tb
+R2
+!i10b 1
+!s100 :]imVbKP_IIagH<oTncNz2
+IUK;<9iYD312OARDCnogd^2
+R3
+R0
+R4
+R5
+R6
+L0 9
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

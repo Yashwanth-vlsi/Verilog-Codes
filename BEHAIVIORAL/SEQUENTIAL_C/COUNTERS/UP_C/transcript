@@ -1,0 +1,344 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:18:03 on Sep 16,2025
+# vlog -reportprogress 300 up_c.v "+acc" 
+# -- Compiling module upc
+# -- Compiling module upc_tb
+# ** Error: (vlog-13069) up_c.v(31): near "end": syntax error, unexpected end.
+# ** Error: (vlog-13069) up_c.v(35): near "initial": syntax error, unexpected initial.
+# End time: 13:18:03 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog up_c.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:19:10 on Sep 16,2025
+# vlog -reportprogress 300 up_c.v "+acc" 
+# -- Compiling module upc
+# -- Compiling module upc_tb
+# ** Error: (vlog-13069) up_c.v(41): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:19:10 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog up_c.v +acc"
+ls
+# run.do  transcript  up_c.v  work          
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:19:39 on Sep 16,2025
+# vlog -reportprogress 300 up_c.v "+acc" 
+# -- Compiling module upc
+# -- Compiling module upc_tb
+# ** Error: (vlog-13069) up_c.v(39): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:19:39 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog up_c.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:20:47 on Sep 16,2025
+# vlog -reportprogress 300 up_c.v "+acc" 
+# -- Compiling module upc
+# ** Error: up_c.v(3): (vlog-2730) Undefined variable: 'rest'.
+# -- Compiling module upc_tb
+# ** Error: (vlog-13069) up_c.v(41): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:20:47 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog up_c.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:21:07 on Sep 16,2025
+# vlog -reportprogress 300 up_c.v "+acc" 
+# -- Compiling module upc
+# -- Compiling module upc_tb
+# ** Error: (vlog-13069) up_c.v(41): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:21:07 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog up_c.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:22:39 on Sep 16,2025
+# vlog -reportprogress 300 up_c.v "+acc" 
+# -- Compiling module upc
+# -- Compiling module upc_tb
+# ** Error: (vlog-13069) up_c.v(35): near "EOF": syntax error, unexpected end of source code.
+# End time: 13:22:39 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog up_c.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:23:23 on Sep 16,2025
+# vlog -reportprogress 300 up_c.v "+acc" 
+# -- Compiling module upc
+# -- Compiling module upc_tb
+# 
+# Top level modules:
+# 	upc_tb
+# End time: 13:23:23 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim upc_tb 
+# Start time: 13:23:24 on Sep 16,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.upc_tb(fast)
+# Loading work.upc(fast)
+# clk=0 rst=0 count=0 $time=0
+# clk=1 rst=1 count=1 $time=10
+# clk=0 rst=1 count=1 $time=20
+# clk=1 rst=1 count=0 $time=30
+# clk=0 rst=1 count=0 $time=40
+# clk=1 rst=1 count=1 $time=50
+# clk=0 rst=1 count=1 $time=60
+# clk=1 rst=1 count=0 $time=70
+# clk=0 rst=1 count=0 $time=80
+# clk=1 rst=1 count=1 $time=90
+# clk=0 rst=1 count=1 $time=100
+# clk=1 rst=1 count=0 $time=110
+# clk=0 rst=1 count=0 $time=120
+# clk=1 rst=1 count=1 $time=130
+# clk=0 rst=1 count=1 $time=140
+# clk=1 rst=1 count=0 $time=150
+# clk=0 rst=1 count=0 $time=160
+# clk=1 rst=1 count=1 $time=170
+# clk=0 rst=1 count=1 $time=180
+# clk=1 rst=1 count=0 $time=190
+# clk=0 rst=1 count=0 $time=200
+# clk=1 rst=1 count=1 $time=210
+# clk=0 rst=1 count=1 $time=220
+# clk=1 rst=1 count=0 $time=230
+# clk=0 rst=1 count=0 $time=240
+# clk=1 rst=1 count=1 $time=250
+# clk=0 rst=1 count=1 $time=260
+# clk=1 rst=1 count=0 $time=270
+# clk=0 rst=1 count=0 $time=280
+# clk=1 rst=1 count=1 $time=290
+# clk=0 rst=1 count=1 $time=300
+# clk=1 rst=1 count=0 $time=310
+# clk=0 rst=1 count=0 $time=320
+# clk=1 rst=1 count=1 $time=330
+# clk=0 rst=1 count=1 $time=340
+# clk=1 rst=1 count=0 $time=350
+# clk=0 rst=1 count=0 $time=360
+# clk=1 rst=1 count=1 $time=370
+# clk=0 rst=1 count=1 $time=380
+# clk=1 rst=1 count=0 $time=390
+# clk=0 rst=1 count=0 $time=400
+# clk=1 rst=1 count=1 $time=410
+# clk=0 rst=1 count=1 $time=420
+# clk=1 rst=1 count=0 $time=430
+# clk=0 rst=1 count=0 $time=440
+# clk=1 rst=1 count=1 $time=450
+# clk=0 rst=1 count=1 $time=460
+# clk=1 rst=1 count=0 $time=470
+# clk=0 rst=1 count=0 $time=480
+# clk=1 rst=1 count=1 $time=490
+# clk=0 rst=1 count=1 $time=500
+# clk=1 rst=1 count=0 $time=510
+# clk=0 rst=1 count=0 $time=520
+# clk=1 rst=1 count=1 $time=530
+# clk=0 rst=1 count=1 $time=540
+# clk=1 rst=1 count=0 $time=550
+# clk=0 rst=1 count=0 $time=560
+# clk=1 rst=1 count=1 $time=570
+# clk=0 rst=1 count=1 $time=580
+# clk=1 rst=1 count=0 $time=590
+# clk=0 rst=1 count=0 $time=600
+# clk=1 rst=1 count=1 $time=610
+# clk=0 rst=1 count=1 $time=620
+# clk=1 rst=1 count=0 $time=630
+# clk=0 rst=1 count=0 $time=640
+# clk=1 rst=1 count=1 $time=650
+# clk=0 rst=1 count=1 $time=660
+# clk=1 rst=1 count=0 $time=670
+# clk=0 rst=1 count=0 $time=680
+# clk=1 rst=1 count=1 $time=690
+# clk=0 rst=1 count=1 $time=700
+# clk=1 rst=1 count=0 $time=710
+# clk=0 rst=1 count=0 $time=720
+# clk=1 rst=1 count=1 $time=730
+# clk=0 rst=1 count=1 $time=740
+# clk=1 rst=1 count=0 $time=750
+# clk=0 rst=1 count=0 $time=760
+# clk=1 rst=1 count=1 $time=770
+# clk=0 rst=1 count=1 $time=780
+# clk=1 rst=1 count=0 $time=790
+# clk=0 rst=1 count=0 $time=800
+# clk=1 rst=1 count=1 $time=810
+# clk=0 rst=1 count=1 $time=820
+# clk=1 rst=1 count=0 $time=830
+# clk=0 rst=1 count=0 $time=840
+# clk=1 rst=1 count=1 $time=850
+# clk=0 rst=1 count=1 $time=860
+# clk=1 rst=1 count=0 $time=870
+# clk=0 rst=1 count=0 $time=880
+# clk=1 rst=1 count=1 $time=890
+# clk=0 rst=1 count=1 $time=900
+# clk=1 rst=1 count=0 $time=910
+# clk=0 rst=1 count=0 $time=920
+# clk=1 rst=1 count=1 $time=930
+# clk=0 rst=1 count=1 $time=940
+# clk=1 rst=1 count=0 $time=950
+# clk=0 rst=1 count=0 $time=960
+# clk=1 rst=1 count=1 $time=970
+# clk=0 rst=1 count=1 $time=980
+# clk=1 rst=1 count=0 $time=990
+# ** Note: $stop    : up_c.v(29)
+#    Time: 1 us  Iteration: 0  Instance: /upc_tb
+# Break in Module upc_tb at up_c.v line 29
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:24:30 on Sep 16,2025
+# vlog -reportprogress 300 up_c.v "+acc" 
+# -- Compiling module upc
+# -- Compiling module upc_tb
+# 
+# Top level modules:
+# 	upc_tb
+# End time: 13:24:30 on Sep 16,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:24:34 on Sep 16,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+# vsim upc_tb 
+# Start time: 13:24:34 on Sep 16,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.upc_tb(fast)
+# Loading work.upc(fast)
+# clk=0 rst=0 count=          0 $time=0
+# clk=1 rst=1 count=          1 $time=10
+# clk=0 rst=1 count=          1 $time=20
+# clk=1 rst=1 count=          2 $time=30
+# clk=0 rst=1 count=          2 $time=40
+# clk=1 rst=1 count=          3 $time=50
+# clk=0 rst=1 count=          3 $time=60
+# clk=1 rst=1 count=          4 $time=70
+# clk=0 rst=1 count=          4 $time=80
+# clk=1 rst=1 count=          5 $time=90
+# clk=0 rst=1 count=          5 $time=100
+# clk=1 rst=1 count=          6 $time=110
+# clk=0 rst=1 count=          6 $time=120
+# clk=1 rst=1 count=          7 $time=130
+# clk=0 rst=1 count=          7 $time=140
+# clk=1 rst=1 count=          8 $time=150
+# clk=0 rst=1 count=          8 $time=160
+# clk=1 rst=1 count=          9 $time=170
+# clk=0 rst=1 count=          9 $time=180
+# clk=1 rst=1 count=         10 $time=190
+# clk=0 rst=1 count=         10 $time=200
+# clk=1 rst=1 count=         11 $time=210
+# clk=0 rst=1 count=         11 $time=220
+# clk=1 rst=1 count=         12 $time=230
+# clk=0 rst=1 count=         12 $time=240
+# clk=1 rst=1 count=         13 $time=250
+# clk=0 rst=1 count=         13 $time=260
+# clk=1 rst=1 count=         14 $time=270
+# clk=0 rst=1 count=         14 $time=280
+# clk=1 rst=1 count=         15 $time=290
+# clk=0 rst=1 count=         15 $time=300
+# clk=1 rst=1 count=         16 $time=310
+# clk=0 rst=1 count=         16 $time=320
+# clk=1 rst=1 count=         17 $time=330
+# clk=0 rst=1 count=         17 $time=340
+# clk=1 rst=1 count=         18 $time=350
+# clk=0 rst=1 count=         18 $time=360
+# clk=1 rst=1 count=         19 $time=370
+# clk=0 rst=1 count=         19 $time=380
+# clk=1 rst=1 count=         20 $time=390
+# clk=0 rst=1 count=         20 $time=400
+# clk=1 rst=1 count=         21 $time=410
+# clk=0 rst=1 count=         21 $time=420
+# clk=1 rst=1 count=         22 $time=430
+# clk=0 rst=1 count=         22 $time=440
+# clk=1 rst=1 count=         23 $time=450
+# clk=0 rst=1 count=         23 $time=460
+# clk=1 rst=1 count=         24 $time=470
+# clk=0 rst=1 count=         24 $time=480
+# clk=1 rst=1 count=         25 $time=490
+# clk=0 rst=1 count=         25 $time=500
+# clk=1 rst=1 count=         26 $time=510
+# clk=0 rst=1 count=         26 $time=520
+# clk=1 rst=1 count=         27 $time=530
+# clk=0 rst=1 count=         27 $time=540
+# clk=1 rst=1 count=         28 $time=550
+# clk=0 rst=1 count=         28 $time=560
+# clk=1 rst=1 count=         29 $time=570
+# clk=0 rst=1 count=         29 $time=580
+# clk=1 rst=1 count=         30 $time=590
+# clk=0 rst=1 count=         30 $time=600
+# clk=1 rst=1 count=         31 $time=610
+# clk=0 rst=1 count=         31 $time=620
+# clk=1 rst=1 count=         32 $time=630
+# clk=0 rst=1 count=         32 $time=640
+# clk=1 rst=1 count=         33 $time=650
+# clk=0 rst=1 count=         33 $time=660
+# clk=1 rst=1 count=         34 $time=670
+# clk=0 rst=1 count=         34 $time=680
+# clk=1 rst=1 count=         35 $time=690
+# clk=0 rst=1 count=         35 $time=700
+# clk=1 rst=1 count=         36 $time=710
+# clk=0 rst=1 count=         36 $time=720
+# clk=1 rst=1 count=         37 $time=730
+# clk=0 rst=1 count=         37 $time=740
+# clk=1 rst=1 count=         38 $time=750
+# clk=0 rst=1 count=         38 $time=760
+# clk=1 rst=1 count=         39 $time=770
+# clk=0 rst=1 count=         39 $time=780
+# clk=1 rst=1 count=         40 $time=790
+# clk=0 rst=1 count=         40 $time=800
+# clk=1 rst=1 count=         41 $time=810
+# clk=0 rst=1 count=         41 $time=820
+# clk=1 rst=1 count=         42 $time=830
+# clk=0 rst=1 count=         42 $time=840
+# clk=1 rst=1 count=         43 $time=850
+# clk=0 rst=1 count=         43 $time=860
+# clk=1 rst=1 count=         44 $time=870
+# clk=0 rst=1 count=         44 $time=880
+# clk=1 rst=1 count=         45 $time=890
+# clk=0 rst=1 count=         45 $time=900
+# clk=1 rst=1 count=         46 $time=910
+# clk=0 rst=1 count=         46 $time=920
+# clk=1 rst=1 count=         47 $time=930
+# clk=0 rst=1 count=         47 $time=940
+# clk=1 rst=1 count=         48 $time=950
+# clk=0 rst=1 count=         48 $time=960
+# clk=1 rst=1 count=         49 $time=970
+# clk=0 rst=1 count=         49 $time=980
+# clk=1 rst=1 count=         50 $time=990
+# ** Note: $stop    : up_c.v(29)
+#    Time: 1 us  Iteration: 0  Instance: /upc_tb
+# Break in Module upc_tb at up_c.v line 29
+# End time: 13:32:46 on Sep 16,2025, Elapsed time: 0:08:12
+# Errors: 0, Warnings: 0

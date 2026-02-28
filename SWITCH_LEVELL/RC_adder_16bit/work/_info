@@ -1,0 +1,270 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/RC_adder_16bit
+T_opt
+!s110 1755760808
+VS]n>3a5hWWd7Z>E:3BH4m0
+04 11 4 work rc_adder_16 fast 0
+=1-5c60ba6189cb-68a6c8a8-3c-5260
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755762974
+Voo76OJ]@6SL07a53lPW_20
+Z4 04 14 4 work rc_adder_16_tb fast 0
+=1-5c60ba6189cb-68a6d11e-b1-4c50
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1755763106
+V9lbcf[UYoiYX]^QQ?Bb;X2
+R4
+=1-5c60ba6189cb-68a6d1a2-131-4b68
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt2
+R3
+vand_gate
+Z5 !s110 1755762970
+!i10b 1
+!s100 fI95V4VI?A`11O=NiUD4^2
+I[D@h33fP<LHV`VklXD27c3
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z7 w1755614677
+8and_gate.v
+Fand_gate.v
+L0 1
+Z8 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z9 !s108 1755762970.000000
+Z10 !s107 half_adder_1.v|and_gate.v|exor_gate.v|or_gate.v|full_adder.v|rc_adder.v|rc_adder_16.v|
+Z11 !s90 -reportprogress|300|rc_adder_16.v|+acc|
+!i113 0
+Z12 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfull_adder
+R5
+!i10b 1
+!s100 1YM3gW=RXSlfVC8k:nLAC0
+Izd=F0kN@X=hVMaoIYOIhC2
+R6
+R0
+Z13 w1755677434
+Z14 8full_adder.v
+Z15 Ffull_adder.v
+L0 5
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vfull_adder_tb
+R5
+!i10b 1
+!s100 7BJSdbZlI`I[H]?GjPz3j0
+I1NZCg03CElFa[DjmeaLKQ3
+R6
+R0
+R13
+R14
+R15
+L0 34
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vhalf_adder_1
+R5
+!i10b 1
+!s100 VC`F51Yoc2YFdiYOW;FLP0
+IYG`4bH6BL729lYeL2C;Fh1
+R6
+R0
+w1755676324
+8half_adder_1.v
+Fhalf_adder_1.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vor_gate
+R5
+!i10b 1
+!s100 43CzZoC^=Km67dzNckY7z1
+IF`VfA2[M^08_1;YYdY[1W2
+R6
+R0
+R7
+8or_gate.v
+For_gate.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vrc_adder
+R5
+!i10b 1
+!s100 l0oc4ja2f4II5YJ0WJQUC1
+ISJ3206>mm57YCFG<2@F:O2
+R6
+R0
+w1755755538
+8rc_adder.v
+Frc_adder.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vrc_adder_16
+R5
+!i10b 1
+!s100 Z7nzEbMoCA4WhMaJVoE_41
+I77ozQ_NEbHcc<SofJT2gS2
+R6
+R0
+Z16 w1755762947
+Z17 8rc_adder_16.v
+Z18 Frc_adder_16.v
+L0 2
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vrc_adder_16_bit
+Z19 !s110 1755760624
+!i10b 1
+!s100 bQOXl=CD4>UD3FVL4OP=K0
+I4UkV[Pe^Lh=b4Vfz7jKhJ1
+R6
+R0
+Z20 w1755760616
+R17
+R18
+L0 2
+R8
+r1
+!s85 0
+31
+Z21 !s108 1755760624.000000
+R10
+Z22 !s90 -reportprogress|300|rc_adder_16.v|
+!i113 0
+Z23 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vrc_adder_16_bit_tb
+R19
+!i10b 1
+!s100 UMk9cQaJNT;>>nMOYo[N[3
+INBl:^emeT1EFHg_d<_JNz3
+R6
+R0
+R20
+R17
+R18
+Z24 L0 40
+R8
+r1
+!s85 0
+31
+R21
+R10
+R22
+!i113 0
+R23
+R2
+vrc_adder_16_tb
+R5
+!i10b 1
+!s100 EA6W5i?@bMAY1QiVTol>C0
+I[Ua<YA2`E>_<?A4nWHGgh2
+R6
+R0
+R16
+R17
+R18
+R24
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vxor_gate
+R5
+!i10b 1
+!s100 >Tb4APoa;fLY>h8XIjmAT3
+IYXd`?GfH8QG0Cg9E@gZ0l1
+R6
+R0
+w1755616223
+8exor_gate.v
+Fexor_gate.v
+L0 1
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2

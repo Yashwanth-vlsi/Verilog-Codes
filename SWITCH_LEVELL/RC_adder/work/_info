@@ -1,0 +1,187 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/RC_adder
+T_opt
+!s110 1755756538
+Va=iX:<aYOT``n?n?ML`>W3
+04 6 4 work rca_tb fast 0
+=1-5c60ba6189cb-68a6b7f9-350-2834
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vand_gate
+Z2 !s110 1755756534
+!i10b 1
+!s100 fI95V4VI?A`11O=NiUD4^2
+I[D@h33fP<LHV`VklXD27c3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1755614677
+8and_gate.v
+Fand_gate.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z6 !s108 1755756534.000000
+Z7 !s107 half_adder_1.v|and_gate.v|exor_gate.v|or_gate.v|full_adder.v|rc_adder.v|rca_tb.v|
+Z8 !s90 -reportprogress|300|rca_tb.v|+acc|
+!i113 0
+Z9 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfull_adder
+R2
+!i10b 1
+!s100 1YM3gW=RXSlfVC8k:nLAC0
+Izd=F0kN@X=hVMaoIYOIhC2
+R3
+R0
+Z10 w1755677434
+Z11 8full_adder.v
+Z12 Ffull_adder.v
+L0 5
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vfull_adder_tb
+R2
+!i10b 1
+!s100 7BJSdbZlI`I[H]?GjPz3j0
+I1NZCg03CElFa[DjmeaLKQ3
+R3
+R0
+R10
+R11
+R12
+L0 34
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vhalf_adder_1
+R2
+!i10b 1
+!s100 VC`F51Yoc2YFdiYOW;FLP0
+IYG`4bH6BL729lYeL2C;Fh1
+R3
+R0
+w1755676324
+8half_adder_1.v
+Fhalf_adder_1.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vor_gate
+R2
+!i10b 1
+!s100 43CzZoC^=Km67dzNckY7z1
+IF`VfA2[M^08_1;YYdY[1W2
+R3
+R0
+R4
+8or_gate.v
+For_gate.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vrc_adder
+R2
+!i10b 1
+!s100 l0oc4ja2f4II5YJ0WJQUC1
+ISJ3206>mm57YCFG<2@F:O2
+R3
+R0
+w1755755538
+8rc_adder.v
+Frc_adder.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vrca_tb
+R2
+!i10b 1
+!s100 mTlISFEo9KB[W;iTHT65z2
+IFOdNHHU_J]=E7g?VGQia?2
+R3
+R0
+w1755756533
+8rca_tb.v
+Frca_tb.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vxor_gate
+R2
+!i10b 1
+!s100 >Tb4APoa;fLY>h8XIjmAT3
+IYXd`?GfH8QG0Cg9E@gZ0l1
+R3
+R0
+w1755616223
+8exor_gate.v
+Fexor_gate.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

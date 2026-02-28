@@ -1,0 +1,1156 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:35:57 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 11:35:58 on Sep 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 11:35:59 on Sep 23,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=10
+# clk=1 rst=1 datain=  x dataout=1 write=0 resd=  0  empty=0 full=0 $time=15
+# clk=1 rst=1 datain= 36 dataout=1 write=0 resd=  0  empty=0 full=0 $time=16
+# clk=0 rst=1 datain= 36 dataout=1 write=0 resd=  0  empty=0 full=0 $time=20
+# clk=1 rst=1 datain= 36 dataout=1 write=0 resd=  0  empty=1 full=0 $time=25
+# clk=1 rst=1 datain=129 dataout=1 write=0 resd=  0  empty=1 full=0 $time=27
+# clk=0 rst=1 datain=129 dataout=1 write=0 resd=  0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=129 dataout=1 write=0 resd=  0  empty=0 full=0 $time=35
+# clk=1 rst=1 datain=  9 dataout=1 write=0 resd=  0  empty=0 full=0 $time=38
+# clk=0 rst=1 datain=  9 dataout=1 write=0 resd=  0  empty=0 full=0 $time=40
+# clk=1 rst=1 datain=  9 dataout=1 write=0 resd=  0  empty=0 full=0 $time=45
+# clk=1 rst=1 datain= 99 dataout=1 write=0 resd=  0  empty=0 full=0 $time=49
+# clk=0 rst=1 datain= 99 dataout=1 write=0 resd=  0  empty=0 full=0 $time=50
+# clk=1 rst=1 datain= 99 dataout=1 write=0 resd=  0  empty=0 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=0 resd=  0  empty=0 full=0 $time=60
+# clk=1 rst=1 datain= 13 dataout=1 write=0 resd=  0  empty=0 full=0 $time=65
+# clk=0 rst=1 datain= 13 dataout=1 write=0 resd=  0  empty=0 full=0 $time=70
+# clk=0 rst=1 datain=141 dataout=1 write=0 resd=  0  empty=0 full=0 $time=71
+# clk=1 rst=1 datain=141 dataout=1 write=0 resd=  0  empty=0 full=0 $time=75
+# clk=0 rst=1 datain=141 dataout=1 write=0 resd=  0  empty=0 full=0 $time=80
+# clk=0 rst=1 datain=101 dataout=1 write=0 resd=  0  empty=0 full=0 $time=82
+# clk=1 rst=1 datain=101 dataout=1 write=0 resd=  0  empty=0 full=0 $time=85
+# clk=0 rst=1 datain=101 dataout=1 write=0 resd=  0  empty=0 full=0 $time=90
+# clk=0 rst=1 datain= 18 dataout=1 write=0 resd=  0  empty=0 full=0 $time=93
+# clk=1 rst=1 datain= 18 dataout=1 write=0 resd=  0  empty=0 full=1 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=0 resd=  0  empty=0 full=1 $time=100
+# clk=0 rst=1 datain= 18 dataout=0 write=1 resd=  0  empty=0 full=1 $time=103
+# clk=1 rst=1 datain= 18 dataout=0 write=1 resd= 36  empty=0 full=0 $time=105
+# clk=0 rst=1 datain= 18 dataout=0 write=1 resd= 36  empty=0 full=0 $time=110
+# clk=1 rst=1 datain= 18 dataout=0 write=1 resd=129  empty=0 full=0 $time=115
+# clk=0 rst=1 datain= 18 dataout=0 write=1 resd=129  empty=0 full=0 $time=120
+# clk=1 rst=1 datain= 18 dataout=0 write=1 resd=  9  empty=0 full=0 $time=125
+# clk=0 rst=1 datain= 18 dataout=0 write=1 resd=  9  empty=0 full=0 $time=130
+# clk=1 rst=1 datain= 18 dataout=0 write=1 resd= 99  empty=0 full=0 $time=135
+# clk=0 rst=1 datain= 18 dataout=0 write=1 resd= 99  empty=0 full=0 $time=140
+# clk=1 rst=1 datain= 18 dataout=0 write=1 resd= 13  empty=0 full=0 $time=145
+# clk=0 rst=1 datain= 18 dataout=0 write=1 resd= 13  empty=0 full=0 $time=150
+# clk=1 rst=1 datain= 18 dataout=0 write=1 resd=141  empty=0 full=0 $time=155
+# clk=0 rst=1 datain= 18 dataout=0 write=1 resd=141  empty=0 full=0 $time=160
+# clk=1 rst=1 datain= 18 dataout=0 write=1 resd=101  empty=1 full=0 $time=165
+# clk=0 rst=1 datain= 18 dataout=0 write=1 resd=101  empty=1 full=0 $time=170
+# clk=1 rst=1 datain= 18 dataout=0 write=1 resd=101  empty=1 full=0 $time=175
+# clk=0 rst=1 datain= 18 dataout=0 write=1 resd=101  empty=1 full=0 $time=180
+# ** Note: $stop    : fifo.v(116)
+#    Time: 185 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:37:34 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 11:37:34 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:37:37 on Sep 23,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 11:37:37 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=10
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=15
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=20
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=25
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=30
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=35
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=40
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=45
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=50
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=60
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=65
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=70
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=75
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=80
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=85
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=90
+# clk=1 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=1 $time=95
+# clk=0 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=1 $time=100
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=105
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=110
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=115
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=120
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=125
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=130
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=135
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=140
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=145
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=150
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=155
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=160
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=165
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=170
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=175
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=180
+# ** Note: $stop    : fifo.v(116)
+#    Time: 185 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:39:58 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 11:39:59 on Sep 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:40:03 on Sep 23,2025, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 11:40:03 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=10
+# clk=1 rst=1 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=15
+# clk=0 rst=1 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=20
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=25
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=30
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=35
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=40
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=45
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=50
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=55
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=60
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=65
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=70
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=75
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=80
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=85
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=90
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=1 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=1 $time=100
+# clk=1 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=1 $time=105
+# clk=0 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=1 $time=110
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=115
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=120
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=125
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=130
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=135
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=140
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=145
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=150
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=155
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=160
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=165
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=170
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=175
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=180
+# ** Note: $stop    : fifo.v(116)
+#    Time: 185 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:41:38 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 11:41:38 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:41:41 on Sep 23,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 11:41:41 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=10
+# clk=1 rst=1 datain=  x dataout=1 write=x resd=  0  empty=0 full=0 $time=15
+# clk=0 rst=1 datain=  x dataout=1 write=x resd=  0  empty=0 full=0 $time=20
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=25
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=30
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=35
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=40
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=45
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=50
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=55
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=60
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=65
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=70
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=75
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=80
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=85
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=90
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=1 $time=95
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=1 $time=100
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=105
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=110
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=115
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=120
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=1 $time=125
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=1 $time=130
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=1 $time=135
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=1 $time=140
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=1 $time=145
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=1 $time=150
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=1 $time=155
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=1 $time=160
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=1 $time=165
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=1 $time=170
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=1 $time=175
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=1 $time=180
+# ** Note: $stop    : fifo.v(116)
+#    Time: 185 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:53:30 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 11:53:31 on Sep 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:53:35 on Sep 23,2025, Elapsed time: 0:11:54
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 11:53:35 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=10
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=15
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=20
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=25
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=30
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=35
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=40
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=45
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=50
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=60
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=65
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=70
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=75
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=80
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=85
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=90
+# clk=1 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=1 $time=95
+# clk=0 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=1 $time=100
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=105
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=110
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=115
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=120
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=125
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=130
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=135
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=140
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=145
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=150
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=155
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=160
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=165
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=170
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=175
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=1 $time=180
+# ** Note: $stop    : fifo.v(116)
+#    Time: 185 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:59:05 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 11:59:06 on Sep 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:59:10 on Sep 23,2025, Elapsed time: 0:05:35
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 11:59:10 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=10
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=15
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=20
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=25
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=30
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=35
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=40
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=45
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=50
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=60
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=65
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=70
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=75
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=80
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=85
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=90
+# clk=1 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=0 $time=95
+# clk=0 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=0 $time=100
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=129  empty=0 full=0 $time=105
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=129  empty=0 full=0 $time=110
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  9  empty=0 full=0 $time=115
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  9  empty=0 full=0 $time=120
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd= 99  empty=0 full=0 $time=125
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd= 99  empty=0 full=0 $time=130
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd= 13  empty=0 full=0 $time=135
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd= 13  empty=0 full=0 $time=140
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=141  empty=0 full=0 $time=145
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=141  empty=0 full=0 $time=150
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=101  empty=0 full=0 $time=155
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=101  empty=0 full=0 $time=160
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd= 18  empty=0 full=0 $time=165
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd= 18  empty=0 full=0 $time=170
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  1  empty=0 full=0 $time=175
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  1  empty=0 full=0 $time=180
+# ** Note: $stop    : fifo.v(116)
+#    Time: 185 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:00:30 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:00:30 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:00:33 on Sep 23,2025, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:00:33 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=0 full=0 $time=10
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=15
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=20
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=25
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=30
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=35
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=40
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=45
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=50
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=60
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=65
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=70
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=75
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=80
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=85
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=90
+# clk=1 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=0 $time=95
+# clk=0 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=0 full=0 $time=100
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=129  empty=0 full=0 $time=105
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=129  empty=0 full=0 $time=110
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  9  empty=0 full=0 $time=115
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  9  empty=0 full=0 $time=120
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd= 99  empty=0 full=0 $time=125
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd= 99  empty=0 full=0 $time=130
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd= 13  empty=0 full=0 $time=135
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd= 13  empty=0 full=0 $time=140
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=141  empty=0 full=0 $time=145
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=141  empty=0 full=0 $time=150
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=101  empty=0 full=0 $time=155
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=101  empty=0 full=0 $time=160
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd= 18  empty=0 full=0 $time=165
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd= 18  empty=0 full=0 $time=170
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  1  empty=0 full=0 $time=175
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  1  empty=0 full=0 $time=180
+# ** Note: $stop    : fifo.v(116)
+#    Time: 185 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:04:24 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:04:24 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:04:34 on Sep 23,2025, Elapsed time: 0:04:01
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:04:34 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=15
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=25
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=35
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=40
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=45
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=50
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=60
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=65
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=70
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=75
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=80
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=85
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=90
+# clk=1 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=1 full=0 $time=95
+# clk=0 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=1 full=0 $time=100
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=105
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=110
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=115
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=120
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=125
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=130
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=135
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=140
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=145
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=150
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=155
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=160
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=165
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=170
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=175
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=180
+# ** Note: $stop    : fifo.v(116)
+#    Time: 185 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:06:14 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:06:14 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:06:18 on Sep 23,2025, Elapsed time: 0:01:44
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:06:18 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=15
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=25
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=35
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=40
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=45
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=50
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=60
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=65
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=70
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=75
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=80
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=85
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=90
+# clk=1 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=1 full=0 $time=95
+# clk=0 rst=1 datain=  1 dataout=1 write=1 resd=  0  empty=1 full=0 $time=100
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  x  empty=1 full=0 $time=105
+# ** Note: $stop    : fifo.v(116)
+#    Time: 110 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:07:20 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:07:20 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:07:23 on Sep 23,2025, Elapsed time: 0:01:05
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:07:23 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=15
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=25
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=35
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=40
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=45
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=50
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=60
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=65
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=70
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=75
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=80
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=85
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=90
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=100
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=105
+# ** Note: $stop    : fifo.v(116)
+#    Time: 110 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 116
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:11:16 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:11:16 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:11:20 on Sep 23,2025, Elapsed time: 0:03:57
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:11:20 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=15
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=25
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=30
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=35
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=0 full=0 $time=40
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=45
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=0 full=0 $time=50
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=0 full=0 $time=60
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=65
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=0 full=0 $time=70
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=75
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=0 full=0 $time=80
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=85
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=90
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=100
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=105
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=110
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=115
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=120
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=125
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=130
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=135
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=140
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=145
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=150
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=155
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=160
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=165
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=170
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=175
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=180
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=185
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=190
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=195
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=200
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=205
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=210
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=0 full=0 $time=215
+# ** Note: $stop    : fifo.v(117)
+#    Time: 220 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 117
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:12:46 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:12:46 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:12:49 on Sep 23,2025, Elapsed time: 0:01:29
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:12:49 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=15
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=25
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=35
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=40
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=45
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=50
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=60
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=65
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=70
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=75
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=80
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=85
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=90
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=100
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=105
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=110
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=115
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=120
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=125
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=130
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=135
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=140
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=145
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=150
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=155
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=160
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=165
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=170
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=175
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=180
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=185
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=190
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=195
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=200
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 99  empty=1 full=0 $time=205
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 99  empty=1 full=0 $time=210
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 13  empty=1 full=0 $time=215
+# ** Note: $stop    : fifo.v(118)
+#    Time: 220 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 118
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:14:53 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:14:53 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:14:56 on Sep 23,2025, Elapsed time: 0:02:07
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:14:56 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=15
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=16
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=25
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=27
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=35
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=38
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=40
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=45
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=49
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=50
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=60
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=65
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=70
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=71
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=75
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=80
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=82
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=85
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=90
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=93
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=100
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=105
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=110
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=115
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=120
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=125
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=130
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=135
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=140
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=145
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=150
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=155
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=160
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=165
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=170
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=175
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=180
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=1 full=0 $time=185
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=1 full=0 $time=190
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=195
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=200
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=205
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=210
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 99  empty=1 full=0 $time=215
+# ** Note: $stop    : fifo.v(119)
+#    Time: 220 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 119
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:16:46 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:16:47 on Sep 23,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:16:50 on Sep 23,2025, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:16:50 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=15
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=16
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=0 full=0 $time=25
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=27
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=0 full=0 $time=30
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd= 36  empty=0 full=0 $time=35
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd= 36  empty=0 full=0 $time=38
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd= 36  empty=0 full=0 $time=40
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd= 36  empty=0 full=0 $time=45
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd= 36  empty=0 full=0 $time=49
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd= 36  empty=0 full=0 $time=50
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd= 36  empty=0 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd= 36  empty=0 full=0 $time=60
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd= 36  empty=0 full=0 $time=65
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd= 36  empty=0 full=0 $time=70
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd= 36  empty=0 full=0 $time=71
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd= 36  empty=0 full=0 $time=75
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd= 36  empty=0 full=0 $time=80
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd= 36  empty=0 full=0 $time=82
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd= 36  empty=0 full=0 $time=85
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd= 36  empty=0 full=0 $time=90
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=0 $time=93
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=100
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=105
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=110
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=115
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=120
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=125
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=130
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=135
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=140
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=145
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=150
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=155
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=160
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=165
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=170
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=175
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=180
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=185
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=190
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=195
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=200
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=205
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=210
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=0 full=1 $time=215
+# ** Note: $stop    : fifo.v(120)
+#    Time: 220 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 120
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:17:47 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:17:47 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:17:53 on Sep 23,2025, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:17:53 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=15
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=16
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=25
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=27
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=35
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=38
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=40
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=45
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=49
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=50
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=60
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=65
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=70
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=71
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=75
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=80
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=82
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=85
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=90
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=93
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=100
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=105
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=110
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=115
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=120
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=125
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=130
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=135
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=140
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=145
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=150
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=155
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=160
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=165
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=170
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=175
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=180
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=1 full=0 $time=185
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=1 full=0 $time=190
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=195
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=200
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=205
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=210
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 99  empty=1 full=0 $time=215
+# ** Note: $stop    : fifo.v(120)
+#    Time: 220 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 120
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:18:09 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:18:09 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:18:11 on Sep 23,2025, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:18:11 on Sep 23,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=15
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=16
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=25
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=27
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=35
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=38
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=40
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=45
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=49
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=50
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=60
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=65
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=70
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=71
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=75
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=80
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=82
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=85
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=90
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=93
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=100
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=105
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=110
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=115
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=120
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=125
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=130
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=135
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=140
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=145
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=150
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=155
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=160
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=165
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=170
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=175
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=180
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=1 full=0 $time=185
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=1 full=0 $time=190
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=195
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=200
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=205
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=210
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 99  empty=1 full=0 $time=215
+# ** Note: $stop    : fifo.v(120)
+#    Time: 220 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 120
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:19:18 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:19:18 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:19:22 on Sep 23,2025, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:19:22 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain=  x dataout=x write=x resd=  0  empty=1 full=0 $time=15
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=16
+# clk=0 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain= 36 dataout=1 write=1 resd=  0  empty=1 full=0 $time=25
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=27
+# clk=0 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=129 dataout=1 write=1 resd=  0  empty=1 full=0 $time=35
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=38
+# clk=0 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=40
+# clk=1 rst=1 datain=  9 dataout=1 write=1 resd=  0  empty=1 full=0 $time=45
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=49
+# clk=0 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=50
+# clk=1 rst=1 datain= 99 dataout=1 write=1 resd=  0  empty=1 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=60
+# clk=1 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=65
+# clk=0 rst=1 datain= 13 dataout=1 write=1 resd=  0  empty=1 full=0 $time=70
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=71
+# clk=1 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=75
+# clk=0 rst=1 datain=141 dataout=1 write=1 resd=  0  empty=1 full=0 $time=80
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=82
+# clk=1 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=85
+# clk=0 rst=1 datain=101 dataout=1 write=1 resd=  0  empty=1 full=0 $time=90
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=93
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  0  empty=1 full=0 $time=100
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=105
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=110
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=115
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=120
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=125
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=130
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=135
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=140
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=145
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=150
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=155
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=160
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=165
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=170
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=175
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=180
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=1 full=0 $time=185
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 36  empty=1 full=0 $time=190
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=195
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=129  empty=1 full=0 $time=200
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=205
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  9  empty=1 full=0 $time=210
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 99  empty=1 full=0 $time=215
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 99  empty=1 full=0 $time=220
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 13  empty=1 full=0 $time=225
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 13  empty=1 full=0 $time=230
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=141  empty=1 full=0 $time=235
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=141  empty=1 full=0 $time=240
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=101  empty=1 full=0 $time=245
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=101  empty=1 full=0 $time=250
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd= 18  empty=1 full=0 $time=255
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd= 18  empty=1 full=0 $time=260
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=265
+# clk=0 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=270
+# clk=1 rst=1 datain= 18 dataout=1 write=1 resd=  x  empty=1 full=0 $time=275
+# ** Note: $stop    : fifo.v(120)
+#    Time: 280 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 120
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:23:33 on Sep 23,2025
+# vlog -reportprogress 300 fifo.v "+acc" 
+# -- Compiling module fifo
+# -- Compiling module fifo_tb
+# 
+# Top level modules:
+# 	fifo_tb
+# End time: 12:23:33 on Sep 23,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:23:37 on Sep 23,2025, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 0
+# vsim fifo_tb 
+# Start time: 12:23:37 on Sep 23,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.fifo_tb(fast)
+# Loading work.fifo(fast)
+# clk=0 rst=0 datain=  x dataout=x write=x read=0  empty=1 full=0 $time=0
+# clk=1 rst=0 datain=  x dataout=x write=x read=0  empty=1 full=0 $time=5
+# clk=0 rst=0 datain=  x dataout=x write=x read=0  empty=1 full=0 $time=10
+# clk=1 rst=1 datain=  x dataout=x write=x read=0  empty=1 full=0 $time=15
+# clk=1 rst=1 datain= 36 dataout=1 write=1 read=0  empty=1 full=0 $time=16
+# clk=0 rst=1 datain= 36 dataout=1 write=1 read=0  empty=1 full=0 $time=20
+# clk=1 rst=1 datain= 36 dataout=1 write=1 read=0  empty=1 full=0 $time=25
+# clk=1 rst=1 datain=129 dataout=1 write=1 read=0  empty=1 full=0 $time=27
+# clk=0 rst=1 datain=129 dataout=1 write=1 read=0  empty=1 full=0 $time=30
+# clk=1 rst=1 datain=129 dataout=1 write=1 read=0  empty=1 full=0 $time=35
+# clk=1 rst=1 datain=  9 dataout=1 write=1 read=0  empty=1 full=0 $time=38
+# clk=0 rst=1 datain=  9 dataout=1 write=1 read=0  empty=1 full=0 $time=40
+# clk=1 rst=1 datain=  9 dataout=1 write=1 read=0  empty=1 full=0 $time=45
+# clk=1 rst=1 datain= 99 dataout=1 write=1 read=0  empty=1 full=0 $time=49
+# clk=0 rst=1 datain= 99 dataout=1 write=1 read=0  empty=1 full=0 $time=50
+# clk=1 rst=1 datain= 99 dataout=1 write=1 read=0  empty=1 full=0 $time=55
+# clk=0 rst=1 datain= 13 dataout=1 write=1 read=0  empty=1 full=0 $time=60
+# clk=1 rst=1 datain= 13 dataout=1 write=1 read=0  empty=1 full=0 $time=65
+# clk=0 rst=1 datain= 13 dataout=1 write=1 read=0  empty=1 full=0 $time=70
+# clk=0 rst=1 datain=141 dataout=1 write=1 read=0  empty=1 full=0 $time=71
+# clk=1 rst=1 datain=141 dataout=1 write=1 read=0  empty=1 full=0 $time=75
+# clk=0 rst=1 datain=141 dataout=1 write=1 read=0  empty=1 full=0 $time=80
+# clk=0 rst=1 datain=101 dataout=1 write=1 read=0  empty=1 full=0 $time=82
+# clk=1 rst=1 datain=101 dataout=1 write=1 read=0  empty=1 full=0 $time=85
+# clk=0 rst=1 datain=101 dataout=1 write=1 read=0  empty=1 full=0 $time=90
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=0  empty=1 full=0 $time=93
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=0  empty=1 full=0 $time=95
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=0  empty=1 full=0 $time=100
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=105
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=110
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=115
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=120
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=125
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=130
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=135
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=140
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=145
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=150
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=155
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=160
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=165
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=170
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=175
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=180
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=36  empty=1 full=0 $time=185
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=36  empty=1 full=0 $time=190
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=129  empty=1 full=0 $time=195
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=129  empty=1 full=0 $time=200
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=9  empty=1 full=0 $time=205
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=9  empty=1 full=0 $time=210
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=99  empty=1 full=0 $time=215
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=99  empty=1 full=0 $time=220
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=13  empty=1 full=0 $time=225
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=13  empty=1 full=0 $time=230
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=141  empty=1 full=0 $time=235
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=141  empty=1 full=0 $time=240
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=101  empty=1 full=0 $time=245
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=101  empty=1 full=0 $time=250
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=18  empty=1 full=0 $time=255
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=18  empty=1 full=0 $time=260
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=265
+# clk=0 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=270
+# clk=1 rst=1 datain= 18 dataout=1 write=1 read=x  empty=1 full=0 $time=275
+# ** Note: $stop    : fifo.v(120)
+#    Time: 280 ns  Iteration: 0  Instance: /fifo_tb
+# Break in Module fifo_tb at fifo.v line 120

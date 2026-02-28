@@ -1,0 +1,66 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:03:36 on Aug 30,2025
+# vlog -reportprogress 300 comperator_1.v "+acc" 
+# ** Error: (vlog-7) Failed to open design unit file "comperator_1.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 13:03:37 on Aug 30,2025, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog comperator_1.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:04:28 on Aug 30,2025
+# vlog -reportprogress 300 comperator_1.v "+acc" 
+# ** Error: (vlog-7) Failed to open design unit file "comperator_1.v" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 13:04:28 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog comperator_1.v +acc"
+ls
+# comperator.v  run.do  transcript  work      
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:05:40 on Aug 30,2025
+# vlog -reportprogress 300 comperator.v "+acc" 
+# -- Compiling module comperator_1
+# -- Compiling module comperator_1_tb
+# 
+# Top level modules:
+# 	comperator_1_tb
+# End time: 13:05:40 on Aug 30,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim comperator_1_tb 
+# Start time: 13:05:40 on Aug 30,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.comperator_1_tb(fast)
+# Loading work.comperator_1(fast)
+# a=0 b=1 g=0 l=1 e=0
+# a=1 b=1 g=0 l=0 e=1
+# a=1 b=0 g=1 l=0 e=0
+# a=1 b=1 g=0 l=0 e=1
+# a=0 b=1 g=0 l=1 e=0
+# a=1 b=0 g=1 l=0 e=0
+# End time: 13:06:11 on Aug 30,2025, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0

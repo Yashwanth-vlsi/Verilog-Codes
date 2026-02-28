@@ -1,0 +1,82 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/VERILOG/BEHAIVIORAL/SEQUENTIAL_C/SHIFT_REGESTERS/SISO_R
+T_opt
+!s110 1758096466
+VRiKUGl>Mk7l3d:JVUOh471
+04 8 4 work sisor_tb fast 0
+=1-5c60ba6189cb-68ca6c52-265-51b0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vsiso_tb
+!s110 1758094694
+!i10b 1
+!s100 kCf^AniD]V6P3B5GL`[;f2
+IDj1Idhb]4hOiKFlaGUbBn0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1758094680
+Z3 8siso_r.v
+Z4 Fsiso_r.v
+L0 51
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1758094694.000000
+Z6 !s107 siso_r.v|
+Z7 !s90 -reportprogress|300|siso_r.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vsisor
+Z9 !s110 1758096462
+!i10b 1
+!s100 LOFdH[geZZL3EJ8AH<BRK3
+Ii_Z_ZIONg<dAjdG^UoR?H1
+R2
+R0
+Z10 w1758096452
+R3
+R4
+L0 1
+R5
+r1
+!s85 0
+31
+Z11 !s108 1758096462.000000
+R6
+R7
+!i113 0
+R8
+R1
+vsisor_tb
+R9
+!i10b 1
+!s100 V=mFhR;2`eVD8dcXMm6V92
+Ih6;;d8fn?iC2DWPgn2ARK2
+R2
+R0
+R10
+R3
+R4
+L0 52
+R5
+r1
+!s85 0
+31
+R11
+R6
+R7
+!i113 0
+R8
+R1

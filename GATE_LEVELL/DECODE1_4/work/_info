@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/VERILOG/GATE_LEVELL/DECODE1_4
+T_opt
+!s110 1760193328
+Vb`_]zD_me0J_96_bWUNd[0
+04 12 4 work decode1_4_tb fast 0
+=1-387a0e1bb7cd-68ea6b2f-3cb-e70
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdecode1_4
+Z2 !s110 1760193327
+!i10b 1
+!s100 e:zkBdBh25Fi3>;Wb;kz32
+IR8[GS_7hi`]]`o_o2g>9>0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756454681
+Z5 8decode1_4.v
+Z6 Fdecode1_4.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1760193327.000000
+Z9 !s107 decode1_4.v|
+Z10 !s90 -reportprogress|300|decode1_4.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdecode1_4_tb
+R2
+!i10b 1
+!s100 OG4<TAIBEicXU[kKg7@mG0
+IZezUKIHk<M6fa^H3naeBN0
+R3
+R0
+R4
+R5
+R6
+L0 14
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

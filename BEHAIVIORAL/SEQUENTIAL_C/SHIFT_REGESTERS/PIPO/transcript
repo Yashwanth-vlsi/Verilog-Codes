@@ -1,0 +1,55 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 08:45:40 on Oct 13,2025
+# vlog -reportprogress 300 pipo.v "+acc" 
+# -- Compiling module pipo
+# -- Compiling module pipo_tb
+# 
+# Top level modules:
+# 	pipo_tb
+# End time: 08:45:40 on Oct 13,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim pipo_tb 
+# Start time: 08:45:40 on Oct 13,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.pipo_tb(fast)
+# Loading work.pipo(fast)
+# clk=0 rst=0 pa_in=xxxx  pa_out=0000 $time=0
+# clk=1 rst=1 pa_in=1010  pa_out=xxxx $time=10
+# clk=0 rst=1 pa_in=1010  pa_out=xxxx $time=20
+# clk=1 rst=1 pa_in=1010  pa_out=1010 $time=30
+# clk=0 rst=1 pa_in=1010  pa_out=1010 $time=40
+# clk=1 rst=1 pa_in=1010  pa_out=1010 $time=50
+# clk=0 rst=1 pa_in=1010  pa_out=1010 $time=60
+# clk=1 rst=1 pa_in=1010  pa_out=1010 $time=70
+# clk=0 rst=1 pa_in=1010  pa_out=1010 $time=80
+# clk=1 rst=1 pa_in=1010  pa_out=1010 $time=90
+# clk=0 rst=1 pa_in=1010  pa_out=1010 $time=100
+# clk=1 rst=1 pa_in=1010  pa_out=1010 $time=110
+# clk=0 rst=1 pa_in=1010  pa_out=1010 $time=120
+# clk=1 rst=1 pa_in=1010  pa_out=1010 $time=130
+# clk=0 rst=1 pa_in=1010  pa_out=1010 $time=140
+# clk=1 rst=1 pa_in=1010  pa_out=1010 $time=150
+# clk=0 rst=1 pa_in=1010  pa_out=1010 $time=160
+# clk=1 rst=1 pa_in=1010  pa_out=1010 $time=170
+# clk=0 rst=1 pa_in=1010  pa_out=1010 $time=180
+# clk=1 rst=1 pa_in=1010  pa_out=1010 $time=190
+# ** Note: $stop    : pipo.v(44)
+#    Time: 200 ns  Iteration: 0  Instance: /pipo_tb
+# Break in Module pipo_tb at pipo.v line 44
+# End time: 08:48:27 on Oct 13,2025, Elapsed time: 0:02:47
+# Errors: 0, Warnings: 0

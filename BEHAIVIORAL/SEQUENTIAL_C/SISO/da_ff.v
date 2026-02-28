@@ -1,0 +1,46 @@
+module da_ff(input clk,rst,d, output reg q);
+    
+
+    always @(posedge clk)
+    begin
+    if(!rst)
+        q=0;
+        else
+            begin
+                case(d)
+                    1'b0  :  q<=d;
+                    default
+                    :q<=d;
+                endcase
+            end
+     end
+ endmodule
+
+ //testbench code
+
+ module da_ff_tb();
+ reg clk,rst,d;
+ wire q;
+
+ da_ff DA(clk,rst,d,q);
+
+ initial clk=0;
+ always #10 clk=~clk;
+
+ initial
+   begin
+     rst=0;
+     #10 rst=1;
+
+     repeat(200)
+     begin
+     d=$random; #3;
+     end
+   end
+   initial 
+   #200 $stop;
+
+   initial
+   $monitor("clk=%b rst=%b d=%b q=%b $time=%0t",clk,rst,d,q,$time);
+   endmodule
+

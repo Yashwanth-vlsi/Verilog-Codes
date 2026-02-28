@@ -1,0 +1,135 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+vlog operators.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:12:50 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operators
+# ** Error: (vlog-13038) operators.v(4): near ")": Missing port in ansi port list.
+# End time: 15:12:50 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog operators.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:14:58 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operators
+# ** Error: (vlog-13038) operators.v(4): near ")": Missing port in ansi port list.
+# End time: 15:14:58 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog operators.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:15:43 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operators
+# ** Error: (vlog-13069) operators.v(5): near "=": syntax error, unexpected '='.
+# ** Error: operators.v(5): (vlog-13205) Syntax error found in the scope following 'a'. Is there a missing '::'?
+# End time: 15:15:43 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog operators.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:16:32 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operators
+# ** Error: (vlog-13069) operators.v(11): near "a": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# End time: 15:16:32 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog operators.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:16:54 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operators
+# ** Error: (vlog-13069) operators.v(11): near "a": syntax error, unexpected IDENTIFIER, expecting ')' or ','.
+# End time: 15:16:54 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog operators.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:17:50 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operators
+# ** Error: operators.v(7): (vlog-2110) Illegal reference to net "a".
+# ** Error: operators.v(7): (vlog-2110) Illegal reference to net "b".
+# ** Error: operators.v(8): (vlog-2110) Illegal reference to net "y".
+# End time: 15:17:50 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog operators.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:18:12 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operators
+# ** Error: operators.v(7): (vlog-2110) Illegal reference to net "a".
+# ** Error: operators.v(8): (vlog-2110) Illegal reference to net "b".
+# ** Error: operators.v(9): (vlog-2110) Illegal reference to net "y".
+# End time: 15:18:12 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog operators.v 
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:19:38 on Aug 29,2025
+# vlog -reportprogress 300 operators.v 
+# -- Compiling module operators
+# ** Error: operators.v(7): (vlog-2110) Illegal reference to net "a".
+# ** Error: operators.v(8): (vlog-2110) Illegal reference to net "b".
+# ** Error: operators.v(9): (vlog-2110) Illegal reference to net "y".
+# End time: 15:19:38 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog operators.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:20:46 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operators
+# ** Error: (vlog-13069) operators.v(6): near "[": syntax error, unexpected '['.
+# ** Error: (vlog-13069) operators.v(7): near "[": syntax error, unexpected '['.
+# End time: 15:20:46 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# C:/questasim64_10.7c/win64/vlog failed.
+vlog operators.v +acc
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:22:29 on Aug 29,2025
+# vlog -reportprogress 300 operators.v "+acc" 
+# -- Compiling module operators
+# 
+# Top level modules:
+# 	operators
+# End time: 15:22:29 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim operators.v
+# OpenFile operators.v
+add wave *
+run -all
+# No Design Loaded!
+vlog operators.v 
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 15:24:23 on Aug 29,2025
+# vlog -reportprogress 300 operators.v 
+# -- Compiling module operators
+# 
+# Top level modules:
+# 	operators
+# End time: 15:24:23 on Aug 29,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim operators
+# vsim operators 
+# Start time: 15:24:41 on Aug 29,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.operators(fast)
+# End time: 17:00:01 on Aug 29,2025, Elapsed time: 1:35:20
+# Errors: 0, Warnings: 0

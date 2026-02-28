@@ -1,0 +1,1628 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:42:19 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# 
+# Top level modules:
+# 	ram1_tb
+# End time: 11:42:20 on Sep 22,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim ram1_tb 
+# Start time: 11:42:20 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ram1_tb(fast)
+# Loading work.ram1(fast)
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=x full=x time=0
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=5
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=10
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=15
+# clk=0 rst=1 wr_re=1 data_in= 36 addr=00001 data_out=  0 empty=1 full=0 time=20
+# clk=1 rst=1 wr_re=1 data_in= 36 addr=00001 data_out=  0 empty=1 full=0 time=25
+# clk=0 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=30
+# clk=1 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=0 full=0 time=35
+# clk=0 rst=1 wr_re=1 data_in=  9 addr=00001 data_out=  0 empty=0 full=0 time=40
+# clk=1 rst=1 wr_re=1 data_in=  9 addr=00001 data_out=  0 empty=0 full=0 time=45
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=00001 data_out=  0 empty=0 full=0 time=50
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=00001 data_out=  0 empty=0 full=0 time=55
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=00001 data_out=  0 empty=0 full=0 time=60
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=00001 data_out=  0 empty=0 full=0 time=65
+# clk=0 rst=1 wr_re=1 data_in=141 addr=00001 data_out=  0 empty=0 full=0 time=70
+# clk=1 rst=1 wr_re=1 data_in=141 addr=00001 data_out=  0 empty=0 full=0 time=75
+# clk=0 rst=1 wr_re=1 data_in=101 addr=00001 data_out=  0 empty=0 full=0 time=80
+# clk=1 rst=1 wr_re=1 data_in=101 addr=00001 data_out=  0 empty=0 full=0 time=85
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=00001 data_out=  0 empty=0 full=0 time=90
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=00001 data_out=  0 empty=0 full=0 time=95
+# clk=0 rst=1 wr_re=1 data_in=  1 addr=00001 data_out=  0 empty=0 full=0 time=100
+# clk=1 rst=1 wr_re=1 data_in=  1 addr=00001 data_out=  0 empty=0 full=0 time=105
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=00001 data_out=  0 empty=0 full=0 time=110
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=00001 data_out=  0 empty=0 full=0 time=115
+# clk=0 rst=1 wr_re=1 data_in=118 addr=00001 data_out=  0 empty=0 full=0 time=120
+# clk=1 rst=1 wr_re=1 data_in=118 addr=00001 data_out=  0 empty=0 full=0 time=125
+# clk=0 rst=1 wr_re=1 data_in= 61 addr=00001 data_out=  0 empty=0 full=0 time=130
+# clk=1 rst=1 wr_re=1 data_in= 61 addr=00001 data_out=  0 empty=0 full=0 time=135
+# clk=0 rst=1 wr_re=1 data_in=237 addr=00001 data_out=  0 empty=0 full=0 time=140
+# clk=1 rst=1 wr_re=1 data_in=237 addr=00001 data_out=  0 empty=0 full=0 time=145
+# clk=0 rst=1 wr_re=1 data_in=140 addr=00001 data_out=  0 empty=0 full=0 time=150
+# clk=1 rst=1 wr_re=1 data_in=140 addr=00001 data_out=  0 empty=0 full=0 time=155
+# clk=0 rst=1 wr_re=1 data_in=249 addr=00001 data_out=  0 empty=0 full=0 time=160
+# clk=1 rst=1 wr_re=1 data_in=249 addr=00001 data_out=  0 empty=0 full=0 time=165
+# clk=0 rst=1 wr_re=1 data_in=198 addr=00001 data_out=  0 empty=0 full=0 time=170
+# clk=1 rst=1 wr_re=1 data_in=198 addr=00001 data_out=  0 empty=0 full=0 time=175
+# clk=0 rst=1 wr_re=1 data_in=197 addr=00001 data_out=  0 empty=0 full=0 time=180
+# clk=1 rst=1 wr_re=1 data_in=197 addr=00001 data_out=  0 empty=0 full=0 time=185
+# clk=0 rst=1 wr_re=1 data_in=170 addr=00001 data_out=  0 empty=0 full=0 time=190
+# clk=1 rst=1 wr_re=1 data_in=170 addr=00001 data_out=  0 empty=0 full=0 time=195
+# clk=0 rst=1 wr_re=1 data_in=229 addr=00001 data_out=  0 empty=0 full=0 time=200
+# clk=1 rst=1 wr_re=1 data_in=229 addr=00001 data_out=  0 empty=0 full=0 time=205
+# clk=0 rst=1 wr_re=1 data_in=119 addr=00001 data_out=  0 empty=0 full=0 time=210
+# clk=1 rst=1 wr_re=1 data_in=119 addr=00001 data_out=  0 empty=0 full=0 time=215
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=00001 data_out=  0 empty=0 full=0 time=220
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=00001 data_out=  0 empty=0 full=0 time=225
+# clk=0 rst=1 wr_re=1 data_in=143 addr=00001 data_out=  0 empty=0 full=0 time=230
+# clk=1 rst=1 wr_re=1 data_in=143 addr=00001 data_out=  0 empty=0 full=0 time=235
+# clk=0 rst=1 wr_re=1 data_in=242 addr=00001 data_out=  0 empty=0 full=0 time=240
+# clk=1 rst=1 wr_re=1 data_in=242 addr=00001 data_out=  0 empty=0 full=0 time=245
+# clk=0 rst=1 wr_re=1 data_in=206 addr=00001 data_out=  0 empty=0 full=0 time=250
+# clk=1 rst=1 wr_re=1 data_in=206 addr=00001 data_out=  0 empty=0 full=0 time=255
+# clk=0 rst=1 wr_re=1 data_in=232 addr=00001 data_out=  0 empty=0 full=0 time=260
+# clk=1 rst=1 wr_re=1 data_in=232 addr=00001 data_out=  0 empty=0 full=0 time=265
+# clk=0 rst=1 wr_re=1 data_in=197 addr=00001 data_out=  0 empty=0 full=0 time=270
+# clk=1 rst=1 wr_re=1 data_in=197 addr=00001 data_out=  0 empty=0 full=0 time=275
+# clk=0 rst=1 wr_re=1 data_in= 92 addr=00001 data_out=  0 empty=0 full=0 time=280
+# clk=1 rst=1 wr_re=1 data_in= 92 addr=00001 data_out=  0 empty=0 full=0 time=285
+# clk=0 rst=1 wr_re=1 data_in=189 addr=00001 data_out=  0 empty=0 full=0 time=290
+# clk=1 rst=1 wr_re=1 data_in=189 addr=00001 data_out=  0 empty=0 full=0 time=295
+# clk=0 rst=1 wr_re=1 data_in= 45 addr=00001 data_out=  0 empty=0 full=0 time=300
+# clk=1 rst=1 wr_re=1 data_in= 45 addr=00001 data_out=  0 empty=0 full=0 time=305
+# clk=0 rst=1 wr_re=1 data_in=101 addr=00001 data_out=  0 empty=0 full=0 time=310
+# clk=1 rst=1 wr_re=1 data_in=101 addr=00001 data_out=  0 empty=0 full=0 time=315
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=00001 data_out=  0 empty=0 full=0 time=320
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=00001 data_out=  0 empty=0 full=0 time=325
+# clk=0 rst=1 wr_re=1 data_in= 10 addr=00001 data_out=  0 empty=0 full=0 time=330
+# clk=1 rst=1 wr_re=1 data_in= 10 addr=00001 data_out=  0 empty=0 full=0 time=335
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00000 data_out=  0 empty=0 full=0 time=340
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00000 data_out=  0 empty=0 full=1 time=345
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00001 data_out=  0 empty=0 full=1 time=350
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00001 data_out= 10 empty=0 full=0 time=355
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out= 10 empty=0 full=0 time=360
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  0 empty=0 full=0 time=365
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00011 data_out=  0 empty=0 full=0 time=370
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00011 data_out=  0 empty=0 full=0 time=375
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00100 data_out=  0 empty=0 full=0 time=380
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00100 data_out=  0 empty=0 full=0 time=385
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00101 data_out=  0 empty=0 full=0 time=390
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00101 data_out=  0 empty=0 full=0 time=395
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00110 data_out=  0 empty=0 full=0 time=400
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00110 data_out=  0 empty=0 full=0 time=405
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00111 data_out=  0 empty=0 full=0 time=410
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00111 data_out=  0 empty=0 full=0 time=415
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01000 data_out=  0 empty=0 full=0 time=420
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01000 data_out=  0 empty=0 full=0 time=425
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01001 data_out=  0 empty=0 full=0 time=430
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01001 data_out=  0 empty=0 full=0 time=435
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01010 data_out=  0 empty=0 full=0 time=440
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01010 data_out=  0 empty=0 full=0 time=445
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01011 data_out=  0 empty=0 full=0 time=450
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01011 data_out=  0 empty=0 full=0 time=455
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01100 data_out=  0 empty=0 full=0 time=460
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01100 data_out=  0 empty=0 full=0 time=465
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01101 data_out=  0 empty=0 full=0 time=470
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01101 data_out=  0 empty=0 full=0 time=475
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01110 data_out=  0 empty=0 full=0 time=480
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01110 data_out=  0 empty=0 full=0 time=485
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01111 data_out=  0 empty=0 full=0 time=490
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01111 data_out=  0 empty=0 full=0 time=495
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10000 data_out=  0 empty=0 full=0 time=500
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10000 data_out=  0 empty=0 full=0 time=505
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10001 data_out=  0 empty=0 full=0 time=510
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10001 data_out=  0 empty=0 full=0 time=515
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10010 data_out=  0 empty=0 full=0 time=520
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10010 data_out=  0 empty=0 full=0 time=525
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10011 data_out=  0 empty=0 full=0 time=530
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10011 data_out=  0 empty=0 full=0 time=535
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10100 data_out=  0 empty=0 full=0 time=540
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10100 data_out=  0 empty=0 full=0 time=545
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10101 data_out=  0 empty=0 full=0 time=550
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10101 data_out=  0 empty=0 full=0 time=555
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10110 data_out=  0 empty=0 full=0 time=560
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10110 data_out=  0 empty=0 full=0 time=565
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10111 data_out=  0 empty=0 full=0 time=570
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10111 data_out=  0 empty=0 full=0 time=575
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11000 data_out=  0 empty=0 full=0 time=580
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11000 data_out=  0 empty=0 full=0 time=585
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11001 data_out=  0 empty=0 full=0 time=590
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11001 data_out=  0 empty=0 full=0 time=595
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11010 data_out=  0 empty=0 full=0 time=600
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11010 data_out=  0 empty=0 full=0 time=605
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11011 data_out=  0 empty=0 full=0 time=610
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11011 data_out=  0 empty=0 full=0 time=615
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11100 data_out=  0 empty=0 full=0 time=620
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11100 data_out=  0 empty=0 full=0 time=625
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11101 data_out=  0 empty=0 full=0 time=630
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11101 data_out=  0 empty=0 full=0 time=635
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11110 data_out=  0 empty=0 full=0 time=640
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11110 data_out=  0 empty=0 full=0 time=645
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=650
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=655
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=660
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=665
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=670
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=675
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=680
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=685
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=690
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=695
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=700
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=705
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=710
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=715
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=720
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=725
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=730
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=735
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=740
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=745
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=750
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=755
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=760
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=765
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=770
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=775
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=780
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=785
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=790
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=795
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=800
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=805
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=810
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=815
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=820
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=825
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=830
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=835
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=840
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=845
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=850
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=855
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=860
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=865
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=870
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=875
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=880
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=885
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=890
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=895
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=900
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=905
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=910
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=915
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=920
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=925
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=930
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=935
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=940
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=945
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=950
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=955
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=960
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=965
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=970
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=975
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=980
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=985
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=990
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=995
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1000
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1005
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1010
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1015
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1020
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1025
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1030
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1035
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1040
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1045
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1050
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1055
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1060
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1065
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1070
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1075
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1080
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1085
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1090
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1095
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1100
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1105
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1110
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1115
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1120
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1125
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1130
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1135
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1140
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1145
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1150
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1155
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1160
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1165
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1170
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1175
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1180
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1185
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1190
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1195
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1200
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1205
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1210
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1215
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1220
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1225
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1230
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1235
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1240
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1245
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1250
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1255
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1260
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1265
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1270
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1275
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1280
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1285
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1290
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1295
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1300
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1305
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1310
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1315
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1320
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1325
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1330
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=1335
+# ** Note: $stop    : ram_a1.v(107)
+#    Time: 1340 ns  Iteration: 0  Instance: /ram1_tb
+# Break in Module ram1_tb at ram_a1.v line 107
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:45:46 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# 
+# Top level modules:
+# 	ram1_tb
+# End time: 11:45:46 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:45:50 on Sep 22,2025, Elapsed time: 0:03:30
+# Errors: 0, Warnings: 0
+# vsim ram1_tb 
+# Start time: 11:45:50 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ram1_tb(fast)
+# Loading work.ram1(fast)
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=x full=x time=0
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=5
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=10
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=15
+# clk=0 rst=1 wr_re=1 data_in= 36 addr=00001 data_out=  0 empty=1 full=0 time=20
+# clk=1 rst=1 wr_re=1 data_in= 36 addr=00001 data_out=  0 empty=1 full=0 time=25
+# clk=0 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=30
+# clk=1 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=0 full=0 time=35
+# clk=0 rst=1 wr_re=1 data_in=  9 addr=00001 data_out=  0 empty=0 full=0 time=40
+# clk=1 rst=1 wr_re=1 data_in=  9 addr=00001 data_out=  0 empty=0 full=0 time=45
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=00001 data_out=  0 empty=0 full=0 time=50
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=00001 data_out=  0 empty=0 full=0 time=55
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=00001 data_out=  0 empty=0 full=0 time=60
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=00001 data_out=  0 empty=0 full=0 time=65
+# clk=0 rst=1 wr_re=1 data_in=141 addr=00001 data_out=  0 empty=0 full=0 time=70
+# clk=1 rst=1 wr_re=1 data_in=141 addr=00001 data_out=  0 empty=0 full=0 time=75
+# clk=0 rst=1 wr_re=1 data_in=101 addr=00001 data_out=  0 empty=0 full=0 time=80
+# clk=1 rst=1 wr_re=1 data_in=101 addr=00001 data_out=  0 empty=0 full=0 time=85
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=00001 data_out=  0 empty=0 full=0 time=90
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=00001 data_out=  0 empty=0 full=0 time=95
+# clk=0 rst=1 wr_re=1 data_in=  1 addr=00001 data_out=  0 empty=0 full=0 time=100
+# clk=1 rst=1 wr_re=1 data_in=  1 addr=00001 data_out=  0 empty=0 full=0 time=105
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=00001 data_out=  0 empty=0 full=0 time=110
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=00001 data_out=  0 empty=0 full=0 time=115
+# clk=0 rst=1 wr_re=1 data_in=118 addr=00001 data_out=  0 empty=0 full=0 time=120
+# clk=1 rst=1 wr_re=1 data_in=118 addr=00001 data_out=  0 empty=0 full=0 time=125
+# clk=0 rst=1 wr_re=1 data_in= 61 addr=00001 data_out=  0 empty=0 full=0 time=130
+# clk=1 rst=1 wr_re=1 data_in= 61 addr=00001 data_out=  0 empty=0 full=0 time=135
+# clk=0 rst=1 wr_re=1 data_in=237 addr=00001 data_out=  0 empty=0 full=0 time=140
+# clk=1 rst=1 wr_re=1 data_in=237 addr=00001 data_out=  0 empty=0 full=0 time=145
+# clk=0 rst=1 wr_re=1 data_in=140 addr=00001 data_out=  0 empty=0 full=0 time=150
+# clk=1 rst=1 wr_re=1 data_in=140 addr=00001 data_out=  0 empty=0 full=0 time=155
+# clk=0 rst=1 wr_re=1 data_in=249 addr=00001 data_out=  0 empty=0 full=0 time=160
+# clk=1 rst=1 wr_re=1 data_in=249 addr=00001 data_out=  0 empty=0 full=0 time=165
+# clk=0 rst=1 wr_re=1 data_in=198 addr=00001 data_out=  0 empty=0 full=0 time=170
+# clk=1 rst=1 wr_re=1 data_in=198 addr=00001 data_out=  0 empty=0 full=0 time=175
+# clk=0 rst=1 wr_re=1 data_in=197 addr=00001 data_out=  0 empty=0 full=0 time=180
+# clk=1 rst=1 wr_re=1 data_in=197 addr=00001 data_out=  0 empty=0 full=0 time=185
+# clk=0 rst=1 wr_re=1 data_in=170 addr=00001 data_out=  0 empty=0 full=0 time=190
+# clk=1 rst=1 wr_re=1 data_in=170 addr=00001 data_out=  0 empty=0 full=0 time=195
+# clk=0 rst=1 wr_re=1 data_in=229 addr=00001 data_out=  0 empty=0 full=0 time=200
+# clk=1 rst=1 wr_re=1 data_in=229 addr=00001 data_out=  0 empty=0 full=0 time=205
+# clk=0 rst=1 wr_re=1 data_in=119 addr=00001 data_out=  0 empty=0 full=0 time=210
+# clk=1 rst=1 wr_re=1 data_in=119 addr=00001 data_out=  0 empty=0 full=0 time=215
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=00001 data_out=  0 empty=0 full=0 time=220
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=00001 data_out=  0 empty=0 full=0 time=225
+# clk=0 rst=1 wr_re=1 data_in=143 addr=00001 data_out=  0 empty=0 full=0 time=230
+# clk=1 rst=1 wr_re=1 data_in=143 addr=00001 data_out=  0 empty=0 full=0 time=235
+# clk=0 rst=1 wr_re=1 data_in=242 addr=00001 data_out=  0 empty=0 full=0 time=240
+# clk=1 rst=1 wr_re=1 data_in=242 addr=00001 data_out=  0 empty=0 full=0 time=245
+# clk=0 rst=1 wr_re=1 data_in=206 addr=00001 data_out=  0 empty=0 full=0 time=250
+# clk=1 rst=1 wr_re=1 data_in=206 addr=00001 data_out=  0 empty=0 full=0 time=255
+# clk=0 rst=1 wr_re=1 data_in=232 addr=00001 data_out=  0 empty=0 full=0 time=260
+# clk=1 rst=1 wr_re=1 data_in=232 addr=00001 data_out=  0 empty=0 full=0 time=265
+# clk=0 rst=1 wr_re=1 data_in=197 addr=00001 data_out=  0 empty=0 full=0 time=270
+# clk=1 rst=1 wr_re=1 data_in=197 addr=00001 data_out=  0 empty=0 full=0 time=275
+# clk=0 rst=1 wr_re=1 data_in= 92 addr=00001 data_out=  0 empty=0 full=0 time=280
+# clk=1 rst=1 wr_re=1 data_in= 92 addr=00001 data_out=  0 empty=0 full=0 time=285
+# clk=0 rst=1 wr_re=1 data_in=189 addr=00001 data_out=  0 empty=0 full=0 time=290
+# clk=1 rst=1 wr_re=1 data_in=189 addr=00001 data_out=  0 empty=0 full=0 time=295
+# clk=0 rst=1 wr_re=1 data_in= 45 addr=00001 data_out=  0 empty=0 full=0 time=300
+# clk=1 rst=1 wr_re=1 data_in= 45 addr=00001 data_out=  0 empty=0 full=0 time=305
+# clk=0 rst=1 wr_re=1 data_in=101 addr=00001 data_out=  0 empty=0 full=0 time=310
+# clk=1 rst=1 wr_re=1 data_in=101 addr=00001 data_out=  0 empty=0 full=0 time=315
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=00001 data_out=  0 empty=0 full=0 time=320
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=00001 data_out=  0 empty=0 full=0 time=325
+# clk=0 rst=1 wr_re=1 data_in= 10 addr=00001 data_out=  0 empty=0 full=0 time=330
+# clk=1 rst=1 wr_re=1 data_in= 10 addr=00001 data_out=  0 empty=0 full=0 time=335
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00000 data_out=  0 empty=0 full=0 time=340
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00000 data_out=  0 empty=0 full=1 time=345
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00001 data_out=  0 empty=0 full=1 time=350
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00001 data_out= 10 empty=0 full=0 time=355
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out= 10 empty=0 full=0 time=360
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  0 empty=0 full=0 time=365
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00011 data_out=  0 empty=0 full=0 time=370
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00011 data_out=  0 empty=0 full=0 time=375
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00100 data_out=  0 empty=0 full=0 time=380
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00100 data_out=  0 empty=0 full=0 time=385
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00101 data_out=  0 empty=0 full=0 time=390
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00101 data_out=  0 empty=0 full=0 time=395
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00110 data_out=  0 empty=0 full=0 time=400
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00110 data_out=  0 empty=0 full=0 time=405
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00111 data_out=  0 empty=0 full=0 time=410
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00111 data_out=  0 empty=0 full=0 time=415
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01000 data_out=  0 empty=0 full=0 time=420
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01000 data_out=  0 empty=0 full=0 time=425
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01001 data_out=  0 empty=0 full=0 time=430
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01001 data_out=  0 empty=0 full=0 time=435
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01010 data_out=  0 empty=0 full=0 time=440
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01010 data_out=  0 empty=0 full=0 time=445
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01011 data_out=  0 empty=0 full=0 time=450
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01011 data_out=  0 empty=0 full=0 time=455
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01100 data_out=  0 empty=0 full=0 time=460
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01100 data_out=  0 empty=0 full=0 time=465
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01101 data_out=  0 empty=0 full=0 time=470
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01101 data_out=  0 empty=0 full=0 time=475
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01110 data_out=  0 empty=0 full=0 time=480
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01110 data_out=  0 empty=0 full=0 time=485
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01111 data_out=  0 empty=0 full=0 time=490
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01111 data_out=  0 empty=0 full=0 time=495
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10000 data_out=  0 empty=0 full=0 time=500
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10000 data_out=  0 empty=0 full=0 time=505
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10001 data_out=  0 empty=0 full=0 time=510
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10001 data_out=  0 empty=0 full=0 time=515
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10010 data_out=  0 empty=0 full=0 time=520
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10010 data_out=  0 empty=0 full=0 time=525
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10011 data_out=  0 empty=0 full=0 time=530
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10011 data_out=  0 empty=0 full=0 time=535
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10100 data_out=  0 empty=0 full=0 time=540
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10100 data_out=  0 empty=0 full=0 time=545
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10101 data_out=  0 empty=0 full=0 time=550
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10101 data_out=  0 empty=0 full=0 time=555
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10110 data_out=  0 empty=0 full=0 time=560
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10110 data_out=  0 empty=0 full=0 time=565
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10111 data_out=  0 empty=0 full=0 time=570
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10111 data_out=  0 empty=0 full=0 time=575
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11000 data_out=  0 empty=0 full=0 time=580
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11000 data_out=  0 empty=0 full=0 time=585
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11001 data_out=  0 empty=0 full=0 time=590
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11001 data_out=  0 empty=0 full=0 time=595
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11010 data_out=  0 empty=0 full=0 time=600
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11010 data_out=  0 empty=0 full=0 time=605
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11011 data_out=  0 empty=0 full=0 time=610
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11011 data_out=  0 empty=0 full=0 time=615
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11100 data_out=  0 empty=0 full=0 time=620
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11100 data_out=  0 empty=0 full=0 time=625
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11101 data_out=  0 empty=0 full=0 time=630
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11101 data_out=  0 empty=0 full=0 time=635
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11110 data_out=  0 empty=0 full=0 time=640
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11110 data_out=  0 empty=0 full=0 time=645
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=650
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=655
+# ** Note: $stop    : ram_a1.v(170)
+#    Time: 660 ns  Iteration: 1  Instance: /ram1_tb
+# Break in Module ram1_tb at ram_a1.v line 170
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:56:48 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# 
+# Top level modules:
+# 	ram1_tb
+# End time: 11:56:48 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:56:51 on Sep 22,2025, Elapsed time: 0:11:01
+# Errors: 0, Warnings: 0
+# vsim ram1_tb 
+# Start time: 11:56:51 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ram1_tb(fast)
+# Loading work.ram1(fast)
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=x full=x time=0
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=5
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=10
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=15
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=20
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=25
+# clk=0 rst=1 wr_re=0 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=30
+# clk=1 rst=1 wr_re=0 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=35
+# clk=0 rst=1 wr_re=0 data_in=  9 addr=00010 data_out=  0 empty=1 full=0 time=40
+# clk=1 rst=1 wr_re=0 data_in=  9 addr=00010 data_out=  0 empty=1 full=0 time=45
+# clk=0 rst=1 wr_re=0 data_in= 99 addr=00011 data_out=  0 empty=1 full=0 time=50
+# clk=1 rst=1 wr_re=0 data_in= 99 addr=00011 data_out=  0 empty=1 full=0 time=55
+# clk=0 rst=1 wr_re=0 data_in= 13 addr=00100 data_out=  0 empty=1 full=0 time=60
+# clk=1 rst=1 wr_re=0 data_in= 13 addr=00100 data_out=  0 empty=1 full=0 time=65
+# clk=0 rst=1 wr_re=0 data_in=141 addr=00101 data_out=  0 empty=1 full=0 time=70
+# clk=1 rst=1 wr_re=0 data_in=141 addr=00101 data_out=  0 empty=1 full=0 time=75
+# clk=0 rst=1 wr_re=0 data_in=101 addr=00110 data_out=  0 empty=1 full=0 time=80
+# clk=1 rst=1 wr_re=0 data_in=101 addr=00110 data_out=  0 empty=1 full=0 time=85
+# clk=0 rst=1 wr_re=0 data_in= 18 addr=00111 data_out=  0 empty=1 full=0 time=90
+# clk=1 rst=1 wr_re=0 data_in= 18 addr=00111 data_out=  0 empty=1 full=0 time=95
+# clk=0 rst=1 wr_re=0 data_in=  1 addr=01000 data_out=  0 empty=1 full=0 time=100
+# clk=1 rst=1 wr_re=0 data_in=  1 addr=01000 data_out=  0 empty=1 full=0 time=105
+# clk=0 rst=1 wr_re=0 data_in= 13 addr=01001 data_out=  0 empty=1 full=0 time=110
+# clk=1 rst=1 wr_re=0 data_in= 13 addr=01001 data_out=  0 empty=1 full=0 time=115
+# clk=0 rst=1 wr_re=0 data_in=118 addr=01010 data_out=  0 empty=1 full=0 time=120
+# clk=1 rst=1 wr_re=0 data_in=118 addr=01010 data_out=  0 empty=1 full=0 time=125
+# clk=0 rst=1 wr_re=0 data_in= 61 addr=01011 data_out=  0 empty=1 full=0 time=130
+# clk=1 rst=1 wr_re=0 data_in= 61 addr=01011 data_out=  0 empty=1 full=0 time=135
+# clk=0 rst=1 wr_re=0 data_in=237 addr=01100 data_out=  0 empty=1 full=0 time=140
+# clk=1 rst=1 wr_re=0 data_in=237 addr=01100 data_out=  0 empty=1 full=0 time=145
+# clk=0 rst=1 wr_re=0 data_in=140 addr=01101 data_out=  0 empty=1 full=0 time=150
+# clk=1 rst=1 wr_re=0 data_in=140 addr=01101 data_out=  0 empty=1 full=0 time=155
+# clk=0 rst=1 wr_re=0 data_in=249 addr=01110 data_out=  0 empty=1 full=0 time=160
+# clk=1 rst=1 wr_re=0 data_in=249 addr=01110 data_out=  0 empty=1 full=0 time=165
+# clk=0 rst=1 wr_re=0 data_in=198 addr=01111 data_out=  0 empty=1 full=0 time=170
+# clk=1 rst=1 wr_re=0 data_in=198 addr=01111 data_out=  0 empty=1 full=0 time=175
+# clk=0 rst=1 wr_re=0 data_in=197 addr=10000 data_out=  0 empty=1 full=0 time=180
+# clk=1 rst=1 wr_re=0 data_in=197 addr=10000 data_out=  0 empty=1 full=0 time=185
+# clk=0 rst=1 wr_re=0 data_in=170 addr=10001 data_out=  0 empty=1 full=0 time=190
+# clk=1 rst=1 wr_re=0 data_in=170 addr=10001 data_out=  0 empty=1 full=0 time=195
+# clk=0 rst=1 wr_re=0 data_in=229 addr=10010 data_out=  0 empty=1 full=0 time=200
+# clk=1 rst=1 wr_re=0 data_in=229 addr=10010 data_out=  0 empty=1 full=0 time=205
+# clk=0 rst=1 wr_re=0 data_in=119 addr=10011 data_out=  0 empty=1 full=0 time=210
+# clk=1 rst=1 wr_re=0 data_in=119 addr=10011 data_out=  0 empty=1 full=0 time=215
+# clk=0 rst=1 wr_re=0 data_in= 18 addr=10100 data_out=  0 empty=1 full=0 time=220
+# clk=1 rst=1 wr_re=0 data_in= 18 addr=10100 data_out=  0 empty=1 full=0 time=225
+# clk=0 rst=1 wr_re=0 data_in=143 addr=10101 data_out=  0 empty=1 full=0 time=230
+# clk=1 rst=1 wr_re=0 data_in=143 addr=10101 data_out=  0 empty=1 full=0 time=235
+# clk=0 rst=1 wr_re=0 data_in=242 addr=10110 data_out=  0 empty=1 full=0 time=240
+# clk=1 rst=1 wr_re=0 data_in=242 addr=10110 data_out=  0 empty=1 full=0 time=245
+# clk=0 rst=1 wr_re=0 data_in=206 addr=10111 data_out=  0 empty=1 full=0 time=250
+# clk=1 rst=1 wr_re=0 data_in=206 addr=10111 data_out=  0 empty=1 full=0 time=255
+# clk=0 rst=1 wr_re=0 data_in=232 addr=11000 data_out=  0 empty=1 full=0 time=260
+# clk=1 rst=1 wr_re=0 data_in=232 addr=11000 data_out=  0 empty=1 full=0 time=265
+# clk=0 rst=1 wr_re=0 data_in=197 addr=11001 data_out=  0 empty=1 full=0 time=270
+# clk=1 rst=1 wr_re=0 data_in=197 addr=11001 data_out=  0 empty=1 full=0 time=275
+# clk=0 rst=1 wr_re=0 data_in= 92 addr=11010 data_out=  0 empty=1 full=0 time=280
+# clk=1 rst=1 wr_re=0 data_in= 92 addr=11010 data_out=  0 empty=1 full=0 time=285
+# clk=0 rst=1 wr_re=0 data_in=189 addr=11011 data_out=  0 empty=1 full=0 time=290
+# clk=1 rst=1 wr_re=0 data_in=189 addr=11011 data_out=  0 empty=1 full=0 time=295
+# clk=0 rst=1 wr_re=0 data_in= 45 addr=11100 data_out=  0 empty=1 full=0 time=300
+# clk=1 rst=1 wr_re=0 data_in= 45 addr=11100 data_out=  0 empty=1 full=0 time=305
+# clk=0 rst=1 wr_re=0 data_in=101 addr=11101 data_out=  0 empty=1 full=0 time=310
+# clk=1 rst=1 wr_re=0 data_in=101 addr=11101 data_out=  0 empty=1 full=0 time=315
+# clk=0 rst=1 wr_re=0 data_in= 99 addr=11110 data_out=  0 empty=1 full=0 time=320
+# clk=1 rst=1 wr_re=0 data_in= 99 addr=11110 data_out=  0 empty=1 full=0 time=325
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=330
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=335
+# ** Note: $stop    : ram_a1.v(171)
+#    Time: 340 ns  Iteration: 1  Instance: /ram1_tb
+# Break in Module ram1_tb at ram_a1.v line 171
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 11:59:11 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# 
+# Top level modules:
+# 	ram1_tb
+# End time: 11:59:11 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:59:16 on Sep 22,2025, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 0
+# vsim ram1_tb 
+# Start time: 11:59:16 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ram1_tb(fast)
+# Loading work.ram1(fast)
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=x full=x time=0
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=5
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=10
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=15
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=20
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=25
+# clk=0 rst=1 wr_re=0 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=30
+# clk=1 rst=1 wr_re=0 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=35
+# clk=0 rst=1 wr_re=0 data_in=  9 addr=00010 data_out=  0 empty=1 full=0 time=40
+# clk=1 rst=1 wr_re=0 data_in=  9 addr=00010 data_out=  0 empty=1 full=0 time=45
+# clk=0 rst=1 wr_re=0 data_in= 99 addr=00011 data_out=  0 empty=1 full=0 time=50
+# clk=1 rst=1 wr_re=0 data_in= 99 addr=00011 data_out=  0 empty=1 full=0 time=55
+# clk=0 rst=1 wr_re=0 data_in= 13 addr=00100 data_out=  0 empty=1 full=0 time=60
+# clk=1 rst=1 wr_re=0 data_in= 13 addr=00100 data_out=  0 empty=1 full=0 time=65
+# clk=0 rst=1 wr_re=0 data_in=141 addr=00101 data_out=  0 empty=1 full=0 time=70
+# clk=1 rst=1 wr_re=0 data_in=141 addr=00101 data_out=  0 empty=1 full=0 time=75
+# clk=0 rst=1 wr_re=0 data_in=101 addr=00110 data_out=  0 empty=1 full=0 time=80
+# clk=1 rst=1 wr_re=0 data_in=101 addr=00110 data_out=  0 empty=1 full=0 time=85
+# clk=0 rst=1 wr_re=0 data_in= 18 addr=00111 data_out=  0 empty=1 full=0 time=90
+# clk=1 rst=1 wr_re=0 data_in= 18 addr=00111 data_out=  0 empty=1 full=0 time=95
+# clk=0 rst=1 wr_re=0 data_in=  1 addr=01000 data_out=  0 empty=1 full=0 time=100
+# clk=1 rst=1 wr_re=0 data_in=  1 addr=01000 data_out=  0 empty=1 full=0 time=105
+# clk=0 rst=1 wr_re=0 data_in= 13 addr=01001 data_out=  0 empty=1 full=0 time=110
+# clk=1 rst=1 wr_re=0 data_in= 13 addr=01001 data_out=  0 empty=1 full=0 time=115
+# clk=0 rst=1 wr_re=0 data_in=118 addr=01010 data_out=  0 empty=1 full=0 time=120
+# clk=1 rst=1 wr_re=0 data_in=118 addr=01010 data_out=  0 empty=1 full=0 time=125
+# clk=0 rst=1 wr_re=0 data_in= 61 addr=01011 data_out=  0 empty=1 full=0 time=130
+# clk=1 rst=1 wr_re=0 data_in= 61 addr=01011 data_out=  0 empty=1 full=0 time=135
+# clk=0 rst=1 wr_re=0 data_in=237 addr=01100 data_out=  0 empty=1 full=0 time=140
+# clk=1 rst=1 wr_re=0 data_in=237 addr=01100 data_out=  0 empty=1 full=0 time=145
+# clk=0 rst=1 wr_re=0 data_in=140 addr=01101 data_out=  0 empty=1 full=0 time=150
+# clk=1 rst=1 wr_re=0 data_in=140 addr=01101 data_out=  0 empty=1 full=0 time=155
+# clk=0 rst=1 wr_re=0 data_in=249 addr=01110 data_out=  0 empty=1 full=0 time=160
+# clk=1 rst=1 wr_re=0 data_in=249 addr=01110 data_out=  0 empty=1 full=0 time=165
+# clk=0 rst=1 wr_re=0 data_in=198 addr=01111 data_out=  0 empty=1 full=0 time=170
+# clk=1 rst=1 wr_re=0 data_in=198 addr=01111 data_out=  0 empty=1 full=0 time=175
+# clk=0 rst=1 wr_re=0 data_in=197 addr=10000 data_out=  0 empty=1 full=0 time=180
+# clk=1 rst=1 wr_re=0 data_in=197 addr=10000 data_out=  0 empty=1 full=0 time=185
+# clk=0 rst=1 wr_re=0 data_in=170 addr=10001 data_out=  0 empty=1 full=0 time=190
+# clk=1 rst=1 wr_re=0 data_in=170 addr=10001 data_out=  0 empty=1 full=0 time=195
+# clk=0 rst=1 wr_re=0 data_in=229 addr=10010 data_out=  0 empty=1 full=0 time=200
+# clk=1 rst=1 wr_re=0 data_in=229 addr=10010 data_out=  0 empty=1 full=0 time=205
+# clk=0 rst=1 wr_re=0 data_in=119 addr=10011 data_out=  0 empty=1 full=0 time=210
+# clk=1 rst=1 wr_re=0 data_in=119 addr=10011 data_out=  0 empty=1 full=0 time=215
+# clk=0 rst=1 wr_re=0 data_in= 18 addr=10100 data_out=  0 empty=1 full=0 time=220
+# clk=1 rst=1 wr_re=0 data_in= 18 addr=10100 data_out=  0 empty=1 full=0 time=225
+# clk=0 rst=1 wr_re=0 data_in=143 addr=10101 data_out=  0 empty=1 full=0 time=230
+# clk=1 rst=1 wr_re=0 data_in=143 addr=10101 data_out=  0 empty=1 full=0 time=235
+# clk=0 rst=1 wr_re=0 data_in=242 addr=10110 data_out=  0 empty=1 full=0 time=240
+# clk=1 rst=1 wr_re=0 data_in=242 addr=10110 data_out=  0 empty=1 full=0 time=245
+# clk=0 rst=1 wr_re=0 data_in=206 addr=10111 data_out=  0 empty=1 full=0 time=250
+# clk=1 rst=1 wr_re=0 data_in=206 addr=10111 data_out=  0 empty=1 full=0 time=255
+# clk=0 rst=1 wr_re=0 data_in=232 addr=11000 data_out=  0 empty=1 full=0 time=260
+# clk=1 rst=1 wr_re=0 data_in=232 addr=11000 data_out=  0 empty=1 full=0 time=265
+# clk=0 rst=1 wr_re=0 data_in=197 addr=11001 data_out=  0 empty=1 full=0 time=270
+# clk=1 rst=1 wr_re=0 data_in=197 addr=11001 data_out=  0 empty=1 full=0 time=275
+# clk=0 rst=1 wr_re=0 data_in= 92 addr=11010 data_out=  0 empty=1 full=0 time=280
+# clk=1 rst=1 wr_re=0 data_in= 92 addr=11010 data_out=  0 empty=1 full=0 time=285
+# clk=0 rst=1 wr_re=0 data_in=189 addr=11011 data_out=  0 empty=1 full=0 time=290
+# clk=1 rst=1 wr_re=0 data_in=189 addr=11011 data_out=  0 empty=1 full=0 time=295
+# clk=0 rst=1 wr_re=0 data_in= 45 addr=11100 data_out=  0 empty=1 full=0 time=300
+# clk=1 rst=1 wr_re=0 data_in= 45 addr=11100 data_out=  0 empty=1 full=0 time=305
+# clk=0 rst=1 wr_re=0 data_in=101 addr=11101 data_out=  0 empty=1 full=0 time=310
+# clk=1 rst=1 wr_re=0 data_in=101 addr=11101 data_out=  0 empty=1 full=0 time=315
+# clk=0 rst=1 wr_re=0 data_in= 99 addr=11110 data_out=  0 empty=1 full=0 time=320
+# clk=1 rst=1 wr_re=0 data_in= 99 addr=11110 data_out=  0 empty=1 full=0 time=325
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=330
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out=  0 empty=1 full=0 time=335
+# ** Note: $stop    : ram_a1.v(106)
+#    Time: 340 ns  Iteration: 1  Instance: /ram1_tb
+# Break in Module ram1_tb at ram_a1.v line 106
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:00:25 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# 
+# Top level modules:
+# 	ram1_tb
+# End time: 12:00:25 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:00:28 on Sep 22,2025, Elapsed time: 0:01:12
+# Errors: 0, Warnings: 0
+# vsim ram1_tb 
+# Start time: 12:00:28 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ram1_tb(fast)
+# Loading work.ram1(fast)
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=x full=x time=0
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=5
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=10
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=15
+# clk=0 rst=1 wr_re=1 data_in= 36 addr=00001 data_out=  0 empty=1 full=0 time=20
+# clk=1 rst=1 wr_re=1 data_in= 36 addr=00001 data_out=  0 empty=1 full=0 time=25
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=30
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00000 data_out=  0 empty=0 full=0 time=35
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00001 data_out=  0 empty=0 full=0 time=40
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00001 data_out= 36 empty=1 full=0 time=45
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00010 data_out= 36 empty=1 full=0 time=50
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00010 data_out=  0 empty=1 full=0 time=55
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00011 data_out=  0 empty=1 full=0 time=60
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00011 data_out=  0 empty=1 full=0 time=65
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00100 data_out=  0 empty=1 full=0 time=70
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00100 data_out=  0 empty=1 full=0 time=75
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00101 data_out=  0 empty=1 full=0 time=80
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00101 data_out=  0 empty=1 full=0 time=85
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00110 data_out=  0 empty=1 full=0 time=90
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00110 data_out=  0 empty=1 full=0 time=95
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=00111 data_out=  0 empty=1 full=0 time=100
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=00111 data_out=  0 empty=1 full=0 time=105
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=01000 data_out=  0 empty=1 full=0 time=110
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=01000 data_out=  0 empty=1 full=0 time=115
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=01001 data_out=  0 empty=1 full=0 time=120
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=01001 data_out=  0 empty=1 full=0 time=125
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=01010 data_out=  0 empty=1 full=0 time=130
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=01010 data_out=  0 empty=1 full=0 time=135
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=01011 data_out=  0 empty=1 full=0 time=140
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=01011 data_out=  0 empty=1 full=0 time=145
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=01100 data_out=  0 empty=1 full=0 time=150
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=01100 data_out=  0 empty=1 full=0 time=155
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=01101 data_out=  0 empty=1 full=0 time=160
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=01101 data_out=  0 empty=1 full=0 time=165
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=01110 data_out=  0 empty=1 full=0 time=170
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=01110 data_out=  0 empty=1 full=0 time=175
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=01111 data_out=  0 empty=1 full=0 time=180
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=01111 data_out=  0 empty=1 full=0 time=185
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=10000 data_out=  0 empty=1 full=0 time=190
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=10000 data_out=  0 empty=1 full=0 time=195
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=10001 data_out=  0 empty=1 full=0 time=200
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=10001 data_out=  0 empty=1 full=0 time=205
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=10010 data_out=  0 empty=1 full=0 time=210
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=10010 data_out=  0 empty=1 full=0 time=215
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=10011 data_out=  0 empty=1 full=0 time=220
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=10011 data_out=  0 empty=1 full=0 time=225
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=10100 data_out=  0 empty=1 full=0 time=230
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=10100 data_out=  0 empty=1 full=0 time=235
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=10101 data_out=  0 empty=1 full=0 time=240
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=10101 data_out=  0 empty=1 full=0 time=245
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=10110 data_out=  0 empty=1 full=0 time=250
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=10110 data_out=  0 empty=1 full=0 time=255
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=10111 data_out=  0 empty=1 full=0 time=260
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=10111 data_out=  0 empty=1 full=0 time=265
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11000 data_out=  0 empty=1 full=0 time=270
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11000 data_out=  0 empty=1 full=0 time=275
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11001 data_out=  0 empty=1 full=0 time=280
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11001 data_out=  0 empty=1 full=0 time=285
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11010 data_out=  0 empty=1 full=0 time=290
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11010 data_out=  0 empty=1 full=0 time=295
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11011 data_out=  0 empty=1 full=0 time=300
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11011 data_out=  0 empty=1 full=0 time=305
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11100 data_out=  0 empty=1 full=0 time=310
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11100 data_out=  0 empty=1 full=0 time=315
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11101 data_out=  0 empty=1 full=0 time=320
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11101 data_out=  0 empty=1 full=0 time=325
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11110 data_out=  0 empty=1 full=0 time=330
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11110 data_out=  0 empty=1 full=0 time=335
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=340
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=345
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=350
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=355
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=360
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=365
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=370
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=375
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=380
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=385
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=390
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=395
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=400
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=405
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=410
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=415
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=420
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=425
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=430
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=435
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=440
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=445
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=450
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=455
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=460
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=465
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=470
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=475
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=480
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=485
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=490
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=495
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=500
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=505
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=510
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=515
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=520
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=525
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=530
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=535
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=540
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=545
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=550
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=555
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=560
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=565
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=570
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=575
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=580
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=585
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=590
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=595
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=600
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=605
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=610
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=615
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=620
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=625
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=630
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=635
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=640
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=645
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=650
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=655
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=660
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=665
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=670
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=675
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=680
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=685
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=690
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=695
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=700
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=705
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=710
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=715
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=720
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=725
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=730
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=735
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=740
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=745
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=750
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=755
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=760
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=765
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=770
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=775
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=780
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=785
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=790
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=795
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=800
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=805
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=810
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=815
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=820
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=825
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=830
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=835
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=840
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=845
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=850
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=855
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=860
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=865
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=870
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=875
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=880
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=885
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=890
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=895
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=900
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=905
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=910
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=915
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=920
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=925
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=930
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=935
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=940
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=945
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=950
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=955
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=960
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=965
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=970
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=975
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=980
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=985
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=990
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=995
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=1000
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=1005
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=1010
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=1015
+# clk=0 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=1020
+# clk=1 rst=1 wr_re=0 data_in= 36 addr=11111 data_out=  0 empty=1 full=0 time=1025
+# ** Note: $stop    : ram_a1.v(108)
+#    Time: 1030 ns  Iteration: 0  Instance: /ram1_tb
+# Break in Module ram1_tb at ram_a1.v line 108
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:01:14 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# ** Error: (vlog-13069) ram_a1.v(83): near "endtask": syntax error, unexpected endtask.
+# ** Error: (vlog-13069) ram_a1.v(95): near "endtask": syntax error, unexpected endtask.
+# ** Error: (vlog-13069) ram_a1.v(105): near "initial": syntax error, unexpected initial.
+# ** Error: (vlog-13069) ram_a1.v(109): near "end": syntax error, unexpected end.
+# End time: 12:01:15 on Sep 22,2025, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog ram_a1.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:01:31 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# 
+# Top level modules:
+# 	ram1_tb
+# End time: 12:01:31 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:01:36 on Sep 22,2025, Elapsed time: 0:01:08
+# Errors: 7, Warnings: 0
+# vsim ram1_tb 
+# Start time: 12:01:36 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ram1_tb(fast)
+# Loading work.ram1(fast)
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=x full=x time=0
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=5
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=10
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=15
+# clk=0 rst=1 wr_re=1 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=20
+# clk=1 rst=1 wr_re=1 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=25
+# clk=0 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=30
+# clk=1 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=0 full=0 time=35
+# clk=0 rst=1 wr_re=1 data_in=  9 addr=00010 data_out=  0 empty=0 full=0 time=40
+# clk=1 rst=1 wr_re=1 data_in=  9 addr=00010 data_out=  0 empty=0 full=0 time=45
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=00011 data_out=  0 empty=0 full=0 time=50
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=00011 data_out=  0 empty=0 full=0 time=55
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=00100 data_out=  0 empty=0 full=0 time=60
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=00100 data_out=  0 empty=0 full=0 time=65
+# clk=0 rst=1 wr_re=1 data_in=141 addr=00101 data_out=  0 empty=0 full=0 time=70
+# clk=1 rst=1 wr_re=1 data_in=141 addr=00101 data_out=  0 empty=0 full=0 time=75
+# clk=0 rst=1 wr_re=1 data_in=101 addr=00110 data_out=  0 empty=0 full=0 time=80
+# clk=1 rst=1 wr_re=1 data_in=101 addr=00110 data_out=  0 empty=0 full=0 time=85
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=00111 data_out=  0 empty=0 full=0 time=90
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=00111 data_out=  0 empty=0 full=0 time=95
+# clk=0 rst=1 wr_re=1 data_in=  1 addr=01000 data_out=  0 empty=0 full=0 time=100
+# clk=1 rst=1 wr_re=1 data_in=  1 addr=01000 data_out=  0 empty=0 full=0 time=105
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=01001 data_out=  0 empty=0 full=0 time=110
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=01001 data_out=  0 empty=0 full=0 time=115
+# clk=0 rst=1 wr_re=1 data_in=118 addr=01010 data_out=  0 empty=0 full=0 time=120
+# clk=1 rst=1 wr_re=1 data_in=118 addr=01010 data_out=  0 empty=0 full=0 time=125
+# clk=0 rst=1 wr_re=1 data_in= 61 addr=01011 data_out=  0 empty=0 full=0 time=130
+# clk=1 rst=1 wr_re=1 data_in= 61 addr=01011 data_out=  0 empty=0 full=0 time=135
+# clk=0 rst=1 wr_re=1 data_in=237 addr=01100 data_out=  0 empty=0 full=0 time=140
+# clk=1 rst=1 wr_re=1 data_in=237 addr=01100 data_out=  0 empty=0 full=0 time=145
+# clk=0 rst=1 wr_re=1 data_in=140 addr=01101 data_out=  0 empty=0 full=0 time=150
+# clk=1 rst=1 wr_re=1 data_in=140 addr=01101 data_out=  0 empty=0 full=0 time=155
+# clk=0 rst=1 wr_re=1 data_in=249 addr=01110 data_out=  0 empty=0 full=0 time=160
+# clk=1 rst=1 wr_re=1 data_in=249 addr=01110 data_out=  0 empty=0 full=0 time=165
+# clk=0 rst=1 wr_re=1 data_in=198 addr=01111 data_out=  0 empty=0 full=0 time=170
+# clk=1 rst=1 wr_re=1 data_in=198 addr=01111 data_out=  0 empty=0 full=0 time=175
+# clk=0 rst=1 wr_re=1 data_in=197 addr=10000 data_out=  0 empty=0 full=0 time=180
+# clk=1 rst=1 wr_re=1 data_in=197 addr=10000 data_out=  0 empty=0 full=0 time=185
+# clk=0 rst=1 wr_re=1 data_in=170 addr=10001 data_out=  0 empty=0 full=0 time=190
+# clk=1 rst=1 wr_re=1 data_in=170 addr=10001 data_out=  0 empty=0 full=0 time=195
+# clk=0 rst=1 wr_re=1 data_in=229 addr=10010 data_out=  0 empty=0 full=0 time=200
+# clk=1 rst=1 wr_re=1 data_in=229 addr=10010 data_out=  0 empty=0 full=0 time=205
+# clk=0 rst=1 wr_re=1 data_in=119 addr=10011 data_out=  0 empty=0 full=0 time=210
+# clk=1 rst=1 wr_re=1 data_in=119 addr=10011 data_out=  0 empty=0 full=0 time=215
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=10100 data_out=  0 empty=0 full=0 time=220
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=10100 data_out=  0 empty=0 full=0 time=225
+# clk=0 rst=1 wr_re=1 data_in=143 addr=10101 data_out=  0 empty=0 full=0 time=230
+# clk=1 rst=1 wr_re=1 data_in=143 addr=10101 data_out=  0 empty=0 full=0 time=235
+# clk=0 rst=1 wr_re=1 data_in=242 addr=10110 data_out=  0 empty=0 full=0 time=240
+# clk=1 rst=1 wr_re=1 data_in=242 addr=10110 data_out=  0 empty=0 full=0 time=245
+# clk=0 rst=1 wr_re=1 data_in=206 addr=10111 data_out=  0 empty=0 full=0 time=250
+# clk=1 rst=1 wr_re=1 data_in=206 addr=10111 data_out=  0 empty=0 full=0 time=255
+# clk=0 rst=1 wr_re=1 data_in=232 addr=11000 data_out=  0 empty=0 full=0 time=260
+# clk=1 rst=1 wr_re=1 data_in=232 addr=11000 data_out=  0 empty=0 full=0 time=265
+# clk=0 rst=1 wr_re=1 data_in=197 addr=11001 data_out=  0 empty=0 full=0 time=270
+# clk=1 rst=1 wr_re=1 data_in=197 addr=11001 data_out=  0 empty=0 full=0 time=275
+# clk=0 rst=1 wr_re=1 data_in= 92 addr=11010 data_out=  0 empty=0 full=0 time=280
+# clk=1 rst=1 wr_re=1 data_in= 92 addr=11010 data_out=  0 empty=0 full=0 time=285
+# clk=0 rst=1 wr_re=1 data_in=189 addr=11011 data_out=  0 empty=0 full=0 time=290
+# clk=1 rst=1 wr_re=1 data_in=189 addr=11011 data_out=  0 empty=0 full=0 time=295
+# clk=0 rst=1 wr_re=1 data_in= 45 addr=11100 data_out=  0 empty=0 full=0 time=300
+# clk=1 rst=1 wr_re=1 data_in= 45 addr=11100 data_out=  0 empty=0 full=0 time=305
+# clk=0 rst=1 wr_re=1 data_in=101 addr=11101 data_out=  0 empty=0 full=0 time=310
+# clk=1 rst=1 wr_re=1 data_in=101 addr=11101 data_out=  0 empty=0 full=0 time=315
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=11110 data_out=  0 empty=0 full=0 time=320
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=11110 data_out=  0 empty=0 full=0 time=325
+# clk=0 rst=1 wr_re=1 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=330
+# clk=1 rst=1 wr_re=1 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=335
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00000 data_out=  0 empty=0 full=0 time=340
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00000 data_out= 36 empty=0 full=1 time=345
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00001 data_out= 36 empty=0 full=1 time=350
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00001 data_out=129 empty=0 full=0 time=355
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=129 empty=0 full=0 time=360
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=365
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00011 data_out=  9 empty=0 full=0 time=370
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00011 data_out= 99 empty=0 full=0 time=375
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00100 data_out= 99 empty=0 full=0 time=380
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00100 data_out= 13 empty=0 full=0 time=385
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00101 data_out= 13 empty=0 full=0 time=390
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00101 data_out=141 empty=0 full=0 time=395
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00110 data_out=141 empty=0 full=0 time=400
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00110 data_out=101 empty=0 full=0 time=405
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00111 data_out=101 empty=0 full=0 time=410
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00111 data_out= 18 empty=0 full=0 time=415
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01000 data_out= 18 empty=0 full=0 time=420
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01000 data_out=  1 empty=0 full=0 time=425
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01001 data_out=  1 empty=0 full=0 time=430
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01001 data_out= 13 empty=0 full=0 time=435
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01010 data_out= 13 empty=0 full=0 time=440
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01010 data_out=118 empty=0 full=0 time=445
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01011 data_out=118 empty=0 full=0 time=450
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01011 data_out= 61 empty=0 full=0 time=455
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01100 data_out= 61 empty=0 full=0 time=460
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01100 data_out=237 empty=0 full=0 time=465
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01101 data_out=237 empty=0 full=0 time=470
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01101 data_out=140 empty=0 full=0 time=475
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01110 data_out=140 empty=0 full=0 time=480
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01110 data_out=249 empty=0 full=0 time=485
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01111 data_out=249 empty=0 full=0 time=490
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01111 data_out=198 empty=0 full=0 time=495
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10000 data_out=198 empty=0 full=0 time=500
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10000 data_out=197 empty=0 full=0 time=505
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10001 data_out=197 empty=0 full=0 time=510
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10001 data_out=170 empty=0 full=0 time=515
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10010 data_out=170 empty=0 full=0 time=520
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10010 data_out=229 empty=0 full=0 time=525
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10011 data_out=229 empty=0 full=0 time=530
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10011 data_out=119 empty=0 full=0 time=535
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10100 data_out=119 empty=0 full=0 time=540
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10100 data_out= 18 empty=0 full=0 time=545
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10101 data_out= 18 empty=0 full=0 time=550
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10101 data_out=143 empty=0 full=0 time=555
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10110 data_out=143 empty=0 full=0 time=560
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10110 data_out=242 empty=0 full=0 time=565
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10111 data_out=242 empty=0 full=0 time=570
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10111 data_out=206 empty=0 full=0 time=575
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11000 data_out=206 empty=0 full=0 time=580
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11000 data_out=232 empty=0 full=0 time=585
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11001 data_out=232 empty=0 full=0 time=590
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11001 data_out=197 empty=0 full=0 time=595
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11010 data_out=197 empty=0 full=0 time=600
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11010 data_out= 92 empty=0 full=0 time=605
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11011 data_out= 92 empty=0 full=0 time=610
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11011 data_out=189 empty=0 full=0 time=615
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11100 data_out=189 empty=0 full=0 time=620
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11100 data_out= 45 empty=0 full=0 time=625
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11101 data_out= 45 empty=0 full=0 time=630
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11101 data_out=101 empty=0 full=0 time=635
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11110 data_out=101 empty=0 full=0 time=640
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11110 data_out= 99 empty=0 full=0 time=645
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 99 empty=0 full=0 time=650
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=0 full=0 time=655
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=0 full=0 time=660
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=665
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=670
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=675
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=680
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=685
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=690
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=695
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=700
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=705
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=710
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=715
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=720
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=725
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=730
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=735
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=740
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=745
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=750
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=755
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=760
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=765
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=770
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=775
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=780
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=785
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=790
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=795
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=800
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=805
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=810
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=815
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=820
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=825
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=830
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=835
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=840
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=845
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=850
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=855
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=860
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=865
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=870
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=875
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=880
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=885
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=890
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=895
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=900
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=905
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=910
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=915
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=920
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=925
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=930
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=935
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=940
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=945
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=950
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=955
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=960
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=965
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=970
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=975
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=980
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=985
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=990
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=995
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1000
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1005
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1010
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1015
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1020
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1025
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1030
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1035
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1040
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1045
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1050
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1055
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1060
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1065
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1070
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1075
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1080
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1085
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1090
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1095
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1100
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1105
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1110
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1115
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1120
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1125
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1130
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1135
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1140
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1145
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1150
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1155
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1160
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1165
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1170
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1175
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1180
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1185
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1190
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1195
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1200
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1205
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1210
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1215
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1220
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1225
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1230
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1235
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1240
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1245
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1250
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1255
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1260
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1265
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1270
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1275
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1280
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1285
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1290
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1295
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1300
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1305
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1310
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1315
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1320
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1325
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1330
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=1 full=0 time=1335
+# ** Note: $stop    : ram_a1.v(108)
+#    Time: 1340 ns  Iteration: 0  Instance: /ram1_tb
+# Break in Module ram1_tb at ram_a1.v line 108
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:02:39 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# 
+# Top level modules:
+# 	ram1_tb
+# End time: 12:02:39 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:02:43 on Sep 22,2025, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 0
+# vsim ram1_tb 
+# Start time: 12:02:43 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ram1_tb(fast)
+# Loading work.ram1(fast)
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=x full=x time=0
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=5
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=10
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=15
+# clk=0 rst=1 wr_re=1 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=20
+# clk=1 rst=1 wr_re=1 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=25
+# clk=0 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=30
+# clk=1 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=0 full=0 time=35
+# clk=0 rst=1 wr_re=1 data_in=  9 addr=00010 data_out=  0 empty=0 full=0 time=40
+# clk=1 rst=1 wr_re=1 data_in=  9 addr=00010 data_out=  0 empty=0 full=0 time=45
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=00011 data_out=  0 empty=0 full=0 time=50
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=00011 data_out=  0 empty=0 full=0 time=55
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=00100 data_out=  0 empty=0 full=0 time=60
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=00100 data_out=  0 empty=0 full=0 time=65
+# clk=0 rst=1 wr_re=1 data_in=141 addr=00101 data_out=  0 empty=0 full=0 time=70
+# clk=1 rst=1 wr_re=1 data_in=141 addr=00101 data_out=  0 empty=0 full=0 time=75
+# clk=0 rst=1 wr_re=1 data_in=101 addr=00110 data_out=  0 empty=0 full=0 time=80
+# clk=1 rst=1 wr_re=1 data_in=101 addr=00110 data_out=  0 empty=0 full=0 time=85
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=00111 data_out=  0 empty=0 full=0 time=90
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=00111 data_out=  0 empty=0 full=0 time=95
+# clk=0 rst=1 wr_re=1 data_in=  1 addr=01000 data_out=  0 empty=0 full=0 time=100
+# clk=1 rst=1 wr_re=1 data_in=  1 addr=01000 data_out=  0 empty=0 full=0 time=105
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=01001 data_out=  0 empty=0 full=0 time=110
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=01001 data_out=  0 empty=0 full=0 time=115
+# clk=0 rst=1 wr_re=1 data_in=118 addr=01010 data_out=  0 empty=0 full=0 time=120
+# clk=1 rst=1 wr_re=1 data_in=118 addr=01010 data_out=  0 empty=0 full=0 time=125
+# clk=0 rst=1 wr_re=1 data_in= 61 addr=01011 data_out=  0 empty=0 full=0 time=130
+# clk=1 rst=1 wr_re=1 data_in= 61 addr=01011 data_out=  0 empty=0 full=0 time=135
+# clk=0 rst=1 wr_re=1 data_in=237 addr=01100 data_out=  0 empty=0 full=0 time=140
+# clk=1 rst=1 wr_re=1 data_in=237 addr=01100 data_out=  0 empty=0 full=0 time=145
+# clk=0 rst=1 wr_re=1 data_in=140 addr=01101 data_out=  0 empty=0 full=0 time=150
+# clk=1 rst=1 wr_re=1 data_in=140 addr=01101 data_out=  0 empty=0 full=0 time=155
+# clk=0 rst=1 wr_re=1 data_in=249 addr=01110 data_out=  0 empty=0 full=0 time=160
+# clk=1 rst=1 wr_re=1 data_in=249 addr=01110 data_out=  0 empty=0 full=0 time=165
+# clk=0 rst=1 wr_re=1 data_in=198 addr=01111 data_out=  0 empty=0 full=0 time=170
+# clk=1 rst=1 wr_re=1 data_in=198 addr=01111 data_out=  0 empty=0 full=0 time=175
+# clk=0 rst=1 wr_re=1 data_in=197 addr=10000 data_out=  0 empty=0 full=0 time=180
+# clk=1 rst=1 wr_re=1 data_in=197 addr=10000 data_out=  0 empty=0 full=0 time=185
+# clk=0 rst=1 wr_re=1 data_in=170 addr=10001 data_out=  0 empty=0 full=0 time=190
+# clk=1 rst=1 wr_re=1 data_in=170 addr=10001 data_out=  0 empty=0 full=0 time=195
+# clk=0 rst=1 wr_re=1 data_in=229 addr=10010 data_out=  0 empty=0 full=0 time=200
+# clk=1 rst=1 wr_re=1 data_in=229 addr=10010 data_out=  0 empty=0 full=0 time=205
+# clk=0 rst=1 wr_re=1 data_in=119 addr=10011 data_out=  0 empty=0 full=0 time=210
+# clk=1 rst=1 wr_re=1 data_in=119 addr=10011 data_out=  0 empty=0 full=0 time=215
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=10100 data_out=  0 empty=0 full=0 time=220
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=10100 data_out=  0 empty=0 full=0 time=225
+# clk=0 rst=1 wr_re=1 data_in=143 addr=10101 data_out=  0 empty=0 full=0 time=230
+# clk=1 rst=1 wr_re=1 data_in=143 addr=10101 data_out=  0 empty=0 full=0 time=235
+# clk=0 rst=1 wr_re=1 data_in=242 addr=10110 data_out=  0 empty=0 full=0 time=240
+# clk=1 rst=1 wr_re=1 data_in=242 addr=10110 data_out=  0 empty=0 full=0 time=245
+# clk=0 rst=1 wr_re=1 data_in=206 addr=10111 data_out=  0 empty=0 full=0 time=250
+# clk=1 rst=1 wr_re=1 data_in=206 addr=10111 data_out=  0 empty=0 full=0 time=255
+# clk=0 rst=1 wr_re=1 data_in=232 addr=11000 data_out=  0 empty=0 full=0 time=260
+# clk=1 rst=1 wr_re=1 data_in=232 addr=11000 data_out=  0 empty=0 full=0 time=265
+# clk=0 rst=1 wr_re=1 data_in=197 addr=11001 data_out=  0 empty=0 full=0 time=270
+# clk=1 rst=1 wr_re=1 data_in=197 addr=11001 data_out=  0 empty=0 full=0 time=275
+# clk=0 rst=1 wr_re=1 data_in= 92 addr=11010 data_out=  0 empty=0 full=0 time=280
+# clk=1 rst=1 wr_re=1 data_in= 92 addr=11010 data_out=  0 empty=0 full=0 time=285
+# clk=0 rst=1 wr_re=1 data_in=189 addr=11011 data_out=  0 empty=0 full=0 time=290
+# clk=1 rst=1 wr_re=1 data_in=189 addr=11011 data_out=  0 empty=0 full=0 time=295
+# clk=0 rst=1 wr_re=1 data_in= 45 addr=11100 data_out=  0 empty=0 full=0 time=300
+# clk=1 rst=1 wr_re=1 data_in= 45 addr=11100 data_out=  0 empty=0 full=0 time=305
+# clk=0 rst=1 wr_re=1 data_in=101 addr=11101 data_out=  0 empty=0 full=0 time=310
+# clk=1 rst=1 wr_re=1 data_in=101 addr=11101 data_out=  0 empty=0 full=0 time=315
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=11110 data_out=  0 empty=0 full=0 time=320
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=11110 data_out=  0 empty=0 full=0 time=325
+# clk=0 rst=1 wr_re=1 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=330
+# clk=1 rst=1 wr_re=1 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=335
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00000 data_out=  0 empty=0 full=0 time=340
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00000 data_out= 36 empty=0 full=1 time=345
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00001 data_out= 36 empty=0 full=1 time=350
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00001 data_out=129 empty=0 full=0 time=355
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=129 empty=0 full=0 time=360
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=365
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00011 data_out=  9 empty=0 full=0 time=370
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00011 data_out= 99 empty=0 full=0 time=375
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00100 data_out= 99 empty=0 full=0 time=380
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00100 data_out= 13 empty=0 full=0 time=385
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00101 data_out= 13 empty=0 full=0 time=390
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00101 data_out=141 empty=0 full=0 time=395
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00110 data_out=141 empty=0 full=0 time=400
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00110 data_out=101 empty=0 full=0 time=405
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00111 data_out=101 empty=0 full=0 time=410
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00111 data_out= 18 empty=0 full=0 time=415
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01000 data_out= 18 empty=0 full=0 time=420
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01000 data_out=  1 empty=0 full=0 time=425
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01001 data_out=  1 empty=0 full=0 time=430
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01001 data_out= 13 empty=0 full=0 time=435
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01010 data_out= 13 empty=0 full=0 time=440
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01010 data_out=118 empty=0 full=0 time=445
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01011 data_out=118 empty=0 full=0 time=450
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01011 data_out= 61 empty=0 full=0 time=455
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01100 data_out= 61 empty=0 full=0 time=460
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01100 data_out=237 empty=0 full=0 time=465
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01101 data_out=237 empty=0 full=0 time=470
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01101 data_out=140 empty=0 full=0 time=475
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01110 data_out=140 empty=0 full=0 time=480
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01110 data_out=249 empty=0 full=0 time=485
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=01111 data_out=249 empty=0 full=0 time=490
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=01111 data_out=198 empty=0 full=0 time=495
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10000 data_out=198 empty=0 full=0 time=500
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10000 data_out=197 empty=0 full=0 time=505
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10001 data_out=197 empty=0 full=0 time=510
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10001 data_out=170 empty=0 full=0 time=515
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10010 data_out=170 empty=0 full=0 time=520
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10010 data_out=229 empty=0 full=0 time=525
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10011 data_out=229 empty=0 full=0 time=530
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10011 data_out=119 empty=0 full=0 time=535
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10100 data_out=119 empty=0 full=0 time=540
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10100 data_out= 18 empty=0 full=0 time=545
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10101 data_out= 18 empty=0 full=0 time=550
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10101 data_out=143 empty=0 full=0 time=555
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10110 data_out=143 empty=0 full=0 time=560
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10110 data_out=242 empty=0 full=0 time=565
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=10111 data_out=242 empty=0 full=0 time=570
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=10111 data_out=206 empty=0 full=0 time=575
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11000 data_out=206 empty=0 full=0 time=580
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11000 data_out=232 empty=0 full=0 time=585
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11001 data_out=232 empty=0 full=0 time=590
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11001 data_out=197 empty=0 full=0 time=595
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11010 data_out=197 empty=0 full=0 time=600
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11010 data_out= 92 empty=0 full=0 time=605
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11011 data_out= 92 empty=0 full=0 time=610
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11011 data_out=189 empty=0 full=0 time=615
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11100 data_out=189 empty=0 full=0 time=620
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11100 data_out= 45 empty=0 full=0 time=625
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11101 data_out= 45 empty=0 full=0 time=630
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11101 data_out=101 empty=0 full=0 time=635
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11110 data_out=101 empty=0 full=0 time=640
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11110 data_out= 99 empty=0 full=0 time=645
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 99 empty=0 full=0 time=650
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=11111 data_out= 10 empty=0 full=0 time=655
+# ** Note: $stop    : ram_a1.v(108)
+#    Time: 660 ns  Iteration: 1  Instance: /ram1_tb
+# Break in Module ram1_tb at ram_a1.v line 108
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:04:18 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# 
+# Top level modules:
+# 	ram1_tb
+# End time: 12:04:18 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:04:21 on Sep 22,2025, Elapsed time: 0:01:38
+# Errors: 0, Warnings: 0
+# vsim ram1_tb 
+# Start time: 12:04:21 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ram1_tb(fast)
+# Loading work.ram1(fast)
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=x full=x time=0
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=5
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=10
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=15
+# clk=0 rst=1 wr_re=1 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=20
+# clk=1 rst=1 wr_re=1 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=25
+# clk=0 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=30
+# clk=1 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=0 full=0 time=35
+# clk=0 rst=1 wr_re=1 data_in=  9 addr=00010 data_out=  0 empty=0 full=0 time=40
+# clk=1 rst=1 wr_re=1 data_in=  9 addr=00010 data_out=  0 empty=0 full=0 time=45
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=00011 data_out=  0 empty=0 full=0 time=50
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=00011 data_out=  0 empty=0 full=0 time=55
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=00100 data_out=  0 empty=0 full=0 time=60
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=00100 data_out=  0 empty=0 full=0 time=65
+# clk=0 rst=1 wr_re=1 data_in=141 addr=00101 data_out=  0 empty=0 full=0 time=70
+# clk=1 rst=1 wr_re=1 data_in=141 addr=00101 data_out=  0 empty=0 full=0 time=75
+# clk=0 rst=1 wr_re=1 data_in=101 addr=00110 data_out=  0 empty=0 full=0 time=80
+# clk=1 rst=1 wr_re=1 data_in=101 addr=00110 data_out=  0 empty=0 full=0 time=85
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=00111 data_out=  0 empty=0 full=0 time=90
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=00111 data_out=  0 empty=0 full=0 time=95
+# clk=0 rst=1 wr_re=1 data_in=  1 addr=01000 data_out=  0 empty=0 full=0 time=100
+# clk=1 rst=1 wr_re=1 data_in=  1 addr=01000 data_out=  0 empty=0 full=0 time=105
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=01001 data_out=  0 empty=0 full=0 time=110
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=01001 data_out=  0 empty=0 full=0 time=115
+# clk=0 rst=1 wr_re=1 data_in=118 addr=01010 data_out=  0 empty=0 full=0 time=120
+# clk=1 rst=1 wr_re=1 data_in=118 addr=01010 data_out=  0 empty=0 full=0 time=125
+# clk=0 rst=1 wr_re=1 data_in= 61 addr=01011 data_out=  0 empty=0 full=0 time=130
+# clk=1 rst=1 wr_re=1 data_in= 61 addr=01011 data_out=  0 empty=0 full=0 time=135
+# clk=0 rst=1 wr_re=1 data_in=237 addr=01100 data_out=  0 empty=0 full=0 time=140
+# clk=1 rst=1 wr_re=1 data_in=237 addr=01100 data_out=  0 empty=0 full=0 time=145
+# clk=0 rst=1 wr_re=1 data_in=140 addr=01101 data_out=  0 empty=0 full=0 time=150
+# clk=1 rst=1 wr_re=1 data_in=140 addr=01101 data_out=  0 empty=0 full=0 time=155
+# clk=0 rst=1 wr_re=1 data_in=249 addr=01110 data_out=  0 empty=0 full=0 time=160
+# clk=1 rst=1 wr_re=1 data_in=249 addr=01110 data_out=  0 empty=0 full=0 time=165
+# clk=0 rst=1 wr_re=1 data_in=198 addr=01111 data_out=  0 empty=0 full=0 time=170
+# clk=1 rst=1 wr_re=1 data_in=198 addr=01111 data_out=  0 empty=0 full=0 time=175
+# clk=0 rst=1 wr_re=1 data_in=197 addr=10000 data_out=  0 empty=0 full=0 time=180
+# clk=1 rst=1 wr_re=1 data_in=197 addr=10000 data_out=  0 empty=0 full=0 time=185
+# clk=0 rst=1 wr_re=1 data_in=170 addr=10001 data_out=  0 empty=0 full=0 time=190
+# clk=1 rst=1 wr_re=1 data_in=170 addr=10001 data_out=  0 empty=0 full=0 time=195
+# clk=0 rst=1 wr_re=1 data_in=229 addr=10010 data_out=  0 empty=0 full=0 time=200
+# clk=1 rst=1 wr_re=1 data_in=229 addr=10010 data_out=  0 empty=0 full=0 time=205
+# clk=0 rst=1 wr_re=1 data_in=119 addr=10011 data_out=  0 empty=0 full=0 time=210
+# clk=1 rst=1 wr_re=1 data_in=119 addr=10011 data_out=  0 empty=0 full=0 time=215
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=10100 data_out=  0 empty=0 full=0 time=220
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=10100 data_out=  0 empty=0 full=0 time=225
+# clk=0 rst=1 wr_re=1 data_in=143 addr=10101 data_out=  0 empty=0 full=0 time=230
+# clk=1 rst=1 wr_re=1 data_in=143 addr=10101 data_out=  0 empty=0 full=0 time=235
+# clk=0 rst=1 wr_re=1 data_in=242 addr=10110 data_out=  0 empty=0 full=0 time=240
+# clk=1 rst=1 wr_re=1 data_in=242 addr=10110 data_out=  0 empty=0 full=0 time=245
+# clk=0 rst=1 wr_re=1 data_in=206 addr=10111 data_out=  0 empty=0 full=0 time=250
+# clk=1 rst=1 wr_re=1 data_in=206 addr=10111 data_out=  0 empty=0 full=0 time=255
+# clk=0 rst=1 wr_re=1 data_in=232 addr=11000 data_out=  0 empty=0 full=0 time=260
+# clk=1 rst=1 wr_re=1 data_in=232 addr=11000 data_out=  0 empty=0 full=0 time=265
+# clk=0 rst=1 wr_re=1 data_in=197 addr=11001 data_out=  0 empty=0 full=0 time=270
+# clk=1 rst=1 wr_re=1 data_in=197 addr=11001 data_out=  0 empty=0 full=0 time=275
+# clk=0 rst=1 wr_re=1 data_in= 92 addr=11010 data_out=  0 empty=0 full=0 time=280
+# clk=1 rst=1 wr_re=1 data_in= 92 addr=11010 data_out=  0 empty=0 full=0 time=285
+# clk=0 rst=1 wr_re=1 data_in=189 addr=11011 data_out=  0 empty=0 full=0 time=290
+# clk=1 rst=1 wr_re=1 data_in=189 addr=11011 data_out=  0 empty=0 full=0 time=295
+# clk=0 rst=1 wr_re=1 data_in= 45 addr=11100 data_out=  0 empty=0 full=0 time=300
+# clk=1 rst=1 wr_re=1 data_in= 45 addr=11100 data_out=  0 empty=0 full=0 time=305
+# clk=0 rst=1 wr_re=1 data_in=101 addr=11101 data_out=  0 empty=0 full=0 time=310
+# clk=1 rst=1 wr_re=1 data_in=101 addr=11101 data_out=  0 empty=0 full=0 time=315
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=11110 data_out=  0 empty=0 full=0 time=320
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=11110 data_out=  0 empty=0 full=0 time=325
+# clk=0 rst=1 wr_re=1 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=330
+# clk=1 rst=1 wr_re=1 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=335
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  0 empty=0 full=0 time=340
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=1 time=345
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=1 time=350
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=355
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=360
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=365
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=370
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=375
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=380
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=385
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=390
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=395
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=400
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=405
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=410
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=415
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=420
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=425
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=430
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=435
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=440
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=445
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=450
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=455
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=460
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=465
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=470
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=475
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=480
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=485
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=490
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=495
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=500
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=505
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=510
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=515
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=520
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=525
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=530
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=535
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=540
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=545
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=550
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=555
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=560
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=565
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=570
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=575
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=580
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=585
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=590
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=595
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=600
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=605
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=610
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=615
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=620
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=625
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=630
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=635
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=640
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=645
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=650
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=655
+# ** Note: $stop    : ram_a1.v(138)
+#    Time: 660 ns  Iteration: 1  Instance: /ram1_tb
+# Break in Module ram1_tb at ram_a1.v line 138
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 12:05:11 on Sep 22,2025
+# vlog -reportprogress 300 ram_a1.v "+acc" 
+# -- Compiling module ram1
+# -- Compiling module ram1_tb
+# 
+# Top level modules:
+# 	ram1_tb
+# End time: 12:05:11 on Sep 22,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:05:13 on Sep 22,2025, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim ram1_tb 
+# Start time: 12:05:13 on Sep 22,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ram1_tb(fast)
+# Loading work.ram1(fast)
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=x full=x time=0
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=5
+# clk=0 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=10
+# clk=1 rst=0 wr_re=x data_in=  x addr=xxxxx data_out=  0 empty=1 full=0 time=15
+# clk=0 rst=1 wr_re=1 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=20
+# clk=1 rst=1 wr_re=1 data_in= 36 addr=00000 data_out=  0 empty=1 full=0 time=25
+# clk=0 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=1 full=0 time=30
+# clk=1 rst=1 wr_re=1 data_in=129 addr=00001 data_out=  0 empty=0 full=0 time=35
+# clk=0 rst=1 wr_re=1 data_in=  9 addr=00010 data_out=  0 empty=0 full=0 time=40
+# clk=1 rst=1 wr_re=1 data_in=  9 addr=00010 data_out=  0 empty=0 full=0 time=45
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=00011 data_out=  0 empty=0 full=0 time=50
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=00011 data_out=  0 empty=0 full=0 time=55
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=00100 data_out=  0 empty=0 full=0 time=60
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=00100 data_out=  0 empty=0 full=0 time=65
+# clk=0 rst=1 wr_re=1 data_in=141 addr=00101 data_out=  0 empty=0 full=0 time=70
+# clk=1 rst=1 wr_re=1 data_in=141 addr=00101 data_out=  0 empty=0 full=0 time=75
+# clk=0 rst=1 wr_re=1 data_in=101 addr=00110 data_out=  0 empty=0 full=0 time=80
+# clk=1 rst=1 wr_re=1 data_in=101 addr=00110 data_out=  0 empty=0 full=0 time=85
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=00111 data_out=  0 empty=0 full=0 time=90
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=00111 data_out=  0 empty=0 full=0 time=95
+# clk=0 rst=1 wr_re=1 data_in=  1 addr=01000 data_out=  0 empty=0 full=0 time=100
+# clk=1 rst=1 wr_re=1 data_in=  1 addr=01000 data_out=  0 empty=0 full=0 time=105
+# clk=0 rst=1 wr_re=1 data_in= 13 addr=01001 data_out=  0 empty=0 full=0 time=110
+# clk=1 rst=1 wr_re=1 data_in= 13 addr=01001 data_out=  0 empty=0 full=0 time=115
+# clk=0 rst=1 wr_re=1 data_in=118 addr=01010 data_out=  0 empty=0 full=0 time=120
+# clk=1 rst=1 wr_re=1 data_in=118 addr=01010 data_out=  0 empty=0 full=0 time=125
+# clk=0 rst=1 wr_re=1 data_in= 61 addr=01011 data_out=  0 empty=0 full=0 time=130
+# clk=1 rst=1 wr_re=1 data_in= 61 addr=01011 data_out=  0 empty=0 full=0 time=135
+# clk=0 rst=1 wr_re=1 data_in=237 addr=01100 data_out=  0 empty=0 full=0 time=140
+# clk=1 rst=1 wr_re=1 data_in=237 addr=01100 data_out=  0 empty=0 full=0 time=145
+# clk=0 rst=1 wr_re=1 data_in=140 addr=01101 data_out=  0 empty=0 full=0 time=150
+# clk=1 rst=1 wr_re=1 data_in=140 addr=01101 data_out=  0 empty=0 full=0 time=155
+# clk=0 rst=1 wr_re=1 data_in=249 addr=01110 data_out=  0 empty=0 full=0 time=160
+# clk=1 rst=1 wr_re=1 data_in=249 addr=01110 data_out=  0 empty=0 full=0 time=165
+# clk=0 rst=1 wr_re=1 data_in=198 addr=01111 data_out=  0 empty=0 full=0 time=170
+# clk=1 rst=1 wr_re=1 data_in=198 addr=01111 data_out=  0 empty=0 full=0 time=175
+# clk=0 rst=1 wr_re=1 data_in=197 addr=10000 data_out=  0 empty=0 full=0 time=180
+# clk=1 rst=1 wr_re=1 data_in=197 addr=10000 data_out=  0 empty=0 full=0 time=185
+# clk=0 rst=1 wr_re=1 data_in=170 addr=10001 data_out=  0 empty=0 full=0 time=190
+# clk=1 rst=1 wr_re=1 data_in=170 addr=10001 data_out=  0 empty=0 full=0 time=195
+# clk=0 rst=1 wr_re=1 data_in=229 addr=10010 data_out=  0 empty=0 full=0 time=200
+# clk=1 rst=1 wr_re=1 data_in=229 addr=10010 data_out=  0 empty=0 full=0 time=205
+# clk=0 rst=1 wr_re=1 data_in=119 addr=10011 data_out=  0 empty=0 full=0 time=210
+# clk=1 rst=1 wr_re=1 data_in=119 addr=10011 data_out=  0 empty=0 full=0 time=215
+# clk=0 rst=1 wr_re=1 data_in= 18 addr=10100 data_out=  0 empty=0 full=0 time=220
+# clk=1 rst=1 wr_re=1 data_in= 18 addr=10100 data_out=  0 empty=0 full=0 time=225
+# clk=0 rst=1 wr_re=1 data_in=143 addr=10101 data_out=  0 empty=0 full=0 time=230
+# clk=1 rst=1 wr_re=1 data_in=143 addr=10101 data_out=  0 empty=0 full=0 time=235
+# clk=0 rst=1 wr_re=1 data_in=242 addr=10110 data_out=  0 empty=0 full=0 time=240
+# clk=1 rst=1 wr_re=1 data_in=242 addr=10110 data_out=  0 empty=0 full=0 time=245
+# clk=0 rst=1 wr_re=1 data_in=206 addr=10111 data_out=  0 empty=0 full=0 time=250
+# clk=1 rst=1 wr_re=1 data_in=206 addr=10111 data_out=  0 empty=0 full=0 time=255
+# clk=0 rst=1 wr_re=1 data_in=232 addr=11000 data_out=  0 empty=0 full=0 time=260
+# clk=1 rst=1 wr_re=1 data_in=232 addr=11000 data_out=  0 empty=0 full=0 time=265
+# clk=0 rst=1 wr_re=1 data_in=197 addr=11001 data_out=  0 empty=0 full=0 time=270
+# clk=1 rst=1 wr_re=1 data_in=197 addr=11001 data_out=  0 empty=0 full=0 time=275
+# clk=0 rst=1 wr_re=1 data_in= 92 addr=11010 data_out=  0 empty=0 full=0 time=280
+# clk=1 rst=1 wr_re=1 data_in= 92 addr=11010 data_out=  0 empty=0 full=0 time=285
+# clk=0 rst=1 wr_re=1 data_in=189 addr=11011 data_out=  0 empty=0 full=0 time=290
+# clk=1 rst=1 wr_re=1 data_in=189 addr=11011 data_out=  0 empty=0 full=0 time=295
+# clk=0 rst=1 wr_re=1 data_in= 45 addr=11100 data_out=  0 empty=0 full=0 time=300
+# clk=1 rst=1 wr_re=1 data_in= 45 addr=11100 data_out=  0 empty=0 full=0 time=305
+# clk=0 rst=1 wr_re=1 data_in=101 addr=11101 data_out=  0 empty=0 full=0 time=310
+# clk=1 rst=1 wr_re=1 data_in=101 addr=11101 data_out=  0 empty=0 full=0 time=315
+# clk=0 rst=1 wr_re=1 data_in= 99 addr=11110 data_out=  0 empty=0 full=0 time=320
+# clk=1 rst=1 wr_re=1 data_in= 99 addr=11110 data_out=  0 empty=0 full=0 time=325
+# clk=0 rst=1 wr_re=1 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=330
+# clk=1 rst=1 wr_re=1 data_in= 10 addr=11111 data_out=  0 empty=0 full=0 time=335
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  0 empty=0 full=0 time=340
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=1 time=345
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=1 time=350
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=355
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=360
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=365
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=370
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=375
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=380
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=385
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=390
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=395
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=400
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=405
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=410
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=415
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=420
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=425
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=430
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=435
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=440
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=445
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=450
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=455
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=460
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=465
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=470
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=475
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=480
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=485
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=490
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=495
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=500
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=505
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=510
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=515
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=520
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=525
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=530
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=535
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=540
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=545
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=550
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=555
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=560
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=565
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=570
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=575
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=580
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=585
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=590
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=595
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=600
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=605
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=610
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=615
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=620
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=625
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=630
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=635
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=640
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=645
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=650
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=655
+# clk=0 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=0 full=0 time=660
+# clk=1 rst=1 wr_re=0 data_in= 10 addr=00010 data_out=  9 empty=1 full=0 time=665
+# ** Note: $stop    : ram_a1.v(138)
+#    Time: 670 ns  Iteration: 0  Instance: /ram1_tb
+# Break in Module ram1_tb at ram_a1.v line 138
+# End time: 12:06:03 on Sep 22,2025, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0

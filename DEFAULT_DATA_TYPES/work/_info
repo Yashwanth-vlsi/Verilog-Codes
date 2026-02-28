@@ -1,0 +1,40 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/VLSI1ST/default_type
+T_opt
+!s110 1760266314
+V_:H:Am<2mW2lMUIHVDeFc2
+04 9 4 work data_type fast 0
+=1-387a0e1bb7cd-68eb884a-dc-1450
+o-quiet -auto_acc_if_foreign -work work
+Z0 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vdata_type
+!s110 1760266283
+!i10b 1
+!s100 _A[neFD[C9@E?8T?[hPOE0
+Iz;@VV0NPVTOQQBHKhVGa02
+VDg1SIo80bB@j0V0VzS_@n1
+dE:/VLSI1ST/VERILOG/DEFAULT_DATA_TYPES
+w1756968094
+8data_type.v
+Fdata_type.v
+L0 1
+OL;L;10.7c;67
+r1
+!s85 0
+31
+!s108 1760266283.000000
+!s107 data_type.v|
+!s90 -reportprogress|300|data_type.v|+acc|
+!i113 0
+o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R0

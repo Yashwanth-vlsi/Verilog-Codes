@@ -1,0 +1,197 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/FULL_ADDER
+T_opt
+!s110 1755616347
+V5hCcJ8TZHL<W[I6ma_XIO1
+Z1 04 13 4 work full_adder_tb fast 0
+=1-5c60ba6189cb-68a4945b-3d-42b8
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755617040
+V44ZSiM?z?Q@;U:3K:@X2]1
+R1
+=1-5c60ba6189cb-68a4970f-373-f04
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+vand_gate
+Z4 !s110 1755616344
+!i10b 1
+!s100 fI95V4VI?A`11O=NiUD4^2
+IV4zPN4`[mP4GG;Mh[N>9:2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1755614677
+8and_gate
+Fand_gate
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1755616344.000000
+Z9 !s107 half_adder_2|exor_gate|or_gate|half_adder_1|full_adder.v|and_gate|
+Z10 !s90 -reportprogress|300|and_gate|full_adder.v|half_adder_1|or_gate|exor_gate|half_adder_1|half_adder_2|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vexor_gate
+!s110 1755616075
+!i10b 1
+!s100 mf=Ve17[>?k@8[[`zRiH31
+IMb35a8aCOJDa;TlZ;21=c3
+R5
+R0
+R6
+Z12 8exor_gate
+Z13 Fexor_gate
+L0 1
+R7
+r1
+!s85 0
+31
+!s108 1755616075.000000
+R9
+R10
+!i113 0
+R11
+R2
+vfull_adder
+R4
+!i10b 1
+!s100 O@>DzI9K><VL>OVgzX^^f1
+ImOC5n47T`FTGP;3TUmQ_=1
+R5
+R0
+Z14 w1755616283
+Z15 8full_adder.v
+Z16 Ffull_adder.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vfull_adder_tb
+R4
+!i10b 1
+!s100 JW69JC;zo^4>o[MD6C8GG2
+IKZcIR1FVZzbn>1mZMMKjd0
+R5
+R0
+R14
+R15
+R16
+L0 26
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vhalf_adder_1
+R4
+!i10b 1
+!s100 nnz:7<HJ82R4S3]BilcTV3
+IGPb11z5H7XVlFeAV69c`;1
+R5
+R0
+R6
+8half_adder_1
+Fhalf_adder_1
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vhalf_adder_2
+R4
+!i10b 1
+!s100 l542lnIU`AI3<mX2deDo<2
+IVo=BSG>l[ZRQE`iCz=zA`3
+R5
+R0
+w1755616334
+8half_adder_2
+Fhalf_adder_2
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vor_gate
+R4
+!i10b 1
+!s100 43CzZoC^=Km67dzNckY7z1
+I8cV7ZG`YUXW^VJBIc<5Y53
+R5
+R0
+R6
+8or_gate
+For_gate
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2
+vxor_gate
+R4
+!i10b 1
+!s100 >Tb4APoa;fLY>h8XIjmAT3
+IB[DbJo6Oh<<CcT:GU;W=k3
+R5
+R0
+w1755616223
+R12
+R13
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2

@@ -1,0 +1,246 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:05:51 on Sep 11,2025
+# vlog -reportprogress 300 sra_ff.v "+acc" 
+# -- Compiling module sra_ff
+# ** Error (suppressible): sra_ff.v(1): (vlog-2388) 'q' already declared in this scope (sra_ff).
+# -- Compiling module sra_ff_tb
+# ** Error: (vlog-13069) sra_ff.v(38): near "(": syntax error, unexpected '('.
+# End time: 19:05:51 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog sra_ff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:06:19 on Sep 11,2025
+# vlog -reportprogress 300 sra_ff.v "+acc" 
+# -- Compiling module sra_ff
+# ** Error (suppressible): sra_ff.v(1): (vlog-2388) 'q' already declared in this scope (sra_ff).
+# -- Compiling module sra_ff_tb
+# End time: 19:06:19 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog sra_ff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:07:08 on Sep 11,2025
+# vlog -reportprogress 300 sra_ff.v "+acc" 
+# -- Compiling module sra_ff
+# ** Error (suppressible): sra_ff.v(3): (vlog-2388) 'q' already declared in this scope (sra_ff).
+# ** Error: (vlog-13069) sra_ff.v(3): near "assign": syntax error, unexpected assign, expecting ';' or ','.
+# -- Compiling module sra_ff_tb
+# End time: 19:07:08 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog sra_ff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:07:28 on Sep 11,2025
+# vlog -reportprogress 300 sra_ff.v "+acc" 
+# -- Compiling module sra_ff
+# ** Error (suppressible): sra_ff.v(2): (vlog-2388) 'q' already declared in this scope (sra_ff).
+# -- Compiling module sra_ff_tb
+# End time: 19:07:28 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog sra_ff.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:08:38 on Sep 11,2025
+# vlog -reportprogress 300 sra_ff.v "+acc" 
+# -- Compiling module sra_ff
+# -- Compiling module sra_ff_tb
+# 
+# Top level modules:
+# 	sra_ff_tb
+# End time: 19:08:38 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sra_ff_tb 
+# Start time: 19:08:39 on Sep 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.sra_ff_tb(fast)
+# Loading work.sra_ff(fast)
+# clk=0 rst=0 s=x r=x q=x qbar=x $time=0
+# clk=1 rst=1 s=0 r=0 q=x qbar=x $time=10
+# clk=1 rst=1 s=0 r=1 q=x qbar=x $time=18
+# clk=0 rst=1 s=0 r=1 q=x qbar=x $time=20
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 $time=30
+# clk=1 rst=1 s=1 r=1 q=0 qbar=1 $time=34
+# clk=0 rst=1 s=1 r=1 q=0 qbar=1 $time=40
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 $time=42
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 $time=50
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 $time=60
+# clk=0 rst=1 s=1 r=0 q=0 qbar=1 $time=66
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=70
+# clk=1 rst=1 s=0 r=1 q=1 qbar=0 $time=74
+# clk=0 rst=1 s=0 r=1 q=1 qbar=0 $time=80
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=90
+# clk=1 rst=1 s=0 r=1 q=1 qbar=0 $time=98
+# ** Note: $stop    : sra_ff.v(42)
+#    Time: 100 ns  Iteration: 0  Instance: /sra_ff_tb
+# Break in Module sra_ff_tb at sra_ff.v line 42
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:12:37 on Sep 11,2025
+# vlog -reportprogress 300 sra_ff.v "+acc" 
+# -- Compiling module sra_ff
+# -- Compiling module sra_ff_tb
+# 
+# Top level modules:
+# 	sra_ff_tb
+# End time: 19:12:37 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:12:41 on Sep 11,2025, Elapsed time: 0:04:02
+# Errors: 0, Warnings: 0
+# vsim sra_ff_tb 
+# Start time: 19:12:41 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.sra_ff_tb(fast)
+# Loading work.sra_ff(fast)
+# clk=0 rst=0 s=x r=x q=x qbar=x $time=0
+# clk=1 rst=1 s=0 r=0 q=x qbar=x $time=10
+# clk=1 rst=1 s=0 r=1 q=x qbar=x $time=18
+# clk=0 rst=1 s=0 r=1 q=x qbar=x $time=20
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 $time=30
+# clk=1 rst=1 s=1 r=1 q=0 qbar=1 $time=34
+# clk=0 rst=1 s=1 r=1 q=0 qbar=1 $time=40
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 $time=42
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 $time=50
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 $time=60
+# clk=0 rst=1 s=1 r=0 q=0 qbar=1 $time=66
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=70
+# clk=1 rst=1 s=0 r=1 q=1 qbar=0 $time=74
+# clk=0 rst=1 s=0 r=1 q=1 qbar=0 $time=80
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=90
+# clk=1 rst=1 s=0 r=1 q=1 qbar=0 $time=98
+# clk=0 rst=1 s=0 r=1 q=1 qbar=0 $time=100
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 $time=110
+# clk=1 rst=1 s=0 r=0 q=0 qbar=1 $time=114
+# clk=0 rst=1 s=0 r=0 q=0 qbar=1 $time=120
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 $time=122
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=130
+# clk=1 rst=1 s=0 r=1 q=1 qbar=0 $time=138
+# clk=0 rst=1 s=0 r=1 q=1 qbar=0 $time=140
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 $time=146
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=150
+# clk=1 rst=1 s=0 r=1 q=1 qbar=0 $time=154
+# clk=0 rst=1 s=0 r=1 q=1 qbar=0 $time=160
+# clk=0 rst=1 s=1 r=1 q=1 qbar=0 $time=162
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=170
+# clk=1 rst=1 s=1 r=1 q=1 qbar=0 $time=178
+# clk=0 rst=1 s=1 r=1 q=1 qbar=0 $time=180
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 $time=186
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=190
+# ** Note: $stop    : sra_ff.v(42)
+#    Time: 200 ns  Iteration: 0  Instance: /sra_ff_tb
+# Break in Module sra_ff_tb at sra_ff.v line 42
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:13:50 on Sep 11,2025
+# vlog -reportprogress 300 sra_ff.v "+acc" 
+# -- Compiling module sra_ff
+# -- Compiling module sra_ff_tb
+# 
+# Top level modules:
+# 	sra_ff_tb
+# End time: 19:13:50 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:13:51 on Sep 11,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+# vsim sra_ff_tb 
+# Start time: 19:13:51 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.sra_ff_tb(fast)
+# Loading work.sra_ff(fast)
+# clk=0 rst=0 s=x r=x q=x qbar=x $time=0
+# clk=1 rst=1 s=0 r=0 q=x qbar=x $time=10
+# clk=1 rst=1 s=0 r=1 q=x qbar=x $time=13
+# clk=1 rst=1 s=1 r=1 q=x qbar=x $time=19
+# clk=0 rst=1 s=1 r=1 q=x qbar=x $time=20
+# clk=0 rst=1 s=0 r=1 q=x qbar=x $time=22
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 $time=30
+# clk=1 rst=1 s=1 r=0 q=0 qbar=1 $time=31
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 $time=34
+# clk=0 rst=1 s=1 r=0 q=0 qbar=1 $time=40
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 $time=43
+# clk=0 rst=1 s=0 r=0 q=0 qbar=1 $time=49
+# clk=1 rst=1 s=0 r=0 q=0 qbar=1 $time=50
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 $time=52
+# clk=1 rst=1 s=1 r=0 q=0 qbar=1 $time=55
+# clk=1 rst=1 s=0 r=1 q=0 qbar=1 $time=58
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 $time=60
+# clk=0 rst=1 s=1 r=0 q=0 qbar=1 $time=61
+# clk=0 rst=1 s=0 r=1 q=0 qbar=1 $time=64
+# clk=0 rst=1 s=1 r=1 q=0 qbar=1 $time=67
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=70
+# clk=1 rst=1 s=1 r=1 q=1 qbar=0 $time=73
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=76
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 $time=80
+# clk=0 rst=1 s=0 r=0 q=1 qbar=0 $time=82
+# clk=0 rst=1 s=0 r=1 q=1 qbar=0 $time=85
+# clk=0 rst=1 s=0 r=0 q=1 qbar=0 $time=88
+# clk=1 rst=1 s=0 r=0 q=1 qbar=0 $time=90
+# clk=1 rst=1 s=0 r=1 q=1 qbar=0 $time=91
+# clk=0 rst=1 s=1 r=1 q=1 qbar=0 $time=100
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 $time=103
+# clk=0 rst=1 s=0 r=0 q=1 qbar=0 $time=106
+# clk=1 rst=1 s=0 r=0 q=1 qbar=0 $time=110
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=112
+# clk=1 rst=1 s=0 r=1 q=1 qbar=0 $time=115
+# clk=1 rst=1 s=1 r=0 q=1 qbar=0 $time=118
+# clk=0 rst=1 s=1 r=0 q=1 qbar=0 $time=120
+# clk=0 rst=1 s=1 r=1 q=1 qbar=0 $time=121
+# clk=0 rst=1 s=0 r=1 q=1 qbar=0 $time=124
+# clk=0 rst=1 s=1 r=1 q=1 qbar=0 $time=127
+# clk=1 rst=1 s=1 r=1 q=x qbar=x $time=130
+# clk=1 rst=1 s=0 r=1 q=x qbar=x $time=133
+# clk=1 rst=1 s=1 r=0 q=x qbar=x $time=136
+# clk=0 rst=1 s=1 r=0 q=x qbar=x $time=140
+# clk=0 rst=1 s=0 r=1 q=x qbar=x $time=142
+# clk=0 rst=1 s=1 r=1 q=x qbar=x $time=145
+# clk=1 rst=1 s=1 r=1 q=x qbar=x $time=150
+# clk=1 rst=1 s=1 r=0 q=x qbar=x $time=151
+# clk=1 rst=1 s=0 r=0 q=x qbar=x $time=157
+# clk=0 rst=1 s=1 r=0 q=x qbar=x $time=160
+# clk=0 rst=1 s=0 r=1 q=x qbar=x $time=166
+# clk=0 rst=1 s=0 r=0 q=x qbar=x $time=169
+# clk=1 rst=1 s=0 r=0 q=x qbar=x $time=170
+# clk=1 rst=1 s=0 r=1 q=x qbar=x $time=175
+# clk=1 rst=1 s=1 r=1 q=x qbar=x $time=178
+# clk=0 rst=1 s=1 r=1 q=x qbar=x $time=180
+# clk=0 rst=1 s=1 r=0 q=x qbar=x $time=181
+# clk=1 rst=1 s=0 r=0 q=x qbar=x $time=190
+# clk=1 rst=1 s=1 r=0 q=x qbar=x $time=193
+# clk=1 rst=1 s=1 r=1 q=x qbar=x $time=196
+# clk=1 rst=1 s=0 r=1 q=x qbar=x $time=199
+# ** Note: $stop    : sra_ff.v(42)
+#    Time: 200 ns  Iteration: 0  Instance: /sra_ff_tb
+# Break in Module sra_ff_tb at sra_ff.v line 42
+# End time: 19:14:35 on Sep 11,2025, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0

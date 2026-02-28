@@ -1,0 +1,104 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/GATE_LEVELL/RCS
+T_opt
+!s110 1756392008
+V<8OnUh7l=j5@H;7`K3aH80
+04 6 4 work rcs_tb fast 0
+=1-387a0e1bb7cd-68b06a48-1e4-4b34
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vfull_adder
+Z2 !s110 1756392108
+!i10b 1
+!s100 [>3aYZhJj1lz0g4cc0Q6^2
+IRo:@g<mX^joYFa6kzeJm12
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1755847638
+Z5 8full_adder.v
+Z6 Ffull_adder.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756392108.000000
+!s107 full_adder.v|rcs.v|
+Z9 !s90 -reportprogress|300|rcs.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfull_adder_tb
+R2
+!i10b 1
+!s100 d7`jkGUTmWbHT2VRmK1WC0
+I0W0>hZb8@izeK=5ddcDOi2
+R3
+R0
+R4
+R5
+R6
+L0 10
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 full_adder.v|rcs.v|
+R9
+!i113 0
+R10
+R1
+vrcs
+R2
+!i10b 1
+!s100 G<0L?WARhbaIcbO90nSDc1
+ILhlYIJC_1US>QD<=R:S<a3
+R3
+R0
+Z12 w1756391984
+Z13 8rcs.v
+Z14 Frcs.v
+L0 2
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vrcs_tb
+R2
+!i10b 1
+!s100 RSn?3dSXQDEiGVoh`>n4j2
+IAkE^LlM=^1^KW0WBCJMz<3
+R3
+R0
+R12
+R13
+R14
+L0 11
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1

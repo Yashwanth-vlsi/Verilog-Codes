@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/DATA_FLOW/LOGICAL_ARTH
+T_opt
+!s110 1756799309
+V@EQflN3Zc3AgVHoMj2Q=M1
+Z1 04 3 4 work top fast 0
+=1-5c60ba6189cb-68b6a14d-31-12c0
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1756799451
+Ve>eHEz_5aaT7];:S[XR<33
+R1
+=1-5c60ba6189cb-68b6a1da-37b-47d0
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+vlogical_arth
+Z4 !s110 1756799307
+!i10b 1
+!s100 V[?G0obE=9^]PHLNUM3MY3
+IdK9c?B72e4UfJZiDBalTA1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1756799295
+Z7 8logical_arth.v
+Z8 Flogical_arth.v
+L0 2
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1756799307.000000
+Z11 !s107 logical_arth.v|
+Z12 !s90 -reportprogress|300|logical_arth.v|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vlogical_arth_tb
+R4
+!i10b 1
+!s100 Pb]Jh;]cUS]^04SJbPFgi0
+IAHVZ5H3Jnj>oB]f18kd>H3
+R5
+R0
+R6
+R7
+R8
+L0 12
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+vtop
+R4
+!i10b 1
+!s100 lF]jl821?9aS:T]Q1F50E3
+I7G4Q=YI6@bQn1MDgZ7zHE3
+R5
+R0
+R6
+R7
+R8
+L0 35
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2

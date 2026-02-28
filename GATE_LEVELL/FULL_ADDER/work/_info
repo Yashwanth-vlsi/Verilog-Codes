@@ -1,0 +1,71 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/GATE_LEVELL/FULL_ADDER
+T_opt
+Z1 !s110 1755847651
+VPi0G]GB@Co6D?QnoCV9zW1
+Z2 04 13 4 work full_adder_tb fast 0
+=2-387a0e1bb7cd-68a81be3-159-482c
+o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755847779
+V`?@UNL7V?DTY^34LiYXFc2
+R2
+=1-387a0e1bb7cd-68a81c63-1c2-2fa8
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R3
+n@_opt1
+R4
+vfull_adder
+R1
+!i10b 1
+!s100 [>3aYZhJj1lz0g4cc0Q6^2
+IRo:@g<mX^joYFa6kzeJm12
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1755847638
+Z7 8full_adder.v
+Z8 Ffull_adder.v
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1755847651.000000
+Z11 !s107 full_adder.v|
+Z12 !s90 -reportprogress|300|full_adder.v|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vfull_adder_tb
+R1
+!i10b 1
+!s100 d7`jkGUTmWbHT2VRmK1WC0
+I0W0>hZb8@izeK=5ddcDOi2
+R5
+R0
+R6
+R7
+R8
+L0 10
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3

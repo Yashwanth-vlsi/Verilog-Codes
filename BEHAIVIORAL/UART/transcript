@@ -1,0 +1,170 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:40:30 on Sep 18,2025
+# vlog -reportprogress 300 uart.v "+acc" 
+# -- Compiling module urt
+# -- Compiling module urt_tb
+# 
+# Top level modules:
+# 	urt_tb
+# End time: 21:40:31 on Sep 18,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim urt_tb 
+# Start time: 21:40:31 on Sep 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: uart.v(35): (vopt-2123) Missing argument for format specification '%t'.
+# ** Error: (vopt-2064) Compiler back-end code generation process terminated with code 2.
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:41:07 on Sep 18,2025
+# vlog -reportprogress 300 uart.v "+acc" 
+# -- Compiling module urt
+# -- Compiling module urt_tb
+# 
+# Top level modules:
+# 	urt_tb
+# End time: 21:41:07 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim urt_tb 
+# Start time: 21:40:31 on Sep 18,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.urt_tb(fast)
+# Loading work.urt(fast)
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'stop'.
+#    Time: 0 ns  Iteration: 0  Instance: /urt_tb/UR File: uart.v Line: 26
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:42:10 on Sep 18,2025
+# vlog -reportprogress 300 uart.v "+acc" 
+# -- Compiling module urt
+# -- Compiling module urt_tb
+# 
+# Top level modules:
+# 	urt_tb
+# End time: 21:42:10 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim urt_tb 
+# Start time: 21:40:31 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.urt_tb(fast)
+# Loading work.urt(fast)
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'stop'.
+#    Time: 0 ns  Iteration: 0  Instance: /urt_tb/UR File: uart.v Line: 26
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:44:17 on Sep 18,2025
+# vlog -reportprogress 300 uart.v "+acc" 
+# -- Compiling module urt
+# -- Compiling module urt_tb
+# 
+# Top level modules:
+# 	urt_tb
+# End time: 21:44:17 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim urt_tb 
+# Start time: 21:40:31 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.urt_tb(fast)
+# Loading work.urt(fast)
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'stop'.
+#    Time: 0 ns  Iteration: 0  Instance: /urt_tb/UR File: uart.v Line: 26
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 2
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:44:47 on Sep 18,2025
+# vlog -reportprogress 300 uart.v "+acc" 
+# -- Compiling module urt
+# -- Compiling module urt_tb
+# 
+# Top level modules:
+# 	urt_tb
+# End time: 21:44:47 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim urt_tb 
+# Start time: 21:40:31 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.urt_tb(fast)
+# Loading work.urt(fast)
+# start=1 data=00100100 paraty=0 stop=00 frame=100100100000 $time=0
+# start=1 data=10000001 paraty=0 stop=00 frame=110000001000 $time=10
+# start=1 data=00001001 paraty=0 stop=00 frame=100001001000 $time=20
+# start=1 data=01100011 paraty=0 stop=00 frame=101100011000 $time=30
+# start=1 data=00001101 paraty=1 stop=00 frame=100001101100 $time=40
+# start=1 data=10001101 paraty=0 stop=00 frame=110001101000 $time=50
+# start=1 data=01100101 paraty=0 stop=00 frame=101100101000 $time=60
+# start=1 data=00010010 paraty=0 stop=00 frame=100010010000 $time=70
+# start=1 data=00000001 paraty=1 stop=00 frame=100000001100 $time=80
+# start=1 data=00001101 paraty=1 stop=00 frame=100001101100 $time=90
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:46:55 on Sep 18,2025
+# vlog -reportprogress 300 uart.v "+acc" 
+# -- Compiling module urt
+# ** Error: uart.v(7): Register is illegal in left-hand side of continuous assignment
+# -- Compiling module urt_tb
+# End time: 21:46:55 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/questasim64_10.7c/win64/vlog failed.
+# Error in macro ./run.do line 1
+# C:/questasim64_10.7c/win64/vlog failed.
+#     while executing
+# "vlog uart.v +acc"
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 21:47:16 on Sep 18,2025
+# vlog -reportprogress 300 uart.v "+acc" 
+# -- Compiling module urt
+# -- Compiling module urt_tb
+# 
+# Top level modules:
+# 	urt_tb
+# End time: 21:47:16 on Sep 18,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 21:47:18 on Sep 18,2025, Elapsed time: 0:06:47
+# Errors: 9, Warnings: 0
+# vsim urt_tb 
+# Start time: 21:47:18 on Sep 18,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.urt_tb(fast)
+# Loading work.urt(fast)
+# start=1 data=00100100 paraty=0 stop=00 frame=100100100000 $time=0
+# start=1 data=10000001 paraty=0 stop=00 frame=110000001000 $time=10
+# start=1 data=00001001 paraty=0 stop=00 frame=100001001000 $time=20
+# start=1 data=01100011 paraty=0 stop=00 frame=101100011000 $time=30
+# start=1 data=00001101 paraty=1 stop=00 frame=100001101100 $time=40
+# start=1 data=10001101 paraty=0 stop=00 frame=110001101000 $time=50
+# start=1 data=01100101 paraty=0 stop=00 frame=101100101000 $time=60
+# start=1 data=00010010 paraty=0 stop=00 frame=100010010000 $time=70
+# start=1 data=00000001 paraty=1 stop=00 frame=100000001100 $time=80
+# start=1 data=00001101 paraty=1 stop=00 frame=100001101100 $time=90
+# End time: 22:16:30 on Sep 18,2025, Elapsed time: 0:29:12
+# Errors: 0, Warnings: 0

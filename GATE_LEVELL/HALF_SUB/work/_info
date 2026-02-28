@@ -1,0 +1,72 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/GATE_LEVELL/HALF_SUB
+T_opt
+!s110 1755850825
+VZ<gnIEm^caoDm_T6<8nH?3
+Z1 04 11 4 work half_sub_tb fast 0
+=1-387a0e1bb7cd-68a82848-3d8-5204
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1755850965
+VYFoUD92kFb7C5@g^hAgLL2
+R1
+=1-387a0e1bb7cd-68a828d5-7f-3e84
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+R0
+vhalf_sub
+Z4 !s110 1755851368
+!i10b 1
+!s100 fD4RnM>Mc?94fn<n3Tle?0
+IdW568:MALV9lLa39K`B_W2
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1755850789
+Z7 8half_sub.v
+Z8 Fhalf_sub.v
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1755851368.000000
+!s107 half_sub.v|
+Z11 !s90 -reportprogress|300|half_sub.v|+acc|
+!i113 0
+Z12 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vhalf_sub_tb
+R4
+!i10b 1
+!s100 DMmh0W:XeIf^XiF`dG<6E0
+IAN`eQCB6Qi2e3=UTnL]zG2
+R5
+R0
+R6
+R7
+R8
+L0 8
+R9
+r1
+!s85 0
+31
+R10
+Z13 !s107 half_sub.v|
+R11
+!i113 0
+R12
+R2

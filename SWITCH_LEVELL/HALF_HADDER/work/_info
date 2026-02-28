@@ -1,0 +1,103 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/HALF_HADDER
+T_opt
+!s110 1755589606
+VY`m3aHkIWXT53^@]IX@;g0
+04 13 4 work half_adder_tb fast 0
+=1-5c60ba6189cb-68a42be5-2b9-4a8
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vand_gate
+Z2 !s110 1755589551
+!i10b 1
+!s100 fI95V4VI?A`11O=NiUD4^2
+I[D@h33fP<LHV`VklXD27c3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1755588463
+8and_gate.v
+Fand_gate.v
+L0 1
+Z4 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z5 !s108 1755589550.000000
+Z6 !s107 xor_gate.v|half_adder.v|and_gate.v|
+Z7 !s90 -reportprogress|300|and_gate.v|half_adder.v|xor_gate.v|+acc|
+!i113 0
+Z8 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vhalf_adder
+R2
+!i10b 1
+!s100 >ZLn66MmGjThPoS3JA6bC2
+IYdB1b>nekD^k:CmM]Fizf2
+R3
+R0
+Z9 w1755589233
+Z10 8half_adder.v
+Z11 Fhalf_adder.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vhalf_adder_tb
+R2
+!i10b 1
+!s100 z@DgbO:2DC8:>b`RTf=DL1
+ICUL`dM5FYcL:fVhXk[S7i0
+R3
+R0
+R9
+R10
+R11
+L0 19
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1
+vxor_gate
+R2
+!i10b 1
+!s100 >Tb4APoa;fLY>h8XIjmAT3
+IJP1BXQkz=k3UF6Y17C]DM1
+R3
+R0
+w1755587992
+8xor_gate.v
+Fxor_gate.v
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R6
+R7
+!i113 0
+R8
+R1

@@ -1,0 +1,146 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/GATE_LEVELL/ENCODE_DECODE_4TO4
+T_opt
+!s110 1756314776
+Ve:DPAIm1W[XBPcN_oCZ7B3
+04 21 4 work encode_decode_4to4_tb fast 0
+=3-5c60ba6189cb-68af3c98-18-af0
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vdecoder_2to4
+Z2 !s110 1756353399
+!i10b 1
+!s100 2BAj[4f<?]13F1REb7l[j1
+IOdEK45R^YZ27RiCdT1h^m3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1756314289
+Z5 8decoder_2to4.v
+Z6 Fdecoder_2to4.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1756353398.000000
+!s107 decoder_2to4.v|encoder_4to2.v|encode_decode_4to4.v|
+Z9 !s90 -reportprogress|300|encode_decode_4to4.v|+acc|
+!i113 0
+Z10 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vdecoder_2to4_tb
+R2
+!i10b 1
+!s100 zbBi9M`?z2?z:GXiHOOog1
+Ij`^KgZJ^XziATh[1dF=L?1
+R3
+R0
+R4
+R5
+R6
+L0 9
+R7
+r1
+!s85 0
+31
+R8
+Z11 !s107 decoder_2to4.v|encoder_4to2.v|encode_decode_4to4.v|
+R9
+!i113 0
+R10
+R1
+vencode_decode_4to4
+R2
+!i10b 1
+!s100 N@oN1GN@AOImNck<[g1;70
+IY=f=ZXf:AOfb^EPWe_SP;1
+R3
+R0
+Z12 w1756315021
+Z13 8encode_decode_4to4.v
+Z14 Fencode_decode_4to4.v
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vencode_decode_4to4_tb
+R2
+!i10b 1
+!s100 8HnS>dzl@XAj`2FfPZlaa0
+I]2::fRWaA;I2b8_ZKBefZ2
+R3
+R0
+R12
+R13
+R14
+L0 8
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vencoder_4to2
+R2
+!i10b 1
+!s100 73izJDf9di2dHdY`9[b[I1
+IWLgOR??oGTR>3U]4HjIBh3
+R3
+R0
+Z15 w1756310887
+Z16 8encoder_4to2.v
+Z17 Fencoder_4to2.v
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1
+vencoder_4to2_tb
+R2
+!i10b 1
+!s100 Pzli7m72zf:iXzd`;J9^o1
+I^4n0Cl>IYXPCiMn@6kejG3
+R3
+R0
+R15
+R16
+R17
+L0 9
+R7
+r1
+!s85 0
+31
+R8
+R11
+R9
+!i113 0
+R10
+R1

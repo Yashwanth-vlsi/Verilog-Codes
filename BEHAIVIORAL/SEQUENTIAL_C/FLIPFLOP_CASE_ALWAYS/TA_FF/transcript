@@ -1,0 +1,218 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:52:09 on Sep 11,2025
+# vlog -reportprogress 300 ta_ff.v "+acc" 
+# -- Compiling module ta_ff
+# -- Compiling module ta_ff_tb
+# 
+# Top level modules:
+# 	ta_ff_tb
+# End time: 19:52:09 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim ta_ff_tb 
+# Start time: 19:52:09 on Sep 11,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.ta_ff_tb(fast)
+# Loading work.ta_ff(fast)
+# clk=1 rst=0 t=x q=0 qbar=1 $time=0
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=10
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=13
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=20
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=30
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=31
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=34
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=40
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=43
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=49
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=50
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=52
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=55
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=58
+# clk=1 rst=1 t=1 q=0 qbar=1 $time=60
+# clk=1 rst=1 t=0 q=0 qbar=1 $time=61
+# clk=1 rst=1 t=1 q=0 qbar=1 $time=64
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=70
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=73
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=76
+# clk=1 rst=1 t=0 q=0 qbar=1 $time=80
+# clk=1 rst=1 t=1 q=0 qbar=1 $time=85
+# clk=1 rst=1 t=0 q=0 qbar=1 $time=88
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=90
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=91
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=100
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=103
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=110
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=115
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=118
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=120
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=121
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=130
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=136
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=140
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=142
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=150
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=151
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=160
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=166
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=169
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=170
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=175
+# clk=1 rst=1 t=1 q=0 qbar=1 $time=180
+# clk=1 rst=1 t=0 q=0 qbar=1 $time=181
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=190
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=196
+# ** Note: $stop    : ta_ff.v(41)
+#    Time: 200 ns  Iteration: 0  Instance: /ta_ff_tb
+# Break in Module ta_ff_tb at ta_ff.v line 41
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:54:25 on Sep 11,2025
+# vlog -reportprogress 300 ta_ff.v "+acc" 
+# -- Compiling module ta_ff
+# -- Compiling module ta_ff_tb
+# 
+# Top level modules:
+# 	ta_ff_tb
+# End time: 19:54:26 on Sep 11,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 19:54:27 on Sep 11,2025, Elapsed time: 0:02:18
+# Errors: 0, Warnings: 0
+# vsim ta_ff_tb 
+# Start time: 19:54:27 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ta_ff_tb(fast)
+# Loading work.ta_ff(fast)
+# clk=1 rst=0 t=x q=x qbar=x $time=0
+# clk=0 rst=1 t=0 q=x qbar=x $time=10
+# clk=0 rst=1 t=1 q=x qbar=x $time=13
+# clk=1 rst=1 t=1 q=x qbar=x $time=20
+# clk=0 rst=1 t=1 q=x qbar=x $time=30
+# clk=0 rst=1 t=0 q=x qbar=x $time=31
+# clk=0 rst=1 t=1 q=x qbar=x $time=34
+# clk=1 rst=1 t=0 q=x qbar=x $time=40
+# clk=1 rst=1 t=1 q=x qbar=x $time=43
+# clk=1 rst=1 t=0 q=x qbar=x $time=49
+# clk=0 rst=1 t=0 q=x qbar=x $time=50
+# clk=0 rst=1 t=1 q=x qbar=x $time=52
+# clk=0 rst=1 t=0 q=x qbar=x $time=55
+# clk=0 rst=1 t=1 q=x qbar=x $time=58
+# clk=1 rst=1 t=1 q=x qbar=x $time=60
+# clk=1 rst=1 t=0 q=x qbar=x $time=61
+# clk=1 rst=1 t=1 q=x qbar=x $time=64
+# clk=0 rst=1 t=0 q=x qbar=x $time=70
+# clk=0 rst=1 t=1 q=x qbar=x $time=73
+# clk=0 rst=1 t=0 q=x qbar=x $time=76
+# clk=1 rst=1 t=0 q=x qbar=x $time=80
+# clk=1 rst=1 t=1 q=x qbar=x $time=85
+# clk=1 rst=1 t=0 q=x qbar=x $time=88
+# clk=0 rst=1 t=0 q=x qbar=x $time=90
+# clk=0 rst=1 t=1 q=x qbar=x $time=91
+# clk=1 rst=1 t=1 q=x qbar=x $time=100
+# clk=1 rst=1 t=0 q=x qbar=x $time=103
+# clk=0 rst=1 t=0 q=x qbar=x $time=110
+# clk=0 rst=1 t=1 q=x qbar=x $time=115
+# clk=0 rst=1 t=0 q=x qbar=x $time=118
+# clk=1 rst=1 t=0 q=x qbar=x $time=120
+# clk=1 rst=1 t=1 q=x qbar=x $time=121
+# clk=0 rst=1 t=1 q=x qbar=x $time=130
+# clk=0 rst=1 t=0 q=x qbar=x $time=136
+# clk=1 rst=1 t=0 q=x qbar=x $time=140
+# clk=1 rst=1 t=1 q=x qbar=x $time=142
+# clk=0 rst=1 t=1 q=x qbar=x $time=150
+# clk=0 rst=1 t=0 q=x qbar=x $time=151
+# clk=1 rst=1 t=0 q=x qbar=x $time=160
+# clk=1 rst=1 t=1 q=x qbar=x $time=166
+# clk=1 rst=1 t=0 q=x qbar=x $time=169
+# clk=0 rst=1 t=0 q=x qbar=x $time=170
+# clk=0 rst=1 t=1 q=x qbar=x $time=175
+# clk=1 rst=1 t=1 q=x qbar=x $time=180
+# clk=1 rst=1 t=0 q=x qbar=x $time=181
+# clk=0 rst=1 t=0 q=x qbar=x $time=190
+# clk=0 rst=1 t=1 q=x qbar=x $time=196
+# ** Note: $stop    : ta_ff.v(41)
+#    Time: 200 ns  Iteration: 0  Instance: /ta_ff_tb
+# Break in Module ta_ff_tb at ta_ff.v line 41
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 19:55:34 on Sep 11,2025
+# vlog -reportprogress 300 ta_ff.v "+acc" 
+# -- Compiling module ta_ff
+# -- Compiling module ta_ff_tb
+# 
+# Top level modules:
+# 	ta_ff_tb
+# End time: 19:55:34 on Sep 11,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:55:37 on Sep 11,2025, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+# vsim ta_ff_tb 
+# Start time: 19:55:37 on Sep 11,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.ta_ff_tb(fast)
+# Loading work.ta_ff(fast)
+# clk=1 rst=0 t=x q=x qbar=x $time=0
+# clk=0 rst=0 t=x q=0 qbar=1 $time=10
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=12
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=15
+# clk=1 rst=1 t=1 q=0 qbar=1 $time=20
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=30
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=33
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=36
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=40
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=42
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=45
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=50
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=51
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=54
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=57
+# clk=1 rst=1 t=1 q=0 qbar=1 $time=60
+# clk=1 rst=1 t=0 q=0 qbar=1 $time=63
+# clk=1 rst=1 t=1 q=0 qbar=1 $time=66
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=70
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=72
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=75
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=78
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=80
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=87
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=90
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=93
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=100
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=105
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=110
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=117
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=120
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=123
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=130
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=138
+# clk=1 rst=1 t=0 q=0 qbar=1 $time=140
+# clk=1 rst=1 t=1 q=0 qbar=1 $time=144
+# clk=0 rst=1 t=1 q=1 qbar=0 $time=150
+# clk=0 rst=1 t=0 q=1 qbar=0 $time=153
+# clk=1 rst=1 t=0 q=1 qbar=0 $time=160
+# clk=1 rst=1 t=1 q=1 qbar=0 $time=168
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=170
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=171
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=177
+# clk=1 rst=1 t=1 q=0 qbar=1 $time=180
+# clk=1 rst=1 t=0 q=0 qbar=1 $time=183
+# clk=0 rst=1 t=0 q=0 qbar=1 $time=190
+# clk=0 rst=1 t=1 q=0 qbar=1 $time=198
+# ** Note: $stop    : ta_ff.v(41)
+#    Time: 200 ns  Iteration: 0  Instance: /ta_ff_tb
+# Break in Module ta_ff_tb at ta_ff.v line 41
+# End time: 19:59:27 on Sep 11,2025, Elapsed time: 0:03:50
+# Errors: 0, Warnings: 0

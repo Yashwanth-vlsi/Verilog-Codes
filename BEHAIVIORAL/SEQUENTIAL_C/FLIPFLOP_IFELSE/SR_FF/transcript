@@ -1,0 +1,176 @@
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:38:37 on Sep 10,2025
+# vlog -reportprogress 300 sr_ff.v "+acc" 
+# -- Compiling module sr_l
+# -- Compiling module sr_l_tb
+# -- Compiling module sr_ff
+# -- Compiling module sr_ff_tb
+# 
+# Top level modules:
+# 	sr_l_tb
+# 	sr_ff_tb
+# End time: 13:38:37 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim sr_ff_tb 
+# Start time: 13:38:37 on Sep 10,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.sr_ff_tb(fast)
+# Loading work.sr_ff(fast)
+# Loading work.sr_l(fast)
+# clk=0 rst=0 s=x r=x Q=0 Qbar=1  $time=0
+# clk=1 rst=1 s=0 r=0 Q=0 Qbar=1  $time=5
+# clk=0 rst=1 s=0 r=1 Q=0 Qbar=1  $time=10
+# clk=1 rst=1 s=1 r=0 Q=0 Qbar=1  $time=15
+# clk=0 rst=1 s=1 r=1 Q=1 Qbar=0  $time=20
+# clk=1 rst=1 s=0 r=0 Q=1 Qbar=0  $time=25
+# clk=0 rst=1 s=0 r=1 Q=1 Qbar=0  $time=30
+# clk=1 rst=1 s=1 r=0 Q=1 Qbar=0  $time=35
+# clk=0 rst=1 s=1 r=1 Q=1 Qbar=0  $time=40
+# clk=1 rst=1 s=0 r=0 Q=1 Qbar=0  $time=45
+# clk=0 rst=1 s=0 r=1 Q=1 Qbar=0  $time=50
+# clk=1 rst=1 s=1 r=0 Q=1 Qbar=0  $time=55
+# clk=0 rst=1 s=1 r=1 Q=1 Qbar=0  $time=60
+# clk=1 rst=1 s=0 r=0 Q=1 Qbar=0  $time=65
+# clk=0 rst=1 s=0 r=1 Q=1 Qbar=0  $time=70
+# clk=1 rst=1 s=1 r=0 Q=1 Qbar=0  $time=75
+# clk=0 rst=1 s=1 r=1 Q=1 Qbar=0  $time=80
+# clk=1 rst=1 s=0 r=0 Q=1 Qbar=0  $time=85
+# clk=0 rst=1 s=0 r=1 Q=1 Qbar=0  $time=90
+# clk=1 rst=1 s=1 r=0 Q=1 Qbar=0  $time=95
+# clk=0 rst=1 s=1 r=1 Q=1 Qbar=0  $time=100
+# clk=1 rst=1 s=0 r=0 Q=1 Qbar=0  $time=105
+# clk=0 rst=1 s=0 r=1 Q=1 Qbar=0  $time=110
+# clk=1 rst=1 s=1 r=0 Q=1 Qbar=0  $time=115
+# clk=0 rst=1 s=1 r=1 Q=1 Qbar=0  $time=120
+# clk=1 rst=1 s=0 r=0 Q=1 Qbar=0  $time=125
+# clk=0 rst=1 s=0 r=1 Q=1 Qbar=0  $time=130
+# clk=1 rst=1 s=1 r=0 Q=1 Qbar=0  $time=135
+# clk=0 rst=1 s=1 r=1 Q=1 Qbar=0  $time=140
+# clk=1 rst=1 s=0 r=0 Q=1 Qbar=0  $time=145
+# clk=0 rst=1 s=0 r=1 Q=1 Qbar=0  $time=150
+# clk=1 rst=1 s=1 r=0 Q=1 Qbar=0  $time=155
+# clk=0 rst=1 s=1 r=1 Q=1 Qbar=0  $time=160
+# clk=1 rst=1 s=0 r=0 Q=1 Qbar=0  $time=165
+# clk=0 rst=1 s=0 r=1 Q=1 Qbar=0  $time=170
+# clk=1 rst=1 s=1 r=0 Q=1 Qbar=0  $time=175
+# clk=0 rst=1 s=1 r=1 Q=1 Qbar=0  $time=180
+# clk=1 rst=1 s=0 r=0 Q=1 Qbar=0  $time=185
+# clk=0 rst=1 s=0 r=1 Q=1 Qbar=0  $time=190
+# clk=1 rst=1 s=1 r=0 Q=1 Qbar=0  $time=195
+# ** Note: $stop    : sr_ff.v(35)
+#    Time: 200 ns  Iteration: 0  Instance: /sr_ff_tb
+# Break in Module sr_ff_tb at sr_ff.v line 35
+do run.do
+# QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+# Start time: 13:42:23 on Sep 10,2025
+# vlog -reportprogress 300 sr_ff.v "+acc" 
+# -- Compiling module sr_l
+# -- Compiling module sr_l_tb
+# -- Compiling module sr_ff
+# -- Compiling module sr_ff_tb
+# 
+# Top level modules:
+# 	sr_l_tb
+# 	sr_ff_tb
+# End time: 13:42:23 on Sep 10,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:42:25 on Sep 10,2025, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 0
+# vsim sr_ff_tb 
+# Start time: 13:42:25 on Sep 10,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.sr_ff_tb(fast)
+# Loading work.sr_ff(fast)
+# Loading work.sr_l(fast)
+# clk=0 rst=0 S=x R=x Q=0 Qbar=1  $time=0
+# clk=1 rst=1 S=x R=x Q=0 Qbar=1  $time=5
+# clk=1 rst=1 S=0 R=0 Q=0 Qbar=1  $time=7
+# clk=0 rst=1 S=0 R=0 Q=x Qbar=x  $time=10
+# clk=0 rst=1 S=0 R=1 Q=x Qbar=x  $time=12
+# clk=1 rst=1 S=0 R=1 Q=x Qbar=x  $time=15
+# clk=1 rst=1 S=1 R=0 Q=x Qbar=x  $time=17
+# clk=0 rst=1 S=1 R=0 Q=1 Qbar=0  $time=20
+# clk=0 rst=1 S=1 R=1 Q=1 Qbar=0  $time=22
+# clk=1 rst=1 S=1 R=1 Q=1 Qbar=0  $time=25
+# clk=1 rst=1 S=0 R=0 Q=1 Qbar=0  $time=29
+# clk=0 rst=1 S=0 R=0 Q=x Qbar=x  $time=30
+# clk=0 rst=1 S=0 R=1 Q=x Qbar=x  $time=34
+# clk=1 rst=1 S=0 R=1 Q=x Qbar=x  $time=35
+# clk=1 rst=1 S=1 R=0 Q=x Qbar=x  $time=39
+# clk=0 rst=1 S=1 R=0 Q=1 Qbar=0  $time=40
+# clk=0 rst=1 S=1 R=1 Q=1 Qbar=0  $time=44
+# clk=1 rst=1 S=1 R=1 Q=1 Qbar=0  $time=45
+# clk=0 rst=1 S=1 R=1 Q=x Qbar=x  $time=50
+# clk=0 rst=1 S=0 R=0 Q=x Qbar=x  $time=51
+# clk=1 rst=1 S=0 R=0 Q=x Qbar=x  $time=55
+# clk=1 rst=1 S=0 R=1 Q=x Qbar=x  $time=56
+# clk=0 rst=1 S=0 R=1 Q=0 Qbar=1  $time=60
+# clk=0 rst=1 S=1 R=0 Q=0 Qbar=1  $time=61
+# clk=1 rst=1 S=1 R=0 Q=0 Qbar=1  $time=65
+# clk=1 rst=1 S=1 R=1 Q=0 Qbar=1  $time=66
+# clk=0 rst=1 S=1 R=1 Q=x Qbar=x  $time=70
+# clk=0 rst=1 S=0 R=0 Q=x Qbar=x  $time=73
+# clk=1 rst=1 S=0 R=0 Q=x Qbar=x  $time=75
+# clk=1 rst=1 S=0 R=1 Q=x Qbar=x  $time=78
+# clk=0 rst=1 S=0 R=1 Q=0 Qbar=1  $time=80
+# clk=0 rst=1 S=1 R=0 Q=0 Qbar=1  $time=83
+# clk=1 rst=1 S=1 R=0 Q=0 Qbar=1  $time=85
+# clk=1 rst=1 S=1 R=1 Q=0 Qbar=1  $time=88
+# clk=0 rst=1 S=1 R=1 Q=x Qbar=x  $time=90
+# clk=1 rst=1 S=0 R=0 Q=x Qbar=x  $time=95
+# clk=0 rst=1 S=0 R=1 Q=x Qbar=x  $time=100
+# clk=1 rst=1 S=1 R=0 Q=x Qbar=x  $time=105
+# clk=0 rst=1 S=1 R=1 Q=1 Qbar=0  $time=110
+# clk=1 rst=1 S=1 R=1 Q=1 Qbar=0  $time=115
+# clk=1 rst=1 S=0 R=0 Q=1 Qbar=0  $time=117
+# clk=0 rst=1 S=0 R=0 Q=x Qbar=x  $time=120
+# clk=0 rst=1 S=0 R=1 Q=x Qbar=x  $time=122
+# clk=1 rst=1 S=0 R=1 Q=x Qbar=x  $time=125
+# clk=1 rst=1 S=1 R=0 Q=x Qbar=x  $time=127
+# clk=0 rst=1 S=1 R=0 Q=1 Qbar=0  $time=130
+# clk=0 rst=1 S=1 R=1 Q=1 Qbar=0  $time=132
+# clk=1 rst=1 S=1 R=1 Q=1 Qbar=0  $time=135
+# clk=1 rst=1 S=0 R=0 Q=1 Qbar=0  $time=139
+# clk=0 rst=1 S=0 R=0 Q=x Qbar=x  $time=140
+# clk=0 rst=1 S=0 R=1 Q=x Qbar=x  $time=144
+# clk=1 rst=1 S=0 R=1 Q=x Qbar=x  $time=145
+# clk=1 rst=1 S=1 R=0 Q=x Qbar=x  $time=149
+# clk=0 rst=1 S=1 R=0 Q=1 Qbar=0  $time=150
+# clk=0 rst=1 S=1 R=1 Q=1 Qbar=0  $time=154
+# clk=1 rst=1 S=1 R=1 Q=1 Qbar=0  $time=155
+# clk=0 rst=1 S=1 R=1 Q=x Qbar=x  $time=160
+# clk=0 rst=1 S=0 R=0 Q=x Qbar=x  $time=161
+# clk=1 rst=1 S=0 R=0 Q=x Qbar=x  $time=165
+# clk=1 rst=1 S=0 R=1 Q=x Qbar=x  $time=166
+# clk=0 rst=1 S=0 R=1 Q=0 Qbar=1  $time=170
+# clk=0 rst=1 S=1 R=0 Q=0 Qbar=1  $time=171
+# clk=1 rst=1 S=1 R=0 Q=0 Qbar=1  $time=175
+# clk=1 rst=1 S=1 R=1 Q=0 Qbar=1  $time=176
+# clk=0 rst=1 S=1 R=1 Q=x Qbar=x  $time=180
+# clk=0 rst=1 S=0 R=0 Q=x Qbar=x  $time=183
+# clk=1 rst=1 S=0 R=0 Q=x Qbar=x  $time=185
+# clk=1 rst=1 S=0 R=1 Q=x Qbar=x  $time=188
+# clk=0 rst=1 S=0 R=1 Q=0 Qbar=1  $time=190
+# clk=0 rst=1 S=1 R=0 Q=0 Qbar=1  $time=193
+# clk=1 rst=1 S=1 R=0 Q=0 Qbar=1  $time=195
+# clk=1 rst=1 S=1 R=1 Q=0 Qbar=1  $time=198
+# ** Note: $stop    : sr_ff.v(36)
+#    Time: 200 ns  Iteration: 0  Instance: /sr_ff_tb
+# Break in Module sr_ff_tb at sr_ff.v line 36
+# End time: 13:44:24 on Sep 10,2025, Elapsed time: 0:01:59
+# Errors: 0, Warnings: 0

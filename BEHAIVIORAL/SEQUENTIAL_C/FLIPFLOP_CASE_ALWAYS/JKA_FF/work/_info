@@ -1,0 +1,61 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/BEHAIVIORAL/SEQUENTIAL_C/FF_ALWAYS/JKA_FF
+T_opt
+!s110 1757599346
+VE3U86ng7caf?ZWSbkNBV>3
+04 9 4 work jka_ff_tb fast 0
+=1-5c60ba6189cb-68c2d672-2bb-3c7c
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+vjka_ff
+Z2 !s110 1757599343
+!i10b 1
+!s100 0nYfVfhOEYelCMbYLAi4K1
+Ib]5K8VgdG@=Z<eC[eFAT92
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1757599336
+Z5 8jka_ff.v
+Z6 Fjka_ff.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1757599343.000000
+Z9 !s107 jka_ff.v|
+Z10 !s90 -reportprogress|300|jka_ff.v|+acc|
+!i113 0
+Z11 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vjka_ff_tb
+R2
+!i10b 1
+!s100 ;XMIXEjXBM?GBd9FQVRJ^1
+Ie1oPHlm@[PV6=Y`PkZ:c;3
+R3
+R0
+R4
+R5
+R6
+L0 22
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R1

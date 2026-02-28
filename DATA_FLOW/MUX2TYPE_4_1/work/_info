@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/DATA_FLOW/MUX2TYPE_4_1
+T_opt
+!s110 1756713559
+VYm9QH8zWZWIHD?G0n[^NW1
+Z1 04 3 4 work top fast 0
+=1-5c60ba6189cb-68b55257-21c-3678
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+T_opt1
+!s110 1756712940
+VznQ?9UAmYjD49BfcCBWNm1
+R1
+=1-5c60ba6189cb-68b54fec-216-598
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+R0
+vmux
+Z4 !s110 1756713557
+!i10b 1
+!s100 D@hf?TFOnCSRU7S59_b3k3
+I?:0;RoF0]A;OSK`C2:dKf1
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1756713545
+Z7 8mux2type_4_1.v
+Z8 Fmux2type_4_1.v
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1756713557.000000
+Z11 !s107 mux2type_4_1.v|
+Z12 !s90 -reportprogress|300|mux2type_4_1.v|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vmux_tb
+R4
+!i10b 1
+!s100 fLL;DP0IoD6We_?K19zhz2
+IVf1ZgYnU8E1iAS0T1N8EI0
+R5
+R0
+R6
+R7
+R8
+L0 13
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+vtop
+R4
+!i10b 1
+!s100 OKOF98NzLWNz9[khdYdO:0
+I4aEmO2naUkKNhVPJUoO^51
+R5
+R0
+R6
+R7
+R8
+L0 37
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2

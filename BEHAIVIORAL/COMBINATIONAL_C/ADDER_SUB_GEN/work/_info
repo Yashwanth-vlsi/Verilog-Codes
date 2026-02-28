@@ -1,0 +1,113 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/VLSI1ST/VERILOG/BEHAIVIORAL/COMBINATIONAL_C/ADDER_SUB_GEN
+T_opt
+!s110 1758195842
+Vg9IfO2g@A6W>N=ff72^2<2
+Z1 04 7 4 work rcas_tb fast 0
+=1-5c60ba6189cb-68cbf082-36-5078
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1760807570
+V2Q>iz?KOEOM>KHDV<_>JR2
+R1
+=1-5c60ba6189cb-68f3ca92-10c-4448
+o-quiet -auto_acc_if_foreign -work work -debugdb
+R2
+n@_opt1
+R3
+vfa
+Z4 !s110 1760807190
+!i10b 1
+!s100 KP;aPgm8K]^1IfcaCX0cU2
+I=l<[=ZAK@]3WHzi]P6TNH3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z6 w1758195830
+Z7 8add_s_g.v
+Z8 Fadd_s_g.v
+L0 1
+Z9 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z10 !s108 1760807190.000000
+Z11 !s107 add_s_g.v|
+Z12 !s90 -reportprogress|300|add_s_g.v|+acc|
+!i113 0
+Z13 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfs
+!s110 1758190665
+!i10b 1
+!s100 6M4JSOQTKbJ7nNK1;=<ha0
+I2eli3k83KZhn3dcNYeNE:0
+R5
+R0
+w1758190660
+R7
+R8
+L0 1
+R9
+r1
+!s85 0
+31
+!s108 1758190665.000000
+R11
+R12
+!i113 0
+R13
+R2
+vrcas
+R4
+!i10b 1
+!s100 WEkoG5]A5<famF;IEI8:90
+Ij4hdJIUX`A8<8QM?De3o_3
+R5
+R0
+R6
+R7
+R8
+L0 9
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
+vrcas_tb
+R4
+!i10b 1
+!s100 gWk<lGz>LZj2olT]aRg:n3
+IN27?CVE>FJ^JaQRibLo2I2
+R5
+R0
+R6
+R7
+R8
+L0 49
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R2
